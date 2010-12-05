@@ -1,0 +1,25 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+use YAML;
+use WebService::Solr;
+
+my $solr = WebService::Solr->new("http://localhost:8888/solr");
+
+my @data = YAML::LoadFile("data.yaml");
+my $i;
+my @doc;
+for my $record (@data) {
+    my @fields;
+    while ( my ($key, $value) = each(%$record) ) {
+        my $field = WebService::Solr::Field->new($key => $value);
+        push @fields, $field; 
+        print $key;
+        print "\n";
+    }
+    print "\n\nAdding to Solr\n\n";
+    my $doc = WebService::Solr::Document->new(@fields);
+    $solr->add($doc);
+    $solr->commit;
+    last if ($i++ == 100);
+}
