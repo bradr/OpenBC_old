@@ -8,7 +8,6 @@ my $input_file = shift @ARGV || die "USAGE: $0 <input_file>";
 
 open(my $fh, $input_file);
 my $currentChapter="firstchapter";
-my $currentChapterNum;
 my $docTitle = "2006 INTERNATIONAL BUILDING CODE";
 
 my @doc;
@@ -19,37 +18,39 @@ while (my $line = <$fh>){
     if ($line =~ /^CHAPTER ([0-9])/) {
         <$fh>;
         $currentChapter=<$fh>;
-        $currentChapterNum=$1;
-        push @doc, { level => "0", title => $currentChapter, number=>$1 };
+        my $currentChapterNum=$1;
+        push @doc, { level => "0", name => $line." ".$currentChapter, id=>$1 };
     }
     elsif ($line =~ /^SECTION ([0-9]+)/) {
-        my $section=<$fh>;
+        my $section=$line." ".<$fh>;
         chomp $section;
-        push @doc, { level => "1", title =>$section, number=>$1 };
+        push @doc, { level => "1", name =>$section, id=>$1 };
     }
     elsif ($line =~ /^((?:[0-9]+\.)+)([0-9]+) ([^\.]+). (.+)/) {
         my $sectionNum=$1.$2;
         my $level=1;
         while ($sectionNum =~ /\./g) { $level++; }
-        my $sectionName=$3;
+        my $sectionName=$sectionNum." ".$3.". ";
         my $contents=$4;
         chomp $contents;
-        push @doc, { level=>$level, title=>$sectionName, number=>$sectionNum, contents=>$contents };
+        push @doc, { level=>$level, name=>$sectionName, id=>$sectionNum, contents=>$contents };
     }
     else {
-        if($#doc>0 && $line !~ /$docTitle/ && $line !~ /^(0-9)+\n/) {
+        if($#doc>0 && $line !~ /$docTitle/ && $line !~ /^[0-9]+ *\n/ && $line !~ /^$currentChapter/) {
+#            $line =~ s/: *\n/:<br>/;
+#            if ($doc[-1][contents] =~ /$line =~ s/^\n/<br>/;
             $doc[-1]{contents} = $doc[-1]{contents} . $line;
         }
     }
 }
 
-for my $i ( 0 .. $#doc ) {
-    print "$i is { ";
-    for my $role ( keys %{ $doc[$i] } ) {
-        print "$role=$doc[$i]{$role} ";
-    }
-    print "}\n";
-}
+#for my $i ( 0 .. $#doc ) {
+#    print "$i is { ";
+#    for my $role ( keys %{ $doc[$i] } ) {
+#        print "$role=$doc[$i]{$role} ";
+#    }
+#    print "}\n";
+#}
 
 DumpFile("data.yaml", @doc);
 
