@@ -2,16 +2,16 @@ upstream backend {
     server 127.0.0.1:2080;
 }
 
-
 server {
-    listen   80;
-    server_name  openbuildingcodes.com *.openbuildingcodes.com;
+    listen 81;
+    server_name  openbuildingcodes.com;
 
     access_log /var/log/nginx/openbc-access.log;
     error_log  /var/log/nginx/openbc-error.log;
 
     root   /var/www/openbc/root;
     index  index.html;
+
 
 #    # Rewrite versioned static files as a cache buster
 #    location ~ ^/(js|javascript|css) {
@@ -20,17 +20,28 @@ server {
 #        break;
 #    }
 #
-#    # Mythical future backend proxy
-#    location / {
-#        proxy_redirect false;
-#        proxy_set_header   Host             $host;
-#        proxy_set_header   X-Real-IP        $remote_addr;
-#        proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
-#
-#        if (!-f $request_filename) {
-#            proxy_pass http://backend;
-#            break;
-#        }
-#    }
+    # Mythical future backend proxy
+    location / {
+        proxy_redirect off;
+        proxy_set_header   Host             $host;
+        proxy_set_header   X-Real-IP        $remote_addr;
+        proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
+
+        if (!-f $request_filename) {
+            proxy_pass http://backend;
+            break;
+        }
+    }
 }
 
+server {
+    listen 80 default;
+    server_name *.openbuildingcodes.com openbuildingcodes.com;
+
+    root   /var/www/openbc/root;
+    index  index.html;
+
+    location / {
+        index   index.html;
+    }
+}
