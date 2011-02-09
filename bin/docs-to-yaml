@@ -19,12 +19,12 @@ while (my $line = <$fh>){
         <$fh>;
         $currentChapter=<$fh>;
         my $currentChapterNum=$1;
-        push @doc, { level => "0", name => $line." ".$currentChapter, id=>$1 };
+        push @doc, { level => "0", name => $line." ".$currentChapter, number=>$1 };
     }
     elsif ($line =~ /^SECTION ([0-9]+)/) {
         my $section=$line." ".<$fh>;
         chomp $section;
-        push @doc, { level => "1", name =>$section, id=>$1 };
+        push @doc, { level => "1", name =>$section, number=>$1 };
     }
     elsif ($line =~ /^((?:[0-9]+\.)+)([0-9]+) ([^\.]+). (.+)/) {
         my $sectionNum=$1.$2;
@@ -33,7 +33,7 @@ while (my $line = <$fh>){
         my $sectionName=$sectionNum." ".$3.". ";
         my $contents=$4;
         chomp $contents;
-        push @doc, { level=>$level, name=>$sectionName, id=>$sectionNum, contents=>$contents };
+        push @doc, { level=>$level, name=>$sectionName, number=>$sectionNum, contents=>$contents };
     }
     else {
         if($#doc>0 && $line !~ /$docTitle/ && $line !~ /^[0-9]+ *\n/ && $line !~ /^$currentChapter/) {
