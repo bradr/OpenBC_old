@@ -1,0 +1,173 @@
+package OpenBC::Controller;
+use feature 'switch';
+use Moose;
+use Fatal qw/open/;
+use Template;
+use JSON qw/encode_json decode_json/;
+use Plack::Request;
+use Plack::Response;
+use WebService::Solr;
+
+#with 'OpenBC::Log';
+
+has 'request'   => (is => 'rw', isa => 'Plack::Request');
+has 'env'   => (is=> 'rw', isa => 'HashRef');
+has 'message' => (is => 'rw', isa => 'Str');
+
+has 'version' => ( is => 'ro', isa => 'Str', lazy_build => 1 );
+sub _build_version {
+    my $self = shift;
+    return "0.1";
+}
+
+has 'tt2' => (is => 'ro', isa => 'Object', lazy_build => 1);
+
+sub _build_tt2 {
+    my $self = shift;
+    my $templ_path = '/var/www/openbc/template';
+    unless (-d $templ_path) {
+        # $self->log("Unknown template path: $templ_path from "
+        #        . $self->request->path);
+        #return $self->not_found();
+        return Plack::Response->new(404, ['Content-Type' => 'text/plain'], '')->finalize;
+    }
+    return Template->new(
+        { INCLUDE_PATH => $templ_path },
+    );
+}
+
+sub base_url {
+    return "www.openbuildingcodes.com";
+}
+
+sub base_path { '/var/www/openbc' }
+
+sub run {
+    my $self = shift;
+    my $env = shift;
+    my $resp = Plack::Response->new;
+
+    $self->request( Plack::Request->new($env) );
+
+    my $req = $self->request;
+
+    my $path = $req->path;
+    my %func_map = (
+        GET => [
+            [ qr{^/$}           => \&ui_html ], # Landing page
+            [ qr{^/m/?$}        => \&ui_html ], # Mobile site
+            [ qr{^/(.+)\.html$} => \&ui_html ], # Rendered pages
+            [ qr{^/search/([\w-]+)$}   => \&search ], # Search
+            [ qr{^/([\w-]+)$}   => \&ui_html ], # Same, but make the .html optional
+        ]
+    );
+
+    my $method = $req->method;
+    for my $match (@{ $func_map{$method}}) {
+        my ($regex, $todo) = @$match;
+        if ($path =~ $regex) {
+            return $todo->($self, $req, $1, $2, $3, $4);
+        }
+    }
+
+    return $self->redirect("/404.html");
+}
+
+sub is_mobile {
+    my ($self, $req) = @_;
+    my $headers = $req->headers;
+    my $ua_str = $headers->{'user-agent'} || '';
+    return $ua_str =~ m{Android|iPhone|BlackBerry}i ? 1 : 0;
+}
+
+sub default_page {
+    my ($self, $req) = @_;
+    return $self->is_mobile($req) ? 'm/index' : 'index';
+}
+
+sub ui_html {
+    my ($self, $req, $tmpl) = @_;
+    $tmpl ||= $self->default_page($req);
+    my $params = $req->parameters;
+    $params->{host_port} = $req->uri->host_port;
+    return $self->process_template("$tmpl.tt2", $params)->finalize;
+}
+
+sub search {
+    my ($self, $req, $query) = @_;
+    my $resp = Plack::Response->new(200);
+    my $html;
+    my $params = $req->parameters;
+    
+    my $solr = WebService::Solr->new("http://localhost:8888/solr");
+    my $response = $solr->search( $query );
+    
+    #my @names;
+    #my @contents;
+    my @results;
+    my $i = 0;
+    for my $doc ($response->docs) {
+        $results[$i]{'name'} = $doc->value_for( 'name' );
+        $results[$i]{'content'} = $doc->value_for( 'contents' );
+        $i++;
+        #push(@names, $doc->value_for( 'name' )); 
+        #push(@contents, $doc->value_for( 'contents' ));
+    }
+
+    my $vars = { query => $query, results => \@results };
+#    $params->{query} = $query;
+#    $params->{name} = @names[0];
+    $resp->header('X-UA-Compatible' => 'IE=EmulateIE7');
+    $resp->header('Content-Type' => 'text/html; charset=utf8');
+    $self->tt2->process("search.tt2", $vars, ref($html) ? $html : \$html);
+    $resp->body($html);
+    return $resp->finalize;
+}
+
+sub redirect {
+    my $self = shift;
+    my $url  = shift;
+    my $code = shift || 302;
+
+    my $resp = Plack::Response->new;
+    $resp->redirect($url, 302);
+    $resp->header('Content-Type' => 'text/plain');
+    $resp->body('');
+    return $resp->finalize;
+}
+
+sub render_template {
+    my $self = shift;
+    my $template = shift;
+    my $param = shift;
+    my $html = shift;
+    $param->{version} = $self->version;
+    $param->{base} = $self->base_url,
+    $param->{request_uri} = $self->request->request_uri;
+    $param->{message} = $self->message;
+    $self->tt2->process($template, $param, ref($html) ? $html : \$html);
+    return \$html;
+}
+
+sub process_template {
+    my $self = shift;
+    my $template = shift;
+    my $param = shift;
+    my $resp = Plack::Response->new(200);
+    my $body;
+    $self->render_template($template, $param, \$body);
+    if (!defined $body) {
+        # $self->log(
+        #    "Error rendering template $template: " . $self->tt2->error);
+        return $self->redirect("500.html", 302);
+    }
+    $resp->body($body);
+    $resp->header('X-UA-Compatible' => 'IE=EmulateIE7');
+    $resp->header('Content-Type' => 'text/html; charset=utf8');
+    if ($template =~ m/\.txt$/) {
+        $resp->header('Content-Type' => 'text/plain');
+    }
+    return $resp;
+}
+
+1;
