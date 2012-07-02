@@ -7,6 +7,7 @@ use JSON qw/encode_json decode_json/;
 use Plack::Request;
 use Plack::Response;
 use WebService::Solr;
+use YAML;
 
 #with 'OpenBC::Log';
 
@@ -58,6 +59,7 @@ sub run {
             [ qr{^/m/?$}        => \&ui_html ], # Mobile site
             [ qr{^/(.+)\.html$} => \&ui_html ], # Rendered pages
             [ qr{^/search/([\w-]+)$}   => \&search ], # Search
+            [ qr{^/view/([\w-]+)$} => \&viewnewnew ], # View a code
             [ qr{^/([\w-]+)$}   => \&ui_html ], # Same, but make the .html optional
         ]
     );
@@ -93,6 +95,73 @@ sub ui_html {
     return $self->process_template("$tmpl.tt2", $params)->finalize;
 }
 
+sub view {
+    my ($self, $req, $query) = @_;
+    my $resp = Plack::Response->new(200);
+    my $html;
+    my $params = $req->parameters;
+
+    my $solr = WebService::Solr->new("http://localhost:8888/solr");
+    my $response = $solr->search( "codeid:[* TO *] ", { start=>$query*20-20, rows=>"20" } );
+    
+    my @results;
+    my $i = 0;
+    for my $doc ($response->docs) {
+        $results[$i]{'number'} = $doc->value_for( 'codeid' );
+        $results[$i]{'name'} = $doc->value_for( 'name' );
+        $results[$i]{'contents'} = $doc->value_for( 'contents' );
+        $results[$i]{'level'} = $doc->value_for( 'level' );
+        $i++;
+    }
+    my $prev=$query-1;
+    my $next=$query+1;
+
+    my $vars = { results => \@results , prev=>$prev, next=>$next };
+    $resp->header('X-UA-Compatible' => 'IE=EmulateIE7');
+    $resp->header('Content-Type' => 'text/html; charset=utf8');
+    $self->tt2->process("view.tt2", $vars, ref($html) ? $html : \$html);
+    $resp->body($html);
+    return $resp->finalize;
+}
+
+sub viewnew {
+    my ($self, $req, $query) = @_;
+    my $resp = Plack::Response->new(200);
+    my $vars;
+    my $html;
+    my @files = <static/snippets/us_wa_*>;
+    foreach my $file (@files) {
+        if ($file=~m/_$query/) { 
+        open (IN,$file) or die "Cannot read file; $1\n";
+        while (my $bc = read(IN,my $block,65536)) {
+            $html = $html.$block;
+        }
+    }
+    }
+    $resp->header('X-UA-Compatible' => 'IE=EmulateIE7');
+    $resp->header('Content-Type' => 'text/html; charset=utf8');
+    $self->tt2->process("view.tt2", $vars, ref($html) ? $html : \$html);
+    $resp->body($html);
+    return $resp->finalize;
+}
+
+sub viewnewnew {
+    my ($self, $req, $query) = @_;
+    my @data = YAML::LoadFile('/var/www/openbc/root/snippets/toc.yaml');
+    my @res;
+    my $resp = Plack::Response->new(200);
+    my $html;
+    for my $result (@data) {
+        push(@res, { current=>$query, codeid=>$result->{number}, name=>$result->{name}, level=>$result->{level} });
+        #$html=$html . $result->{number};
+    }
+    $resp->header('X-UA-Compatible' => 'IE=EmulateIE7');
+    $resp->header('Content-Type' => 'text/html; charset=utf8');
+    my $vars = { results => \@res };
+    $self->tt2->process("toc.tt2", $vars, ref($html) ? $html : \$html);
+    $resp->body($html);
+    return $resp->finalize;
+}
 sub search {
     my ($self, $req, $query) = @_;
     my $resp = Plack::Response->new(200);
@@ -102,21 +171,15 @@ sub search {
     my $solr = WebService::Solr->new("http://localhost:8888/solr");
     my $response = $solr->search( $query );
     
-    #my @names;
-    #my @contents;
     my @results;
     my $i = 0;
     for my $doc ($response->docs) {
         $results[$i]{'name'} = $doc->value_for( 'name' );
         $results[$i]{'content'} = $doc->value_for( 'contents' );
         $i++;
-        #push(@names, $doc->value_for( 'name' )); 
-        #push(@contents, $doc->value_for( 'contents' ));
     }
 
     my $vars = { query => $query, results => \@results };
-#    $params->{query} = $query;
-#    $params->{name} = @names[0];
     $resp->header('X-UA-Compatible' => 'IE=EmulateIE7');
     $resp->header('Content-Type' => 'text/html; charset=utf8');
     $self->tt2->process("search.tt2", $vars, ref($html) ? $html : \$html);
