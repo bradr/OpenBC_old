@@ -8,23 +8,40 @@ my $input_file = shift @ARGV || die "USAGE: $0 <input_file>";
 
 open(my $fh, $input_file);
 my $currentChapter="firstchapter";
-my $docTitle = "2006 INTERNATIONAL BUILDING CODE";
+my $docTitle = "INTERNATIONAL BUILDING CODE";
 
 my @doc;
 
-
+my $countrycode= "US";
+my $country="United States of America";
+my $subcountrycode="WA";
+my $subcountry="Washington";
+my $orgcode="ICC";
+my $org="International Code Council";
+my $modelcodecode="IBC";
+my $modelcode="International Building Code";
+my $codetype="Building Code";
+my $year="2010";
+my $page1=8045;
+my $linenum=0;
+my $id=1;
 
 while (my $line = <$fh>){
-    if ($line =~ /^CHAPTER ([0-9])/) {
+    $linenum++;
+    if ($line =~ /^\[F\]/) { $line = substr($line, 4); }
+    if ($linenum<$page1) { next; }
+    elsif ($line =~ /^CHAPTER ([0-9])/) {
         <$fh>;
         $currentChapter=<$fh>;
         my $currentChapterNum=$1;
-        push @doc, { level => "0", name => $line." ".$currentChapter, number=>$1 };
+        push @doc, { level => "0", name => $line." ".$currentChapter, id=>$id, codeid=>$1, countrycode=>$countrycode, country=>$country, subcountrycode=>$subcountrycode, subcountry=>$subcountry, orgcode=>$orgcode, org=>$org, modelcodecode=>$modelcodecode,modelcode=>$modelcode, codetype=>$codetype, year=>$year };
+        $id++; 
     }
     elsif ($line =~ /^SECTION ([0-9]+)/) {
         my $section=$line." ".<$fh>;
         chomp $section;
-        push @doc, { level => "1", name =>$section, number=>$1 };
+        push @doc, { level => "1", name =>$section, id=>$id, codeid=>$1, countrycode=>$countrycode, country=>$country, subcountrycode=>$subcountrycode, subcountry=>$subcountry, orgcode=>$orgcode, org=>$org, modelcodecode=>$modelcodecode,modelcode=>$modelcode, codetype=>$codetype, year=>$year };
+        $id++;
     }
     elsif ($line =~ /^((?:[0-9]+\.)+)([0-9]+) ([^\.]+). (.+)/) {
         my $sectionNum=$1.$2;
@@ -33,13 +50,16 @@ while (my $line = <$fh>){
         my $sectionName=$sectionNum." ".$3.". ";
         my $contents=$4;
         chomp $contents;
-        push @doc, { level=>$level, name=>$sectionName, number=>$sectionNum, contents=>$contents };
+        push @doc, { level=>$level, name=>$sectionName, id=>$id, codeid=>$sectionNum, contents=>$contents, countrycode=>$countrycode, country=>$country, subcountrycode=>$subcountrycode, subcountry=>$subcountry, orgcode=>$orgcode, org=>$org,  modelcodecode=>$modelcodecode,modelcode=>$modelcode, codetype=>$codetype, year=>$year };
+        $id++;
     }
     else {
         if($#doc>0 && $line !~ /$docTitle/ && $line !~ /^[0-9]+ *\n/ && $line !~ /^$currentChapter/) {
 #            $line =~ s/: *\n/:<br>/;
 #            if ($doc[-1][contents] =~ /$line =~ s/^\n/<br>/;
-            $doc[-1]{contents} = $doc[-1]{contents} . $line;
+            if ($line !~ /^\n/ || $line !~ /^ *\n/) {
+                $doc[-1]{contents} = $doc[-1]{contents} . $line;
+            }
         }
     }
 }
