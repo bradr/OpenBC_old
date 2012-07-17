@@ -1,0 +1,22 @@
+[% USE YAML; my_data = YAML.undumpfile("data.yaml") %]
+
+[% FOREACH line = my_data %]
+    [% IF line.level == '0' %]
+        <div class="chapter" id="[% line.codeid %]"><div><h1>[% line.name %]</h1><br>
+    [% END %]
+    [% IF line.level == '1' %]
+        <div class="section" id="[% line.codeid %]"><h2>[% line.name %]</h2>
+    [% END %]
+    [% IF line.level =='2' %]
+       <div class="subsection" id="[% line.codeid %]"><span class="title">[% line.name %]</span>
+    [% END %]
+    [% IF line.level == '3' %]
+        <div class="subsubsection" id="[% line.codeid %]"><span class="title">[% line.name %]</span>
+    [% END %]
+    [% IF line.level == '4' %]
+        <div class="subsubsubsection" id="[% line.codeid %]"><span class="title">[% line.name %]</span>
+    [% END %]
+    <span>[% FILTER html_break %][% line.contents | replace('Exception:','<b>Exception:</b>') %][% END %]</span>
+    </div>
+[% END %]
+</div>

@@ -1,0 +1,24 @@
+[% USE YAML; my_data = YAML.undumpfile("data.yaml") %]
+
+[% WRAPPER wrapper %]
+[% FOREACH line = my_data %]
+    [% IF line.level == '0' %]
+        <div class="chapter"><div><h1>[% line.title %]</h1><br>
+    [% END %]
+    [% IF line.level == '1' %]
+        <div class="section"><h2>[% line.title %]</h2>
+    [% END %]
+    [% IF line.level =='2' %]
+        <div class="subsection"><span class="title">[% line.title %]</span>
+    [% END %]
+    [% IF line.level == '3' %]
+        <div class="subsubsection"><span class="title">[% line.title %]</span>
+    [% END %]
+    [% IF line.level == '4' %]
+        <div class="subsubsubsection"><span class="title">[% line.title %]</span>
+    [% END %]
+    <span>[% FILTER html_break %][% line.contents | replace('Exception:','<b>Exception:</b>') %][% END %]</span>
+    </div>
+[% END %]
+</div>
+[% END %]

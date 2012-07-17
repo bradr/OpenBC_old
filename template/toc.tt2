@@ -1,0 +1,24 @@
+[% USE YAML; my_data = YAML.undumpfile("data.yaml") %]
+
+<div class="toc">
+
+<ul id="toc" class="toc">
+[% FOREACH line = my_data %]
+    [% IF line.level == '0' %]
+        [% IF line.current == line.number %]
+            <li><a class="expanded">
+        [% ELSE %]
+            <li><a class="collapsed">
+        [% END %]
+        [% line.number %]. [% line.name %]</a><ul>
+        [% FOREACH subline = results %]
+            [% IF subline.level =='1' && subline.number == line.current %]
+                <li><a href="#">SECTION [% subline.number %] - [% subline.name %]</a></li>
+            [% END %]
+        [% END %]
+        </ul>
+        </li>
+    [% END %]
+[% END %]
+</ul>
+</div>

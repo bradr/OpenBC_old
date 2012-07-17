@@ -1,0 +1,9 @@
+search!
+<br>
+[% query %]
+
+<br>
+[% FOREACH res IN results %]
+    <b>[% res.name %]</b> <br>
+    [% res.content %]<br><br>
+[% END %]

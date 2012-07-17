@@ -1,0 +1,2 @@
+<input type = "text" id = "query">
+<input type="button" value="Search" onClick="location.href='search/'+document.getElementById('query').value">

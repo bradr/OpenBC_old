@@ -1,0 +1,30 @@
+[% WRAPPER elements/wrapper.tt2 %]
+
+[% PROCESS toc.tt2 %]
+
+<div class="chapter">
+
+[% FOREACH line = results %]
+    [% IF line.level == '0' %]
+        <div class="chapter" id="[% line.number %]"><div><h1>[% line.name %]</h1><br>
+    [% END %]
+    [% IF line.level == '1' %]
+        <div class="section" id="[% line.number %]"><h2>[% line.name %]</h2>
+    [% END %]
+    [% IF line.level =='2' %]
+       <div class="subsection" id="[% line.number %]"><span class="title">[% line.name %]</span>
+    [% END %]
+    [% IF line.level == '3' %]
+        <div class="subsubsection" id="[% line.number %]"><span class="title">[% line.name %]</span>
+    [% END %]
+    [% IF line.level == '4' %]
+        <div class="subsubsubsection" id="[% line.number %]"><span class="title">[% line.name %]</span>
+    [% END %]
+    <span>[% FILTER html_break %][% line.content | replace('Exception:','<b>Exception:</b>') %][% END %]</span>
+    </div>
+[% END %]
+<a href="[% prev %]">PREVIOUS</a>  -  
+<a href="[% next %]">NEXT</a>
+</div>
+
+[% END %]
