@@ -3,22 +3,18 @@
 <div class="toc">
 
 <ul id="toc" class="toc">
+[% SET previouslevel = 0 %]
 [% FOREACH line = my_data %]
-    [% IF line.level == '0' %]
-        [% IF line.current == line.number %]
-            <li><a class="expanded">
-        [% ELSE %]
-            <li><a class="collapsed">
+    [% IF line.level> previouslevel %]
+        <ul>
+    [% ELSIF line.level < previouslevel %]
+        [% WHILE line.level <previouslevel %]
+            </ul>
+            [% SET previouslevel = previouslevel - 1 %]
         [% END %]
-        [% line.number %]. [% line.name %]</a><ul>
-        [% FOREACH subline = results %]
-            [% IF subline.level =='1' && subline.number == line.current %]
-                <li><a href="#">SECTION [% subline.number %] - [% subline.name %]</a></li>
-            [% END %]
-        [% END %]
-        </ul>
-        </li>
     [% END %]
+    <li><a href="#[% line.codeid %]">[% line.name %]</a>
+    [% SET previouslevel = line.level %]
 [% END %]
 </ul>
 </div>
