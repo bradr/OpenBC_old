@@ -10,19 +10,11 @@ my $file = "toc.html";
 my $template = "toc.tt2";
 my $output;
 
-my @data = YAML::LoadFile("data.yaml");
+#my $data = YAML::LoadFile("data.yaml");
 
 my $tt = Template->new({
         INCLUDE_PATH => "$FindBin::Bin/../template",
 });
 
-my @vars;
-for my $record (@data) {
-#    while ( my ($key, $value) = each(%$record) ) {
-#        push @vars, $key=>$value;
-#    }
-    foreach (%$record) { push @vars, %$record;}
-}
-
-$tt->process($template, @vars, $file, {})
+$tt->process($template, { }, $file, {})
     || die "Template process failed: ", $tt->error(), "\n";
