@@ -1,0 +1,35 @@
+#!/usr/bin/perl 
+use strict; 
+use warnings; 
+use Template; 
+use FindBin;
+use Fatal qw/open close/;
+
+my $file = "chapter.html"; 
+my $template = "snippet.tt";
+my $output;
+
+if (! -e $file) {
+my $tt = Template->new({
+        INCLUDE_PATH => "$FindBin::Bin/../template",
+});
+$tt->process($template, { }, $file, {})
+    || die "Template process failed: ", $tt->error(), "\n";
+print "file created...making snippets\n";
+}
+else{
+print "main file exists, making snippets\n";
+}
+open(my $fh,"<",$file); 
+while (my $line = <$fh>) {
+    if ($line =~ m/<div class="chapter" id="([^"]+)/ && $1 != 1) {
+        open FILE, ">$FindBin::Bin/../static/snippets/us_wa_ibc_ch".($1-1);
+        print FILE $output;
+        close FILE;
+        $output = $line; 
+    }
+    else {
+        if ($line !~ m/^\s*\n/ &&  $line !~ m/^\n/) { $output = $output.$line; }
+    }
+}
+close($fh);
