@@ -1,12 +1,10 @@
 [% USE YAML; my_data = YAML.undumpfile("data.yaml") %]
 
-<div class="toc">
-
-<ul id="toc" class="toc">
+<ul class="nav nav-list sidebar">
 [% SET previouslevel = 0 %]
 [% FOREACH line = my_data %]
     [% IF line.level> previouslevel %]
-        <ul>
+        <ul class="nav nav-list collapse [% IF line.level < 2 %] in [% END %] [% line.codeid %]">
     [% ELSIF line.level < previouslevel %]
         [% WHILE line.level <previouslevel %]
             </ul>
@@ -17,4 +15,3 @@
     [% SET previouslevel = line.level %]
 [% END %]
 </ul>
-</div>

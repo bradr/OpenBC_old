@@ -1,0 +1,17 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+use Template;
+use FindBin;
+use Fatal qw/open close/;
+
+
+my $file = "../static/output.html";
+my $template = "../template/view.tt2";
+
+my $tt = Template->new({
+    INCLUDE_PATH => "../static/",
+    RELATIVE => 1,
+});
+$tt->process($template, { }, $file, {})
+    || die "Template process failed: ", $tt->error(), "\n";
