@@ -1,11 +1,16 @@
 package OpenBC::Controller;
-
 use Dancer;
  
 get '/' => sub {
-          return 'Hello World!';
-      };
+    return 'Hello World! Woop Woop!';
+};
 
-sub run {
-      start;
-}
+get '/view' => sub {
+    return template 'view', {}, {layout => undef};
+};
+
+get '/*' => sub {
+    return 'Not Found';
+};
+
+start;

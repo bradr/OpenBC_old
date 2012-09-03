@@ -9,8 +9,8 @@ server {
     access_log /var/log/nginx/openbc-access.log;
     error_log  /var/log/nginx/openbc-error.log;
 
-    root   /var/www/openbc/root;
-    index  index.html;
+#    root   /var/www/openbc/root;
+#    index  index.html;
 
 
 #    # Rewrite versioned static files as a cache buster

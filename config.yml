@@ -1,0 +1,11 @@
+log: 'debug'
+logger: 'file'
+startup_info: 1
+show_errors:  1
+port: 2080
+template: "template_toolkit"
+engines:
+  template_toolkit:
+    encoding:  'utf8'
+    start_tag: '[%'
+    end_tag:   '%]'

@@ -1,0 +1,8828 @@
+---
+level: 0
+name: "CHAPTER 1 \n ADMINISTRATION \n"
+number: 1
+---
+level: 1
+name: "SECTION 101 \n GENERAL "
+number: 101
+---
+level: 2
+name: '101.1 Title. '
+number: 101.1
+---
+level: 2
+name: '101.2 Scope. '
+number: 101.2
+---
+level: 2
+name: '101.3 Intent. '
+number: 101.3
+---
+level: 2
+name: '101.4 Referenced codes. '
+number: 101.4
+---
+level: 1
+name: "SECTION 102 \n APPLICABILITY "
+number: 102
+---
+level: 2
+name: '102.1 General. '
+number: 102.1
+---
+level: 2
+name: "102.2 Other lavt's. "
+number: 102.2
+---
+level: 2
+name: '102.3 Application of references. '
+number: 102.3
+---
+level: 2
+name: '102.4 Referenced codes and standards. '
+number: 102.4
+---
+level: 2
+name: '102.5 Partial invalidity. '
+number: 102.5
+---
+level: 2
+name: '102.6 Existing structures. '
+number: 102.6
+---
+level: 1
+name: |-
+  SECTION 103 
+   DEPARTMENT OF BUILDING SAFETY 
+number: 103
+---
+level: 2
+name: '103.1 Creation of enforcement agency. '
+number: 103.1
+---
+level: 2
+name: '103.2 Appointment. '
+number: 103.2
+---
+level: 2
+name: '103.3 Deputies. '
+number: 103.3
+---
+level: 1
+name: |-
+  SECTION 104 
+   DUTIES AND POWERS OF BUILDING OFFICIAL 
+number: 104
+---
+level: 2
+name: '104.1 General. '
+number: 104.1
+---
+level: 2
+name: '104.2 Applications and permits. '
+number: 104.2
+---
+level: 2
+name: '104.3 Notices and orders. '
+number: 104.3
+---
+level: 2
+name: '104.4 Inspections. '
+number: 104.4
+---
+level: 2
+name: '104.5 Identification. '
+number: 104.5
+---
+level: 2
+name: '104.6 Right of entry. '
+number: 104.6
+---
+level: 2
+name: '104.7 Department records. '
+number: 104.7
+---
+level: 2
+name: '104.8 Liability. '
+number: 104.8
+---
+level: 2
+name: '104.9 Approved materials and equipment. '
+number: 104.9
+---
+level: 2
+name: '104.10 Modifications. '
+number: 104.10
+---
+level: 2
+name: '104.11 Alternative materials, design and methods o. '
+number: 104.11
+---
+level: 1
+name: "SECTION 105 \n PERMITS "
+number: 105
+---
+level: 2
+name: '105.1 Required. '
+number: 105.1
+---
+level: 2
+name: '105.2 Work exempt from permit. '
+number: 105.2
+---
+level: 2
+name: '105.3 Application for permit. '
+number: 105.3
+---
+level: 2
+name: '105.4 Validity of permit. '
+number: 105.4
+---
+level: 2
+name: '105.5 Expiration. '
+number: 105.5
+---
+level: 2
+name: '105.6 Suspension or revocation. '
+number: 105.6
+---
+level: 2
+name: '105.7 Placement of permit. '
+number: 105.7
+---
+level: 1
+name: |-
+  SECTION 106 
+   CONSTRUCTION DOCUMENTS 
+number: 106
+---
+level: 2
+name: '106.1 Submittal documents. '
+number: 106.1
+---
+level: 2
+name: '106.2 Site plan. '
+number: 106.2
+---
+level: 2
+name: '106.3 Examination of documents. '
+number: 106.3
+---
+level: 2
+name: '106.4 Amended construction documents. '
+number: 106.4
+---
+level: 2
+name: '106.5 Retention of construction documents. '
+number: 106.5
+---
+level: 1
+name: |-
+  SECTION 107 
+   TEMPORARY STRUCTURES AND USES 
+number: 107
+---
+level: 2
+name: '107.1 General. '
+number: 107.1
+---
+level: 2
+name: '107.2 Conformance. '
+number: 107.2
+---
+level: 2
+name: '107.3 Temporary power. '
+number: 107.3
+---
+level: 2
+name: '107.4 Termination of approval. '
+number: 107.4
+---
+level: 1
+name: "SECTION 108 \n FEES "
+number: 108
+---
+level: 2
+name: '108.1 Payment of fees. '
+number: 108.1
+---
+level: 2
+name: '108.2 Schedule of permit fees. '
+number: 108.2
+---
+level: 2
+name: '108.3 Building permit valuations. '
+number: 108.3
+---
+level: 2
+name: '108.4 Work commencing before permit issuance. '
+number: 108.4
+---
+level: 2
+name: '108.5 Related fees. '
+number: 108.5
+---
+level: 2
+name: '108.6 Refunds. '
+number: 108.6
+---
+level: 1
+name: "SECTION 109 \n INSPECTIONS "
+number: 109
+---
+level: 2
+name: '109.1 General. '
+number: 109.1
+---
+level: 2
+name: '109.2 Preliminary inspection. '
+number: 109.2
+---
+level: 2
+name: '109.3 Required inspections. '
+number: 109.3
+---
+level: 2
+name: '109.4 Inspection agencies. '
+number: 109.4
+---
+level: 2
+name: '109.5 Inspection requests. '
+number: 109.5
+---
+level: 2
+name: '109.6 Approval required. '
+number: 109.6
+---
+level: 1
+name: |-
+  SECTION 110 
+   CERTIFICATE OF OCCUPANCY 
+number: 110
+---
+level: 2
+name: '110.1 Use and occupancy. '
+number: 110.1
+---
+level: 2
+name: '110.2 Certificate issued. '
+number: 110.2
+---
+level: 2
+name: '110.3 Temporary occupancy. '
+number: 110.3
+---
+level: 2
+name: '110.4 Revocation. '
+number: 110.4
+---
+level: 1
+name: |-
+  SECTION 111 
+   SERVICE UTILITIES 
+number: 111
+---
+level: 2
+name: '111.1 Connection of service utilities. '
+number: 111.1
+---
+level: 2
+name: '111.2 Temporary connection. '
+number: 111.2
+---
+level: 2
+name: '111.3 Authority to disconnect service utilities. '
+number: 111.3
+---
+level: 1
+name: |-
+  SECTION 112 
+   BOARD OF APPEALS 
+number: 112
+---
+level: 2
+name: '112.1 General. '
+number: 112.1
+---
+level: 2
+name: '112.2 Limitations on authority. '
+number: 112.2
+---
+level: 2
+name: '112.3 Qualifications. '
+number: 112.3
+---
+level: 1
+name: "SECTION 113 \n VIOLATIONS "
+number: 113
+---
+level: 2
+name: '113.1 Unlawful acts. '
+number: 113.1
+---
+level: 2
+name: '113.2 Notice of violation. '
+number: 113.2
+---
+level: 2
+name: '113.3 Prosecution of violation. '
+number: 113.3
+---
+level: 2
+name: '113.4 Violation penalties. '
+number: 113.4
+---
+level: 1
+name: "SECTION 114 \n STOP WORK ORDER "
+number: 114
+---
+level: 2
+name: '114.1 Authority. '
+number: 114.1
+---
+level: 2
+name: '114.2 Issuance. '
+number: 114.2
+---
+level: 2
+name: '114.3 Unlawful continuance. '
+number: 114.3
+---
+level: 2
+name: '115.5 Restoration. '
+number: 115.5
+---
+level: 1
+name: |-
+  SECTION 115 
+   UNSAFE STRUCTURES AND EQUIPMENT 
+number: 115
+---
+level: 2
+name: '115.1 Conditions. '
+number: 115.1
+---
+level: 2
+name: '115.2 Record. '
+number: 115.2
+---
+level: 2
+name: '115.3 Notice. '
+number: 115.3
+---
+level: 2
+name: '115.4 Method of service. '
+number: 115.4
+---
+level: 0
+name: "CHAPTER 2 \n DEFINITIONS \n"
+number: 2
+---
+level: 1
+name: "SECTION 201 \n GENERAL "
+number: 201
+---
+level: 2
+name: '201.1 Scope. '
+number: 201.1
+---
+level: 2
+name: '201.2 Interchangeability. '
+number: 201.2
+---
+level: 2
+name: '201.3 Terms defined in other codes. '
+number: 201.3
+---
+level: 2
+name: '201.4 Terms not defined. '
+number: 201.4
+---
+level: 1
+name: "SECTION 202 \n DEFINITIONS "
+number: 202
+---
+level: 0
+name: |
+  CHAPTER 3 
+   USE AND OCCUPANCY CLASSIFICATION 
+number: 3
+---
+level: 1
+name: "SECTION 301 \n GENERAL "
+number: 301
+---
+level: 2
+name: '301.1 Scope. '
+number: 301.1
+---
+level: 1
+name: "SECTION 302 \n CLASSIFICATION "
+number: 302
+---
+level: 2
+name: '302.1 General. '
+number: 302.1
+---
+level: 1
+name: |-
+  SECTION 303 
+   ASSEMBLY GROUP A 
+number: 303
+---
+level: 2
+name: '303.1 Assembly Group A. '
+number: 303.1
+---
+level: 1
+name: |-
+  SECTION 304 
+   BUSINESS GROUP B 
+number: 304
+---
+level: 2
+name: '304.1 Business Group B. '
+number: 304.1
+---
+level: 1
+name: |-
+  SECTION 305 
+   EDUCATIONAL GROUP E 
+number: 305
+---
+level: 2
+name: '305.1 Educational Group E. '
+number: 305.1
+---
+level: 2
+name: '305.2 Day care. '
+number: 305.2
+---
+level: 1
+name: "SECTION 306 \n FACTORY GROUP F "
+number: 306
+---
+level: 2
+name: '306.1 Factory Industrial Group F. '
+number: 306.1
+---
+level: 2
+name: '306.2 Factory Industrial F-1 Moderate-hazar. '
+number: 306.2
+---
+level: 2
+name: '306.3 Factory Industrial F-2 Low-hazard Occupancy. '
+number: 306.3
+---
+level: 1
+name: |-
+  SECTION 307 
+   HIGH-HAZARD GROUP H 
+number: 307
+---
+level: 2
+name: '307.1 High-hazard Group H. '
+number: 307.1
+---
+level: 2
+name: '307.2 Definitions. '
+number: 307.2
+---
+level: 2
+name: '307.3 High-hazard Group H-1. '
+number: 307.3
+---
+level: 2
+name: '307.4 High-hazard Group H-2. '
+number: 307.4
+---
+level: 2
+name: '307.5 High-hazard Group H-3. '
+number: 307.5
+---
+level: 2
+name: '307.6 High-hazard Group H-4. '
+number: 307.6
+---
+level: 2
+name: '307.7 High-hazard Group H-5 structures. '
+number: 307.7
+---
+level: 2
+name: '307.8 Multiple hazards. '
+number: 307.8
+---
+level: 1
+name: |-
+  SECTION 308 
+   INSTITUTIONAL GROUP I 
+number: 308
+---
+level: 2
+name: '308.1 Institutional Group I. '
+number: 308.1
+---
+level: 2
+name: '308.2 Group I-l. '
+number: 308.2
+---
+level: 2
+name: '308.3 Group 1-2. '
+number: 308.3
+---
+level: 2
+name: '308.4 Group 1-3. '
+number: 308.4
+---
+level: 2
+name: '308.5 Group 1-4, day care facilities. '
+number: 308.5
+---
+level: 1
+name: |-
+  SECTION 309 
+   MERCANTILE GROUP M 
+number: 309
+---
+level: 2
+name: '309.1 Mercantile Group M. '
+number: 309.1
+---
+level: 2
+name: '309.2 Quantity of hazardous materials. '
+number: 309.2
+---
+level: 1
+name: |-
+  SECTION 310 
+   RESIDENTIAL GROUP R 
+number: 310
+---
+level: 2
+name: '310.1 Residential Group R. '
+number: 310.1
+---
+level: 2
+name: '310.2 Definitions. '
+number: 310.2
+---
+level: 1
+name: "SECTION 311 \n STORAGE GROUP S "
+number: 311
+---
+level: 2
+name: '311.1 Storage Group S. '
+number: 311.1
+---
+level: 2
+name: '311.2 Moderate-hazard storage, Group S-1. '
+number: 311.2
+---
+level: 2
+name: '311.3 Low-hazard storage, Group S-2. '
+number: 311.3
+---
+level: 1
+name: |-
+  SECTION 312 
+   UTILITY AND MISCELLANEOUS GROUP U 
+number: 312
+---
+level: 2
+name: '312.1 General. '
+number: 312.1
+---
+level: 0
+name: |
+  CHAPTER 4 
+   SPECIAL DETAILED REQUIREMENTS BASED 
+number: 4
+---
+level: 1
+name: "SECTION 401 \n SCOPE "
+number: 401
+---
+level: 2
+name: '401.1 Detailed use and occupancy requirements. '
+number: 401.1
+---
+level: 1
+name: |-
+  SECTION 402 
+   COVERED MALL BUILDINGS 
+number: 402
+---
+level: 2
+name: '402.1 Scope. '
+number: 402.1
+---
+level: 2
+name: '402.2 Definitions. '
+number: 402.2
+---
+level: 2
+name: '402.3 Lease plan. '
+number: 402.3
+---
+level: 2
+name: '402.4 Means of egress. '
+number: 402.4
+---
+level: 2
+name: '402.5 Mall width. '
+number: 402.5
+---
+level: 2
+name: '402.6 Types of construction. '
+number: 402.6
+---
+level: 2
+name: '402.7 Fire-resistance-rated separation. '
+number: 402.7
+---
+level: 2
+name: '402.8 Automatic sprinkler system. '
+number: 402.8
+---
+level: 2
+name: '402.9 Smoke control. '
+number: 402.9
+---
+level: 2
+name: '402.10 Kiosks. '
+number: 402.10
+---
+level: 2
+name: "402.11 Children's playground structures. "
+number: 402.11
+---
+level: 2
+name: '402.12 Security grilles and doors. '
+number: 402.12
+---
+level: 2
+name: '402.13 Standby power. '
+number: 402.13
+---
+level: 2
+name: '402.14 Emergency voice/alarm communicatio. '
+number: 402.14
+---
+level: 2
+name: '402.15 Plastic signs. '
+number: 402.15
+---
+level: 2
+name: '402.14 shall not be required to comply with th. '
+number: 402.14
+---
+level: 2
+name: '402.16 Fire department access to equipment. '
+number: 402.16
+---
+level: 1
+name: |-
+  SECTION 403 
+   HIGH-RISE BUILDINGS 
+number: 403
+---
+level: 2
+name: '403.1 Applicability. '
+number: 403.1
+---
+level: 2
+name: '403.2 Automatic sprinkler system. '
+number: 403.2
+---
+level: 2
+name: '907.2 and are separated from the remainder o. '
+number: 907.2
+---
+level: 2
+name: '403.3 Reduction in fire-resistance rating. '
+number: 403.3
+---
+level: 2
+name: '403.4 Emergency escape and rescue. '
+number: 403.4
+---
+level: 2
+name: '403.5 Automatic fire detection. '
+number: 403.5
+---
+level: 2
+name: '403.6 Emergency voice/alarm communicatio. '
+number: 403.6
+---
+level: 2
+name: '403.7 Fire department communications system. '
+number: 403.7
+---
+level: 2
+name: '403.8 Fire command. '
+number: 403.8
+---
+level: 2
+name: '403.9 Elevators. '
+number: 403.9
+---
+level: 2
+name: '403.10 Standby power. '
+number: 403.10
+---
+level: 2
+name: '403.11 Emergency power systems. '
+number: 403.11
+---
+level: 2
+name: '403.12 Stairway door operation. '
+number: 403.12
+---
+level: 2
+name: '403.13 Smokeproof exit enclosures. '
+number: 403.13
+---
+level: 2
+name: '403.14 Seismic considerations. '
+number: 403.14
+---
+level: 1
+name: "SECTION 404 \n ATRIUMS "
+number: 404
+---
+level: 2
+name: '404.1 General. '
+number: 404.1
+---
+level: 2
+name: '404.2 Use. '
+number: 404.2
+---
+level: 2
+name: '404.3 Automatic sprinkler protection. '
+number: 404.3
+---
+level: 2
+name: '404.4 Smoke control. '
+number: 404.4
+---
+level: 2
+name: '404.5 Enclosure of atriums. '
+number: 404.5
+---
+level: 2
+name: '404.6 Standby power. '
+number: 404.6
+---
+level: 2
+name: '404.7 Interior finish. '
+number: 404.7
+---
+level: 2
+name: '404.8 Travel distance. '
+number: 404.8
+---
+level: 1
+name: |-
+  SECTION 405 
+   UNDERGROUND BUILDINGS 
+number: 405
+---
+level: 2
+name: '405.1 General. '
+number: 405.1
+---
+level: 2
+name: '405.2 Construction requirements. '
+number: 405.2
+---
+level: 2
+name: '405.3 Automatic sprinkler system. '
+number: 405.3
+---
+level: 2
+name: '405.4 Compartmentation. '
+number: 405.4
+---
+level: 2
+name: '405.5 Smoke control system. '
+number: 405.5
+---
+level: 2
+name: '405.6 Fire alarm systems. '
+number: 405.6
+---
+level: 2
+name: '405.7 Public address. '
+number: 405.7
+---
+level: 2
+name: '405.8 Means of egress. '
+number: 405.8
+---
+level: 2
+name: '405.9 Standby power. '
+number: 405.9
+---
+level: 2
+name: '405.10 Emergency power. '
+number: 405.10
+---
+level: 2
+name: '405.11 Standpipe system. '
+number: 405.11
+---
+level: 1
+name: |-
+  SECTION 406 
+   MOTOR-VEHICLE-RELATED OCCUPANCIES 
+number: 406
+---
+level: 2
+name: '406.1 Private garages an. '
+number: 406.1
+---
+level: 2
+name: '406.2 Parkin. '
+number: 406.2
+---
+level: 2
+name: '406.3 Open parkin. '
+number: 406.3
+---
+level: 2
+name: '406.4 Enclosed parkin. '
+number: 406.4
+---
+level: 2
+name: '406.5 Motor fuel-dispensin. '
+number: 406.5
+---
+level: 2
+name: '406.6 Repai. '
+number: 406.6
+---
+level: 1
+name: "SECTION 407 \n GROUP 1-2 "
+number: 407
+---
+level: 2
+name: '407.1 General. '
+number: 407.1
+---
+level: 2
+name: '407.2 Corridors. '
+number: 407.2
+---
+level: 2
+name: '407.3 Corridor walls. '
+number: 407.3
+---
+level: 2
+name: '407.4 Smoke barriers. '
+number: 407.4
+---
+level: 2
+name: '407.5 Automatic sprinkler system. '
+number: 407.5
+---
+level: 2
+name: '407.6 Automatic fire detection. '
+number: 407.6
+---
+level: 2
+name: '407.7 Secured yards. '
+number: 407.7
+---
+level: 1
+name: "SECTION 408 \n GROUP 1-3 "
+number: 408
+---
+level: 2
+name: '408.1 General. '
+number: 408.1
+---
+level: 2
+name: '408.2 Mixed occupancies. '
+number: 408.2
+---
+level: 2
+name: '408.3 Means of egress. '
+number: 408.3
+---
+level: 2
+name: '408.4 Locks. '
+number: 408.4
+---
+level: 2
+name: '408.5 Vertical openings. '
+number: 408.5
+---
+level: 2
+name: '408.6 Smoke barrier. '
+number: 408.6
+---
+level: 2
+name: '408.7 Subdivision of resident housing areas. '
+number: 408.7
+---
+level: 2
+name: '408.8 Windowless buildings. '
+number: 408.8
+---
+level: 1
+name: |-
+  SECTION 409 
+   MOTION PICTURE PROJECTION ROOMS 
+number: 409
+---
+level: 2
+name: '409.1 General. '
+number: 409.1
+---
+level: 2
+name: '409.2 Construction of projection rooms. '
+number: 409.2
+---
+level: 2
+name: '409.3 Projection room and equipment ventilation. '
+number: 409.3
+---
+level: 2
+name: '409.4 Lighting control. '
+number: 409.4
+---
+level: 2
+name: '409.5 Miscellaneous equipment. '
+number: 409.5
+---
+level: 1
+name: |-
+  SECTION 410 
+   STAGES AND PLATFORMS 
+number: 410
+---
+level: 2
+name: '410.1 Applicability. '
+number: 410.1
+---
+level: 2
+name: '410.2 Definitions. '
+number: 410.2
+---
+level: 2
+name: '410.3 Stages. '
+number: 410.3
+---
+level: 2
+name: '410.4 Platform construction. '
+number: 410.4
+---
+level: 2
+name: '410.5 Dressing and appurtenant rooms. '
+number: 410.5
+---
+level: 2
+name: '410.6 Automatic sprinkler system. '
+number: 410.6
+---
+level: 2
+name: '410.7 Standpipes. '
+number: 410.7
+---
+level: 1
+name: |-
+  SECTION 411 
+   SPECIAL AMUSEMENT BUILDINGS 
+number: 411
+---
+level: 2
+name: '411.1 General. '
+number: 411.1
+---
+level: 2
+name: '411.2 Special amusement building. '
+number: 411.2
+---
+level: 2
+name: '411.3 Automatic fire detection. '
+number: 411.3
+---
+level: 2
+name: '411.4 Automatic sprinkler system. '
+number: 411.4
+---
+level: 2
+name: '411.5 Alarm. '
+number: 411.5
+---
+level: 2
+name: '411.6 Emergency voice/alarm communication. '
+number: 411.6
+---
+level: 2
+name: '411.7 Exit marking. '
+number: 411.7
+---
+level: 2
+name: '411.8 Interior finish. '
+number: 411.8
+---
+level: 1
+name: |-
+  SECTION 412 
+   AIRCRAFT-RELATED OCCUPANCIES 
+number: 412
+---
+level: 2
+name: '412.1 Airport traffic contro. '
+number: 412.1
+---
+level: 2
+name: '412.2 Aircraft hangars. '
+number: 412.2
+---
+level: 2
+name: '412.3 Residential aircraft hangars. '
+number: 412.3
+---
+level: 2
+name: '412.4 Aircraft paint hangars. '
+number: 412.4
+---
+level: 2
+name: '412.5 Heliports and helistops. '
+number: 412.5
+---
+level: 1
+name: |-
+  SECTION 413 
+   COMBUSTIBLE STORAGE 
+number: 413
+---
+level: 2
+name: '413.1 General. '
+number: 413.1
+---
+level: 2
+name: '413.2 Attic, under-floor and concealed spaces. '
+number: 413.2
+---
+level: 1
+name: |-
+  SECTION 414 
+   HAZARDOUS MATERIALS 
+number: 414
+---
+level: 2
+name: '414.1 General. '
+number: 414.1
+---
+level: 2
+name: '414.2 Control areas. '
+number: 414.2
+---
+level: 2
+name: '414.3 Ventilation. '
+number: 414.3
+---
+level: 2
+name: '414.4 Hazardous material systems. '
+number: 414.4
+---
+level: 2
+name: '414.5 Inside storage, dispensing and use. '
+number: 414.5
+---
+level: 2
+name: '414.6 Outdoor storage, dispensing and use. '
+number: 414.6
+---
+level: 2
+name: '414.7 Emergency alarms. '
+number: 414.7
+---
+level: 1
+name: |-
+  SECTION 415 
+   GROUPS H-1 , H-2, H-3, H-4 AND H-5 
+number: 415
+---
+level: 2
+name: '415.1 Scope, The provisions of this section shall appl. '
+number: 415.1
+---
+level: 2
+name: '415.2 Definitions. '
+number: 415.2
+---
+level: 2
+name: '415.3 Fire separation distance. '
+number: 415.3
+---
+level: 2
+name: '415.4 Special provisions for Group H-. '
+number: 415.4
+---
+level: 2
+name: '415.5 Special provisions for Group H-2 and H-. '
+number: 415.5
+---
+level: 2
+name: '415.6 Group H-2. '
+number: 415.6
+---
+level: 2
+name: '415.7 Groups H-3 and H-4. '
+number: 415.7
+---
+level: 2
+name: '415.8 Grou. '
+number: 415.8
+---
+level: 2
+name: '1.1 The length of the common wall of th. '
+number: 1.1
+---
+level: 2
+name: '1804.2 of the International Fire Code shall be i. '
+number: 1804.2
+---
+level: 1
+name: |-
+  SECTION 416 
+   APPLICATION OF FLAMMABLE FINISHES 
+number: 416
+---
+level: 2
+name: '416.1 General. '
+number: 416.1
+---
+level: 2
+name: '416.2 Spray rooms. '
+number: 416.2
+---
+level: 2
+name: '416.3 Spraying spaces. '
+number: 416.3
+---
+level: 2
+name: '416.4 Fire protection. '
+number: 416.4
+---
+level: 1
+name: "SECTION 417 \n DRYING ROOMS "
+number: 417
+---
+level: 2
+name: '417.1 General. '
+number: 417.1
+---
+level: 2
+name: '417.2 Piping clearance. '
+number: 417.2
+---
+level: 2
+name: '417.3 Insulation. '
+number: 417.3
+---
+level: 2
+name: '417.4 Fire protection. '
+number: 417.4
+---
+level: 1
+name: |-
+  SECTION 418 
+   ORGANIC COATINGS 
+number: 418
+---
+level: 2
+name: '418.1 Building features. '
+number: 418.1
+---
+level: 2
+name: '418.2 Location. '
+number: 418.2
+---
+level: 2
+name: '418.3 Process mills. '
+number: 418.3
+---
+level: 2
+name: '418.4 Tank storage. '
+number: 418.4
+---
+level: 2
+name: '418.5 Nitrocellulose storage. '
+number: 418.5
+---
+level: 2
+name: '418.6 Finished products. '
+number: 418.6
+---
+level: 1
+name: |-
+  SECTION 419 
+   GROUP 1-1, R-1,R-2,R-3 
+number: 419
+---
+level: 2
+name: '419.1 General. '
+number: 419.1
+---
+level: 2
+name: '419.2 Separation walls. '
+number: 419.2
+---
+level: 2
+name: '419.3 Horizontal separation. '
+number: 419.3
+---
+level: 1
+name: |-
+  SECTION 420 
+   HYDROGEN CUTOFF ROOMS 
+number: 420
+---
+level: 2
+name: '420.1 General. '
+number: 420.1
+---
+level: 2
+name: '420.2 Definitions. '
+number: 420.2
+---
+level: 2
+name: '420.3 Location. '
+number: 420.3
+---
+level: 2
+name: '420.4 Design and construction. '
+number: 420.4
+---
+level: 2
+name: '420.5 Ventilation. '
+number: 420.5
+---
+level: 2
+name: '420.6 Gas detection system. '
+number: 420.6
+---
+level: 2
+name: '420.7 Explosion control. '
+number: 420.7
+---
+level: 2
+name: '420.8 Standby power. '
+number: 420.8
+---
+level: 0
+name: |
+  CHAPTER 5 
+   GENERAL BUILDING HEIGHTS AND AREAS 
+number: 5
+---
+level: 1
+name: "SECTION 501 \n GENERAL "
+number: 501
+---
+level: 2
+name: '501.1 Scope. '
+number: 501.1
+---
+level: 2
+name: '501.2 Address numbers. '
+number: 501.2
+---
+level: 1
+name: "SECTION 502 \n DEFINITIONS "
+number: 502
+---
+level: 2
+name: '502.1 Definitions. '
+number: 502.1
+---
+level: 1
+name: |-
+  SECTION 503 
+   GENERAL HEIGHT AND AREA LIMITATIONS 
+number: 503
+---
+level: 2
+name: '503.1 General. '
+number: 503.1
+---
+level: 1
+name: "SECTION 504 \n HEIGHT "
+number: 504
+---
+level: 2
+name: '504.1 General. '
+number: 504.1
+---
+level: 2
+name: '504.2 Automatic sprinkler system increase. '
+number: 504.2
+---
+level: 2
+name: '504.3 Roof structures. '
+number: 504.3
+---
+level: 1
+name: "SECTION 505 \n MEZZANINES "
+number: 505
+---
+level: 2
+name: '505.1 General. '
+number: 505.1
+---
+level: 2
+name: '505.2 Area limitation. '
+number: 505.2
+---
+level: 2
+name: '505.3 Egress. '
+number: 505.3
+---
+level: 2
+name: '505.4 Openness. '
+number: 505.4
+---
+level: 2
+name: '505.5 Equipment platforms. '
+number: 505.5
+---
+level: 1
+name: |-
+  SECTION 506 
+   AREA MODIFICATIONS 
+number: 506
+---
+level: 2
+name: '506.1 General. '
+number: 506.1
+---
+level: 2
+name: '506.2 Frontage increase. '
+number: 506.2
+---
+level: 2
+name: '506.3 Automatic sprinkler system increase. '
+number: 506.3
+---
+level: 2
+name: '506.4 Area determination. '
+number: 506.4
+---
+level: 1
+name: |-
+  SECTION 507 
+   UNLIMITED AREA BUILDINGS 
+number: 507
+---
+level: 2
+name: '1507.1 GeneraL The area of buildings of the occupancie. '
+number: 1507.1
+---
+level: 2
+name: '507.2 Nonsprinklered, one story. '
+number: 507.2
+---
+level: 2
+name: '507.3 Sprinklered, one story. '
+number: 507.3
+---
+level: 2
+name: '507.4 Two story. '
+number: 507.4
+---
+level: 2
+name: '507.5 Reduced open space. '
+number: 507.5
+---
+level: 2
+name: '507.6 an. '
+number: 507.6
+---
+level: 2
+name: '507.6 Group A-3 buildings. '
+number: 507.6
+---
+level: 2
+name: '507.7 Group H occupancies. '
+number: 507.7
+---
+level: 2
+name: '507.3 an. '
+number: 507.3
+---
+level: 2
+name: '507.8 Aircraft paint hangar. '
+number: 507.8
+---
+level: 2
+name: '412.4 and is entirely surrounded by public ways or yard. '
+number: 412.4
+---
+level: 2
+name: '507.9 Group E buildings. '
+number: 507.9
+---
+level: 2
+name: '507.10 Motion picture theaters. '
+number: 507.10
+---
+level: 2
+name: '507.11 Covered mall buildings and anchor stores. '
+number: 507.11
+---
+level: 1
+name: |-
+  SECTION 508 
+   MIXED USE AND OCCUPANCY 
+number: 508
+---
+level: 2
+name: '508.1 General. '
+number: 508.1
+---
+level: 2
+name: '508.2 Incidental uses. '
+number: 508.2
+---
+level: 2
+name: '508.3 Mixed occupancies. '
+number: 508.3
+---
+level: 1
+name: |-
+  SECTION 509 
+   SPECIAL PROVISIONS 
+number: 509
+---
+level: 2
+name: '509.1 General. '
+number: 509.1
+---
+level: 2
+name: '509.2 Group S-2 enclosed or open parking garag. '
+number: 509.2
+---
+level: 2
+name: '509.3 Group S-2 enclosed parking garage with Grou. '
+number: 509.3
+---
+level: 2
+name: '509.4 Parking beneath Group R. '
+number: 509.4
+---
+level: 2
+name: '509.5 Group R-2 buildings of Type IIIA construction. '
+number: 509.5
+---
+level: 2
+name: '509.6 Group R-2 buildings of Type IIA construction. '
+number: 509.6
+---
+level: 2
+name: '509.7 Open parking garage beneath Groups A, I, B, . '
+number: 509.7
+---
+level: 2
+name: '509.8 Group B or M with Group S-2 open parkin. '
+number: 509.8
+---
+level: 0
+name: |
+  CHAPTER 6 
+   TYPES OF CONSTRUCTION 
+number: 6
+---
+level: 1
+name: "SECTION 601 \n GENERAL "
+number: 601
+---
+level: 2
+name: '601.1 Scope. '
+number: 601.1
+---
+level: 1
+name: |-
+  SECTION 602 
+   CONSTRUCTION CLASSIFICATION 
+number: 602
+---
+level: 2
+name: '602.1 General. '
+number: 602.1
+---
+level: 2
+name: '602.2 Types I and II. '
+number: 602.2
+---
+level: 2
+name: '602.3 Type III. '
+number: 602.3
+---
+level: 2
+name: '602.4 Type IV. '
+number: 602.4
+---
+level: 2
+name: '602.5 Type V. '
+number: 602.5
+---
+level: 1
+name: "SECTION 603 \n "
+number: 603
+---
+level: 2
+name: '603.1 Allowable materials. '
+number: 603.1
+---
+level: 2
+name: '703.2 and installed in accordance with Section 1704. '
+number: 703.2
+---
+level: 0
+name: |
+  CHAPTER 7 
+   FIRE-RESISTANCE-RATED CONSTRUCTION 
+number: 7
+---
+level: 1
+name: "SECTION 701 \n GENERAL "
+number: 701
+---
+level: 2
+name: '701.1 Scope. '
+number: 701.1
+---
+level: 1
+name: "SECTION 702 \n DEFINITIONS "
+number: 702
+---
+level: 2
+name: '702.1 Definitions. '
+number: 702.1
+---
+level: 1
+name: |-
+  SECTION 703 
+   FIRE-RESISTANCE RATINGS AND FIRE TESTS 
+number: 703
+---
+level: 2
+name: '703.1 Scope. '
+number: 703.1
+---
+level: 2
+name: '703.2 Fire-resistance ratings. '
+number: 703.2
+---
+level: 2
+name: '703.3 Alternative methods for determining fir. '
+number: 703.3
+---
+level: 2
+name: '703.4 Noncombustibility tests. '
+number: 703.4
+---
+level: 2
+name: '602.4 in Type I, II, III and IV construction. '
+number: 602.4
+---
+level: 1
+name: "SECTION 704 \n EXTERIOR WALLS "
+number: 704
+---
+level: 2
+name: '704.1 General. '
+number: 704.1
+---
+level: 2
+name: '704.2 Projections. '
+number: 704.2
+---
+level: 2
+name: '1406.3 an. '
+number: 1406.3
+---
+level: 2
+name: '704.3 Buildings on the same lot. '
+number: 704.3
+---
+level: 2
+name: '704.4 Materials. '
+number: 704.4
+---
+level: 2
+name: '704.5 Fire-resistance ratings. '
+number: 704.5
+---
+level: 2
+name: '704.6 Structural stability. '
+number: 704.6
+---
+level: 2
+name: '704.7 Unexposed surface temperature. '
+number: 704.7
+---
+level: 2
+name: '704.7 based on the average temperature of th. '
+number: 704.7
+---
+level: 2
+name: '704.8 Allowable area of openings. '
+number: 704.8
+---
+level: 2
+name: '704.9 Vertical separation of openings. '
+number: 704.9
+---
+level: 2
+name: '704.10 Vertical exposure. '
+number: 704.10
+---
+level: 2
+name: '704.11 Parapets. '
+number: 704.11
+---
+level: 2
+name: '704.12 Opening protection. '
+number: 704.12
+---
+level: 2
+name: '704.3 o. '
+number: 704.3
+---
+level: 2
+name: '704.13 Joints. '
+number: 704.13
+---
+level: 2
+name: '704.14 Ducts and air transfer openings. '
+number: 704.14
+---
+level: 1
+name: "SECTION 705 \n FIRE WALLS "
+number: 705
+---
+level: 2
+name: '705.1 GeneraL Each portion of a building separated by on. '
+number: 705.1
+---
+level: 2
+name: '705.2 Structural stability. '
+number: 705.2
+---
+level: 2
+name: '705.3 Materials. '
+number: 705.3
+---
+level: 2
+name: '705.4 Fire-resistance rating. '
+number: 705.4
+---
+level: 2
+name: '705.5 Horizontal continuity. '
+number: 705.5
+---
+level: 2
+name: '705.6 Vertical continuity. '
+number: 705.6
+---
+level: 2
+name: '705.7 Combustible framing in fire walls. '
+number: 705.7
+---
+level: 2
+name: '705.8 Openings. '
+number: 705.8
+---
+level: 2
+name: '705.9 Penetrations. '
+number: 705.9
+---
+level: 2
+name: '705.10 Joints. '
+number: 705.10
+---
+level: 2
+name: '705.11 Ducts and air transfer openings. '
+number: 705.11
+---
+level: 1
+name: "SECTION 706 \n FIRE BARRIERS "
+number: 706
+---
+level: 2
+name: '706.1 General. '
+number: 706.1
+---
+level: 2
+name: '706.2 Materials. '
+number: 706.2
+---
+level: 2
+name: '706.3 Fire-resistance rating. '
+number: 706.3
+---
+level: 2
+name: '706.4 Exterior walls. '
+number: 706.4
+---
+level: 2
+name: '706.5 Continuity. '
+number: 706.5
+---
+level: 2
+name: '706.6 Exterior walls. '
+number: 706.6
+---
+level: 2
+name: '706.7 Openings. '
+number: 706.7
+---
+level: 2
+name: '706.8 Penetrations. '
+number: 706.8
+---
+level: 2
+name: '706.9 Joints. '
+number: 706.9
+---
+level: 2
+name: '706.10 Ducts and air transfer openings. '
+number: 706.10
+---
+level: 1
+name: |-
+  SECTION 707 
+   SHAFT ENCLOSURES 
+number: 707
+---
+level: 2
+name: '707.1 General. '
+number: 707.1
+---
+level: 2
+name: '707.2 Shaft enclosure required. '
+number: 707.2
+---
+level: 2
+name: '707.3 Materials. '
+number: 707.3
+---
+level: 2
+name: '707.4 Fire-resistance rating. '
+number: 707.4
+---
+level: 2
+name: '707.5 Continuity. '
+number: 707.5
+---
+level: 2
+name: '707.6 Exterior walls. '
+number: 707.6
+---
+level: 2
+name: '707.7 Openings. '
+number: 707.7
+---
+level: 2
+name: '707.8 Penetrations. '
+number: 707.8
+---
+level: 2
+name: '707.9 Joints. '
+number: 707.9
+---
+level: 2
+name: '707.10 Ducts and air transfer openings. '
+number: 707.10
+---
+level: 2
+name: '707.11 Enclosure at the bottom. '
+number: 707.11
+---
+level: 2
+name: '707.12 Enclosure at the top. '
+number: 707.12
+---
+level: 2
+name: '707.13 Refuse and laundry chutes. '
+number: 707.13
+---
+level: 2
+name: '707.14 Elevator, dumbwaiter and other hoistways. '
+number: 707.14
+---
+level: 1
+name: "SECTION 708 \n FIRE PARTITIONS "
+number: 708
+---
+level: 2
+name: '708.1 General. '
+number: 708.1
+---
+level: 2
+name: '708.2 Materials. '
+number: 708.2
+---
+level: 2
+name: '708.3 Fire-resistance rating. '
+number: 708.3
+---
+level: 2
+name: '708.4 Continuity. '
+number: 708.4
+---
+level: 2
+name: '708.5 Exterior walls. '
+number: 708.5
+---
+level: 2
+name: '708.6 Openings. '
+number: 708.6
+---
+level: 2
+name: '708.7 Penetrations. '
+number: 708.7
+---
+level: 2
+name: '708.8 Joints. '
+number: 708.8
+---
+level: 2
+name: '708.9 Ducts and air transfer openings. '
+number: 708.9
+---
+level: 1
+name: "SECTION 709 \n SMOKE BARRIERS "
+number: 709
+---
+level: 2
+name: '709.1 General. '
+number: 709.1
+---
+level: 2
+name: '709.2 Materials. '
+number: 709.2
+---
+level: 2
+name: '709.3 Fire-resistance rating. '
+number: 709.3
+---
+level: 2
+name: '709.4 Continuity. '
+number: 709.4
+---
+level: 2
+name: '709.5 Openings. '
+number: 709.5
+---
+level: 2
+name: '709.6 Penetrations. '
+number: 709.6
+---
+level: 2
+name: '709.7 Joints. '
+number: 709.7
+---
+level: 2
+name: '709.8 Ducts and air transfer openings. '
+number: 709.8
+---
+level: 1
+name: |-
+  SECTION 710 
+   SMOKE PARTITIONS 
+number: 710
+---
+level: 2
+name: '710.1 General. '
+number: 710.1
+---
+level: 2
+name: '710.2 Materials. '
+number: 710.2
+---
+level: 2
+name: '710.3 Fire-resistance rating. '
+number: 710.3
+---
+level: 2
+name: '710.4 Continuity. '
+number: 710.4
+---
+level: 2
+name: '710.5 Openings. '
+number: 710.5
+---
+level: 2
+name: '0.10 inc. '
+number: 0.10
+---
+level: 2
+name: '710.6 Penetrations and joints. '
+number: 710.6
+---
+level: 2
+name: '710.7 Ducts and air transfer openings. '
+number: 710.7
+---
+level: 1
+name: |-
+  SECTION 711 
+   HORIZONTAL ASSEMBLIES 
+number: 711
+---
+level: 2
+name: '711.1 GeneraL Floor and roof assemblies required to hav. '
+number: 711.1
+---
+level: 2
+name: '711.2 Materials. '
+number: 711.2
+---
+level: 2
+name: '711.3 Fire-resistance rating. '
+number: 711.3
+---
+level: 2
+name: '711.4 Continuity. '
+number: 711.4
+---
+level: 2
+name: '711.5 Penetrations. '
+number: 711.5
+---
+level: 2
+name: '711.6 Joints. '
+number: 711.6
+---
+level: 2
+name: '711.7 Ducts and air transfer openings. '
+number: 711.7
+---
+level: 2
+name: '711.8 Floor fire door assemblies. '
+number: 711.8
+---
+level: 1
+name: "SECTION 71 2 \n PENETRATIONS "
+number: 71
+---
+level: 2
+name: '712.1 Scope. '
+number: 712.1
+---
+level: 2
+name: '712.2 Installation details. '
+number: 712.2
+---
+level: 2
+name: '712.3 Fire-resistance-rated walls. '
+number: 712.3
+---
+level: 2
+name: '0.01 inc. '
+number: 0.01
+---
+level: 2
+name: '712.4 Horizontal assemblies. '
+number: 712.4
+---
+level: 2
+name: '712.4 throug. '
+number: 712.4
+---
+level: 2
+name: '712.5 Penetrations in smoke barriers. '
+number: 712.5
+---
+level: 1
+name: |-
+  SECTION 713 
+   FIRE-RESISTANT JOINT SYSTEMS 
+number: 713
+---
+level: 2
+name: '713.1 General. '
+number: 713.1
+---
+level: 2
+name: '0.625 inc. '
+number: 0.625
+---
+level: 2
+name: '713.2 Installation. '
+number: 713.2
+---
+level: 2
+name: '713.3 Fire test criteria. '
+number: 713.3
+---
+level: 2
+name: '713.4 Exterior curtain wall/floor intersection. '
+number: 713.4
+---
+level: 2
+name: '713.5 Spandrel wall. '
+number: 713.5
+---
+level: 2
+name: '713.6 Fire-resistant joint systems in smok. '
+number: 713.6
+---
+level: 1
+name: "SECTION 714 \n "
+number: 714
+---
+level: 2
+name: '714.1 Requirements. '
+number: 714.1
+---
+level: 2
+name: '714.2 Protection of structural members. '
+number: 714.2
+---
+level: 2
+name: '714.3 Embedments and enclosures. '
+number: 714.3
+---
+level: 2
+name: '714.4 Impact protection. '
+number: 714.4
+---
+level: 2
+name: '714.5 Exterior structural members. '
+number: 714.5
+---
+level: 2
+name: '714.6 Bottom flange protection. '
+number: 714.6
+---
+level: 2
+name: '714.7 Seismic isolation systems. '
+number: 714.7
+---
+level: 1
+name: |-
+  SECTION 715 
+   OPENING PROTECTIVES 
+number: 715
+---
+level: 2
+name: '715.1 General. '
+number: 715.1
+---
+level: 2
+name: '715.2 Fire-resistance-rated glazing. '
+number: 715.2
+---
+level: 2
+name: '715.3 Alternative methods for determining fir. '
+number: 715.3
+---
+level: 2
+name: '715.4 Fire door and shutter assemblies. '
+number: 715.4
+---
+level: 2
+name: '715.5 Fire-protection-rated glazing. '
+number: 715.5
+---
+level: 1
+name: |-
+  SECTION 716 
+   DUCTS AND AIR TRANSFER OPENINGS 
+number: 716
+---
+level: 2
+name: '716.1 General. '
+number: 716.1
+---
+level: 2
+name: '716.2 Installation. '
+number: 716.2
+---
+level: 2
+name: '716.3 Damper testing and ratings. '
+number: 716.3
+---
+level: 2
+name: '716.4 Access and identification. '
+number: 716.4
+---
+level: 2
+name: '716.5 Where required. '
+number: 716.5
+---
+level: 2
+name: '716.6 Horizonta. '
+number: 716.6
+---
+level: 2
+name: '716.7 Flexible ducts and air connectors. '
+number: 716.7
+---
+level: 1
+name: |-
+  SECTION 717 
+   CONCEALED SPACES 
+number: 717
+---
+level: 2
+name: '717.1 General. '
+number: 717.1
+---
+level: 2
+name: '717.2 Fireblocking. '
+number: 717.2
+---
+level: 2
+name: '0.019 inc. '
+number: 0.019
+---
+level: 2
+name: '717.3 Draftstopping in floors. '
+number: 717.3
+---
+level: 2
+name: '717.4 Draftstopping in attics. '
+number: 717.4
+---
+level: 2
+name: '1717.5 Combustible materials in concealed spaces in Typ. '
+number: 1717.5
+---
+level: 1
+name: "SECTION 718 \n "
+number: 718
+---
+level: 2
+name: '718.1 Thickness of plaster. '
+number: 718.1
+---
+level: 2
+name: '718.2 Plaster equivalents. '
+number: 718.2
+---
+level: 2
+name: '718.3 Noncombustible furring. '
+number: 718.3
+---
+level: 2
+name: '718.4 Double reinforcement. '
+number: 718.4
+---
+level: 2
+name: '718.5 Plaster alternatives for concrete. '
+number: 718.5
+---
+level: 1
+name: |-
+  SECTION 719 
+   THERMAL- AND SOUND-INSULATING MATERIALS 
+number: 719
+---
+level: 2
+name: '719.1 General. '
+number: 719.1
+---
+level: 2
+name: '719.2 Concealed installation. '
+number: 719.2
+---
+level: 2
+name: '719.3 Exposed installation. '
+number: 719.3
+---
+level: 2
+name: '719.4 Loose-fill insulation. '
+number: 719.4
+---
+level: 2
+name: '719.5 Roof insulation. '
+number: 719.5
+---
+level: 2
+name: '719.6 Cellulose loose-fill insulation. '
+number: 719.6
+---
+level: 2
+name: '719.7 Insulation and covering on pipe and tubing. '
+number: 719.7
+---
+level: 1
+name: |-
+  SECTION 720 
+   PRESCRIPTIVE FIRE RESISTANCE 
+number: 720
+---
+level: 2
+name: '720.1 General. '
+number: 720.1
+---
+level: 2
+name: '11.1 V2"-deep steel roo. '
+number: 11.1
+---
+level: 1
+name: |-
+  SECTION 721 
+   CALCULATED FIRE RESISTANCE 
+number: 721
+---
+level: 2
+name: '721.1 General. '
+number: 721.1
+---
+level: 2
+name: '721.2 Concrete assemblies. '
+number: 721.2
+---
+level: 2
+name: '721.3 Concrete masonry. '
+number: 721.3
+---
+level: 2
+name: '721.4 Clay brick and tile masonry. '
+number: 721.4
+---
+level: 2
+name: '721.5 Steel assemblies. '
+number: 721.5
+---
+level: 2
+name: '3.65 and which are protected with Type X gypsu. '
+number: 3.65
+---
+level: 2
+name: '0.95 Btu/hr f. '
+number: 0.95
+---
+level: 2
+name: '0.35 Btu/hr f. '
+number: 0.35
+---
+level: 2
+name: '0.20 Btu/l. '
+number: 0.20
+---
+level: 2
+name: '0.20 Btu/l. '
+number: 0.20
+---
+level: 2
+name: '721.6 Wood assemblies. '
+number: 721.6
+---
+level: 0
+name: |
+  CHAPTER 8 
+   INTERIOR FINISHES 
+number: 8
+---
+level: 1
+name: "SECTION 801 \n GENERAL "
+number: 801
+---
+level: 2
+name: '801.1 Scope. '
+number: 801.1
+---
+level: 2
+name: '801.2 Application. '
+number: 801.2
+---
+level: 1
+name: "SECTION 802 \n DEFINITIONS "
+number: 802
+---
+level: 2
+name: '802.1 General. '
+number: 802.1
+---
+level: 1
+name: |-
+  SECTION 803 
+   WALL AND CEILING FINISHES 
+number: 803
+---
+level: 2
+name: '803.1 General. '
+number: 803.1
+---
+level: 2
+name: '803.3 Stability. '
+number: 803.3
+---
+level: 2
+name: '803.4 Application. '
+number: 803.4
+---
+level: 2
+name: '803.5 Interior finish requirements based on group. '
+number: 803.5
+---
+level: 2
+name: '803.6 Textiles. '
+number: 803.6
+---
+level: 2
+name: '803.7 Expanded vinyl wall coverings. '
+number: 803.7
+---
+level: 2
+name: '803.8 Insulation. '
+number: 803.8
+---
+level: 2
+name: '803.9 Acoustical ceiling systems. '
+number: 803.9
+---
+level: 1
+name: |-
+  SECTION 804 
+   INTERIOR FLOOR FINISH 
+number: 804
+---
+level: 2
+name: '804.1 General. '
+number: 804.1
+---
+level: 2
+name: '804.2 Classification. '
+number: 804.2
+---
+level: 2
+name: '804.3 Testing and identification. '
+number: 804.3
+---
+level: 2
+name: '804.4 Interior floor finish requirements. '
+number: 804.4
+---
+level: 1
+name: "SECTION 805 \n "
+number: 805
+---
+level: 2
+name: '805.1 Application. '
+number: 805.1
+---
+level: 1
+name: |-
+  SECTION 806 
+   DECORATIVE MATERIALS AND TRIM 
+number: 806
+---
+level: 2
+name: '806.1 General requirements. '
+number: 806.1
+---
+level: 2
+name: '806.2 Acceptance criteria and reports. '
+number: 806.2
+---
+level: 2
+name: '806.3 Foam plastic. '
+number: 806.3
+---
+level: 2
+name: '806.4 Pyroxylin plastic. '
+number: 806.4
+---
+level: 2
+name: '806.5 Interior trim. '
+number: 806.5
+---
+level: 0
+name: |
+  CHAPTER 9 
+   FIRE PROTECTION SYSTEMS 
+number: 9
+---
+level: 1
+name: "SECTION 901 \n GENERAL "
+number: 901
+---
+level: 2
+name: '901.1 Scope. '
+number: 901.1
+---
+level: 2
+name: '901.2 Fire protection systems. '
+number: 901.2
+---
+level: 2
+name: '901.3 Modifications. '
+number: 901.3
+---
+level: 2
+name: '901.4 Threads. '
+number: 901.4
+---
+level: 2
+name: '901.5 Acceptance tests. '
+number: 901.5
+---
+level: 2
+name: '901.6 Supervisory service. '
+number: 901.6
+---
+level: 2
+name: '907.2 of the International Fire Code shall be monitore. '
+number: 907.2
+---
+level: 2
+name: '901.7 Fire areas. '
+number: 901.7
+---
+level: 1
+name: "SECTION 902 \n DEFINITIONS "
+number: 902
+---
+level: 2
+name: '902.1 Definitions. '
+number: 902.1
+---
+level: 1
+name: |-
+  SECTION 903 
+   AUTOMATIC SPRINKLER SYSTEMS 
+number: 903
+---
+level: 2
+name: '903.1 General. '
+number: 903.1
+---
+level: 2
+name: '903.2 Where required. '
+number: 903.2
+---
+level: 2
+name: '903.3 Installation requirements. '
+number: 903.3
+---
+level: 2
+name: '903.4 Sprinkler system monitoring and alarms. '
+number: 903.4
+---
+level: 2
+name: '903.5 Testing and maintenance. '
+number: 903.5
+---
+level: 1
+name: "SECTION 904 \n "
+number: 904
+---
+level: 2
+name: '904.1 General. '
+number: 904.1
+---
+level: 2
+name: '904.2 Where required. '
+number: 904.2
+---
+level: 2
+name: '904.3 Installation. '
+number: 904.3
+---
+level: 2
+name: '904.4 Inspection and testing. '
+number: 904.4
+---
+level: 2
+name: '904.5 Wet-chemical systems. '
+number: 904.5
+---
+level: 2
+name: '904.6 Dry-chemical systems. '
+number: 904.6
+---
+level: 2
+name: '904.7 Foam systems. '
+number: 904.7
+---
+level: 2
+name: '904.8 Carbon dioxide systems. '
+number: 904.8
+---
+level: 2
+name: '904.9 Halon systems. '
+number: 904.9
+---
+level: 2
+name: '904.10 Clean-agent systems. '
+number: 904.10
+---
+level: 2
+name: '904.11 Commercial cooking systems. '
+number: 904.11
+---
+level: 2
+name: '304.1 of the International Mechanica. '
+number: 304.1
+---
+level: 1
+name: |-
+  SECTION 905 
+   STANDPIPE SYSTEMS 
+number: 905
+---
+level: 2
+name: '905.1 General. '
+number: 905.1
+---
+level: 2
+name: '905.2 Installation standard. '
+number: 905.2
+---
+level: 2
+name: '905.3 Required installations. '
+number: 905.3
+---
+level: 2
+name: '905.4 Location of Class I standpipe hos. '
+number: 905.4
+---
+level: 2
+name: '905.5 Location of Class II standpipe hos. '
+number: 905.5
+---
+level: 2
+name: '905.6 Location of Class III standpipe hos. '
+number: 905.6
+---
+level: 2
+name: '905.7 Cabinets. '
+number: 905.7
+---
+level: 2
+name: '905.8 Dry standpipes. '
+number: 905.8
+---
+level: 2
+name: '905.9 Valve supervision. '
+number: 905.9
+---
+level: 2
+name: '905.10 During construction. '
+number: 905.10
+---
+level: 1
+name: |-
+  SECTION 906 
+   PORTABLE FIRE EXTINGUISHERS 
+number: 906
+---
+level: 2
+name: '906.1 General. '
+number: 906.1
+---
+level: 1
+name: |-
+  SECTION 907 
+   FIRE ALARM AND DETECTION SYSTEMS 
+number: 907
+---
+level: 2
+name: '907.1 General. '
+number: 907.1
+---
+level: 2
+name: '907.3 Manual fire alarm boxes. '
+number: 907.3
+---
+level: 2
+name: '907.4 Power supply. '
+number: 907.4
+---
+level: 2
+name: '907.5 Wiring. '
+number: 907.5
+---
+level: 2
+name: '907.6 Activation. '
+number: 907.6
+---
+level: 2
+name: '907.7 Presignal system. '
+number: 907.7
+---
+level: 2
+name: '907.8 Zones. '
+number: 907.8
+---
+level: 2
+name: '907.9 Alarm notification appliances. '
+number: 907.9
+---
+level: 2
+name: '907.10 Fire safety functions. '
+number: 907.10
+---
+level: 2
+name: '907.11 Duct smoke detectors. '
+number: 907.11
+---
+level: 2
+name: '907.12 Access. '
+number: 907.12
+---
+level: 2
+name: '907.13 Fire-extinguishing systems. '
+number: 907.13
+---
+level: 2
+name: '907.14 Monitoring. '
+number: 907.14
+---
+level: 2
+name: '907.15 Automatic telephone-dialing devices. '
+number: 907.15
+---
+level: 2
+name: '907.16 Acceptance tests. '
+number: 907.16
+---
+level: 2
+name: '907.17 Record of completion. '
+number: 907.17
+---
+level: 2
+name: '907.18 Instructions. '
+number: 907.18
+---
+level: 2
+name: '907.19 Inspection, testing and maintenance. '
+number: 907.19
+---
+level: 1
+name: |-
+  SECTION 908 
+   EMERGENCY ALARM SYSTEMS 
+number: 908
+---
+level: 2
+name: '908.1 Group H occupancies. '
+number: 908.1
+---
+level: 2
+name: '908.2 Group H-5 occupancy. '
+number: 908.2
+---
+level: 2
+name: '908.3 Highly toxic and toxic materials. '
+number: 908.3
+---
+level: 2
+name: '908.4 Ozone gas-generator rooms. '
+number: 908.4
+---
+level: 2
+name: '908.5 Repair garages. '
+number: 908.5
+---
+level: 2
+name: '908.6 Refrigerant detector. '
+number: 908.6
+---
+level: 1
+name: |-
+  SECTION 909 
+   SMOKE CONTROL SYSTEMS 
+number: 909
+---
+level: 2
+name: '909.1 Scope and purpose. '
+number: 909.1
+---
+level: 2
+name: '909.2 General design requirements. '
+number: 909.2
+---
+level: 2
+name: '909.3 Special inspection and test requirements. '
+number: 909.3
+---
+level: 2
+name: '909.4 Analysis. '
+number: 909.4
+---
+level: 2
+name: '909.5 Smoke barrier construction. '
+number: 909.5
+---
+level: 2
+name: '909.6 Pressurization method. '
+number: 909.6
+---
+level: 2
+name: '909.7 Airflow design method. '
+number: 909.7
+---
+level: 2
+name: '909.8 Exhaust method. '
+number: 909.8
+---
+level: 2
+name: '909.9 Design fire. '
+number: 909.9
+---
+level: 2
+name: '909.10 Equipment. '
+number: 909.10
+---
+level: 2
+name: '909.11 Power systems. '
+number: 909.11
+---
+level: 2
+name: '909.12 Detection and control systems. '
+number: 909.12
+---
+level: 2
+name: '909.13 Control air tubing. '
+number: 909.13
+---
+level: 2
+name: '909.14 Marlcing and identification. '
+number: 909.14
+---
+level: 2
+name: '909.15 Control diagrams. '
+number: 909.15
+---
+level: 2
+name: "909.16 Fire-fighter's smoke control panel. "
+number: 909.16
+---
+level: 2
+name: '909.17 System response time. '
+number: 909.17
+---
+level: 2
+name: '909.18 Acceptance testing. '
+number: 909.18
+---
+level: 2
+name: '909.19 System acceptance. '
+number: 909.19
+---
+level: 2
+name: '909.20 Smokeproof enclosures. '
+number: 909.20
+---
+level: 1
+name: |-
+  SECTION 910 
+   SMOKE AND HEAT VENTS 
+number: 910
+---
+level: 2
+name: '910.1 General. '
+number: 910.1
+---
+level: 2
+name: '910.2 Where required. '
+number: 910.2
+---
+level: 2
+name: '910.3 Design and installation. '
+number: 910.3
+---
+level: 2
+name: '910.4 Mechanical smoke exhaust. '
+number: 910.4
+---
+level: 1
+name: |-
+  SECTION 911 
+   FIRE COMMAND CENTER 
+number: 911
+---
+level: 2
+name: '911.1 Features. '
+number: 911.1
+---
+level: 2
+name: '912.2 Location. '
+number: 912.2
+---
+level: 2
+name: '912.4 Signs. '
+number: 912.4
+---
+level: 1
+name: |-
+  SECTION 912 
+   FIRE DEPARTMENT CONNECTIONS 
+number: 912
+---
+level: 2
+name: '912.1 Installation. '
+number: 912.1
+---
+level: 0
+name: "CHAPTER 10 \n MEANS OF EGRESS \n"
+number: 1
+---
+level: 1
+name: "SECTION 1001 \n ADMINISTRATION "
+number: 1001
+---
+level: 2
+name: '1001.1 General. '
+number: 1001.1
+---
+level: 2
+name: '1001.2 Minimum requirements. '
+number: 1001.2
+---
+level: 2
+name: '1001.3 Maintenance. '
+number: 1001.3
+---
+level: 1
+name: "SECTION 1002 \n DEFINITIONS "
+number: 1002
+---
+level: 2
+name: '1002.1 Definitions. '
+number: 1002.1
+---
+level: 1
+name: |-
+  SECTION 1003 
+   GENERAL MEANS OF EGRESS 
+number: 1003
+---
+level: 2
+name: '1003.1 Applicability. '
+number: 1003.1
+---
+level: 2
+name: '1003.2 Ceiling height. '
+number: 1003.2
+---
+level: 2
+name: '1003.3 Protruding objects. '
+number: 1003.3
+---
+level: 2
+name: '1003.4 Floor surface. '
+number: 1003.4
+---
+level: 2
+name: '1003.5 Elevation change. '
+number: 1003.5
+---
+level: 2
+name: '1003.6 Means of egress continuity. '
+number: 1003.6
+---
+level: 2
+name: '1003.7 Elevators, escalators and moving walks. '
+number: 1003.7
+---
+level: 1
+name: "SECTION 1004 \n OCCUPANT LOAD "
+number: 1004
+---
+level: 2
+name: '1004.1 Design occupant load. '
+number: 1004.1
+---
+level: 2
+name: '1004.2 Increased occupant load. '
+number: 1004.2
+---
+level: 2
+name: '1004.3 Posting of occupant load. '
+number: 1004.3
+---
+level: 2
+name: '1004.4 Exiting from multiple levels. '
+number: 1004.4
+---
+level: 2
+name: '1004.5 Egress convergence. '
+number: 1004.5
+---
+level: 2
+name: '1004.6 Mezzanine levels. '
+number: 1004.6
+---
+level: 2
+name: '1004.7 Fixed seating. '
+number: 1004.7
+---
+level: 2
+name: '1004.8 Outdoor areas. '
+number: 1004.8
+---
+level: 2
+name: '1004.9 Multiple occupancies. '
+number: 1004.9
+---
+level: 1
+name: "SECTION 1005 \n EGRESS WIDTH "
+number: 1005
+---
+level: 2
+name: '1005.1 Minimum required egress width. '
+number: 1005.1
+---
+level: 2
+name: '1005.2 Door encroachment. '
+number: 1005.2
+---
+level: 2
+name: '1006.4 Performance of system. '
+number: 1006.4
+---
+level: 1
+name: |-
+  SECTION 1006 
+   MEANS OF EGRESS ILLUMINATION 
+number: 1006
+---
+level: 2
+name: '1006.1 Illumination required. '
+number: 1006.1
+---
+level: 2
+name: '1006.2 Illumination level. '
+number: 1006.2
+---
+level: 2
+name: '1006.3 Illumination emergency power. '
+number: 1006.3
+---
+level: 1
+name: |-
+  SECTION 1007 
+   ACCESSIBLE MEANS OF EGRESS 
+number: 1007
+---
+level: 2
+name: '1007.1 Accessible means of egress required. '
+number: 1007.1
+---
+level: 2
+name: '1007.2 Continuity and components. '
+number: 1007.2
+---
+level: 2
+name: '11007.3 Exit stairways. '
+number: 11007.3
+---
+level: 2
+name: '1020.1 are permitted to be considered part o. '
+number: 1020.1
+---
+level: 2
+name: '1007.4 Elevators. '
+number: 1007.4
+---
+level: 2
+name: '2.27 of ASM. '
+number: 2.27
+---
+level: 2
+name: '1007.6 or a horizonta. '
+number: 1007.6
+---
+level: 2
+name: '1007.5 Platform lifts. '
+number: 1007.5
+---
+level: 2
+name: '1007.6 Areas of refuge. '
+number: 1007.6
+---
+level: 2
+name: '1020.1 or an elevator complying with Sectio. '
+number: 1020.1
+---
+level: 2
+name: '1007.7 Signage. '
+number: 1007.7
+---
+level: 2
+name: '1007.8 Exterior area for assisted rescue. '
+number: 1007.8
+---
+level: 1
+name: |-
+  SECTION 1008 
+   DOORS, GATES AND TURNSTILES 
+number: 1008
+---
+level: 2
+name: '1008.1 Doors. '
+number: 1008.1
+---
+level: 2
+name: '31.75 inches (80. '
+number: 31.75
+---
+level: 2
+name: '1008.1 in the same wall and within 10 fee. '
+number: 1008.1
+---
+level: 2
+name: '1008.2 Gates. '
+number: 1008.2
+---
+level: 2
+name: '1008.3 Tlirnstiles. '
+number: 1008.3
+---
+level: 2
+name: '1008.1 within 50 feet (15 24. '
+number: 1008.1
+---
+level: 1
+name: "SECTION 1009 \n STAIRWAYS "
+number: 1009
+---
+level: 2
+name: '1009.1 Stairway width. '
+number: 1009.1
+---
+level: 2
+name: '1009.2 Headroom. '
+number: 1009.2
+---
+level: 2
+name: '1009.8 are permitted a 78-inch (1981 mm) headroo. '
+number: 1009.8
+---
+level: 2
+name: '1009.3 Stair treads and risers. '
+number: 1009.3
+---
+level: 2
+name: '1009.4 Stairway landings. '
+number: 1009.4
+---
+level: 2
+name: '1009.5 Stairway construction. '
+number: 1009.5
+---
+level: 2
+name: '1009.6 Vertical rise. '
+number: 1009.6
+---
+level: 2
+name: '1009.7 Curved stairways. '
+number: 1009.7
+---
+level: 2
+name: '1009.3 and the smallest radius shall not be less than twic. '
+number: 1009.3
+---
+level: 2
+name: '1009.8 Spiral stairways. '
+number: 1009.8
+---
+level: 2
+name: '1009.9 Alternating tread devices. '
+number: 1009.9
+---
+level: 2
+name: '1009.10 Handrails. '
+number: 1009.10
+---
+level: 2
+name: '1009.11 Stairway to roof. '
+number: 1009.11
+---
+level: 1
+name: "SECTION 1010 \n RAMPS "
+number: 1010
+---
+level: 2
+name: '1010.1 Scope. '
+number: 1010.1
+---
+level: 2
+name: '1010.3 throug. '
+number: 1010.3
+---
+level: 2
+name: '1010.2 Slope. '
+number: 1010.2
+---
+level: 2
+name: '1010.3 Cross slope. '
+number: 1010.3
+---
+level: 2
+name: '1010.4 Vertical rise. '
+number: 1010.4
+---
+level: 2
+name: '1010.5 Minimum dimensions. '
+number: 1010.5
+---
+level: 2
+name: '1010.6 Landings. '
+number: 1010.6
+---
+level: 2
+name: '1010.7 Ramp construction. '
+number: 1010.7
+---
+level: 2
+name: '1020.1 throug. '
+number: 1020.1
+---
+level: 2
+name: '1010.8 Handrails. '
+number: 1010.8
+---
+level: 2
+name: '1010.9 Edge protection. '
+number: 1010.9
+---
+level: 2
+name: '0.5 inc. '
+number: 0.5
+---
+level: 2
+name: '1010.10 Guards. '
+number: 1010.10
+---
+level: 1
+name: "SECTION 1011 \n EXIT SIGNS "
+number: 1011
+---
+level: 2
+name: '1011.1 Where required. '
+number: 1011.1
+---
+level: 2
+name: '1011.2 Illumination. '
+number: 1011.2
+---
+level: 2
+name: '1011.3 Tactile exit signs. '
+number: 1011.3
+---
+level: 2
+name: '1011.4 Internally illuminated exit signs. '
+number: 1011.4
+---
+level: 2
+name: '1011.5 Externally illuminated exit signs. '
+number: 1011.5
+---
+level: 1
+name: "SECTION 1012 \n HANDRAILS "
+number: 1012
+---
+level: 2
+name: '1012.1 Where required. '
+number: 1012.1
+---
+level: 2
+name: '1012.2 Height. '
+number: 1012.2
+---
+level: 2
+name: '1012.3 Handrail graspability. '
+number: 1012.3
+---
+level: 2
+name: '1012.4 Continuity. '
+number: 1012.4
+---
+level: 2
+name: '1.5 inches (38 mm) shall be permitted to b. '
+number: 1.5
+---
+level: 2
+name: '1012.5 Handrail extensions. '
+number: 1012.5
+---
+level: 2
+name: '1012.6 Clearance. '
+number: 1012.6
+---
+level: 2
+name: '1012.7 Projections. '
+number: 1012.7
+---
+level: 2
+name: '1012.8 Intermediate handrails. '
+number: 1012.8
+---
+level: 1
+name: "SECTION 1013 \n GUARDS "
+number: 1013
+---
+level: 2
+name: '1013.1 Where required. '
+number: 1013.1
+---
+level: 2
+name: '1013.2 Height. '
+number: 1013.2
+---
+level: 2
+name: '1013.3 Opening limitations. '
+number: 1013.3
+---
+level: 2
+name: '1013.4 Screen porches. '
+number: 1013.4
+---
+level: 2
+name: '1013.5 Mechanical equipment Guards shall be provide. '
+number: 1013.5
+---
+level: 2
+name: '1013.6 Roof access. '
+number: 1013.6
+---
+level: 1
+name: "SECTION 1014 \n EXIT ACCESS "
+number: 1014
+---
+level: 2
+name: '1014.1 General. '
+number: 1014.1
+---
+level: 2
+name: '1014.2 Egress through intervening spaces. '
+number: 1014.2
+---
+level: 2
+name: '1014.3 Common path of egress travel. '
+number: 1014.3
+---
+level: 2
+name: '1014.4 Aisles. '
+number: 1014.4
+---
+level: 2
+name: '1014.5 Egress balconies. '
+number: 1014.5
+---
+level: 1
+name: |-
+  SECTION 1015 
+   EXIT AND EXIT ACCESS DOORWAYS 
+number: 1015
+---
+level: 2
+name: '1015.1 Exit or exit access doorways required. '
+number: 1015.1
+---
+level: 2
+name: '1015.2 Exit or exit access doorway arrangement. '
+number: 1015.2
+---
+level: 2
+name: '1015.3 Boiler, incinerator and furnace rooms. '
+number: 1015.3
+---
+level: 2
+name: '1015.4 Refrigeration machinery rooms. '
+number: 1015.4
+---
+level: 2
+name: '1015.5 Refrigerated rooms or spaces. '
+number: 1015.5
+---
+level: 2
+name: '1015.6 Stage means of egress. '
+number: 1015.6
+---
+level: 1
+name: |-
+  SECTION 1016 
+   EXIT ACCESS TRAVEL DISTANCE 
+number: 1016
+---
+level: 2
+name: '1016.1 Travel distance limitations. '
+number: 1016.1
+---
+level: 2
+name: '1016.2 Roof vent increase. '
+number: 1016.2
+---
+level: 2
+name: '1016.3 Exterior egress balcony increase. '
+number: 1016.3
+---
+level: 1
+name: "SECTION 1017 \n CORRIDORS "
+number: 1017
+---
+level: 2
+name: '1017.1 Construction. '
+number: 1017.1
+---
+level: 2
+name: '1017.2 Corridor width. '
+number: 1017.2
+---
+level: 2
+name: '1017.3 Dead ends. '
+number: 1017.3
+---
+level: 2
+name: '2.5 times the least width of the dead-en. '
+number: 2.5
+---
+level: 2
+name: '1017.4 Air movement in corridors. '
+number: 1017.4
+---
+level: 2
+name: '1017.5 Corridor continuity. '
+number: 1017.5
+---
+level: 1
+name: "SECTION 1018 \n EXITS "
+number: 1018
+---
+level: 2
+name: '1018.1 General. '
+number: 1018.1
+---
+level: 2
+name: '1018.2 Exterior exit doors. '
+number: 1018.2
+---
+level: 1
+name: |-
+  SECTION 1019 
+   NUMBER OF EXITS AND CONTINUITY 
+number: 1019
+---
+level: 2
+name: '1019.1 Minimum number of exits. '
+number: 1019.1
+---
+level: 2
+name: '1019.2 Buildings with one exit. '
+number: 1019.2
+---
+level: 2
+name: '1019.3 Exit continuity. '
+number: 1019.3
+---
+level: 2
+name: '1019.4 Exit door arrangement. '
+number: 1019.4
+---
+level: 1
+name: |-
+  SECTION 1020 
+   VERTICAL EXIT ENCLOSURES 
+number: 1020
+---
+level: 2
+name: '1020.1 Enclosures required. '
+number: 1020.1
+---
+level: 1
+name: |-
+  SECTION 1021 
+   EXIT PASSAGEWAYS 
+number: 1021
+---
+level: 2
+name: '1021.1 Exit passageway. '
+number: 1021.1
+---
+level: 2
+name: '1021.2 Width. '
+number: 1021.2
+---
+level: 2
+name: '1021.3 Construction. '
+number: 1021.3
+---
+level: 2
+name: '1021.4 Openings and penetrations. '
+number: 1021.4
+---
+level: 2
+name: '1021.5 Penetrations. '
+number: 1021.5
+---
+level: 1
+name: |-
+  SECTION 1022 
+   HORIZONTAL EXITS 
+number: 1022
+---
+level: 2
+name: '1022.1 Horizontal exits. '
+number: 1022.1
+---
+level: 2
+name: '1022.2 Separation. '
+number: 1022.2
+---
+level: 2
+name: '1022.3 Opening protectives. '
+number: 1022.3
+---
+level: 2
+name: '11022.4 Capacity of refuge area. '
+number: 11022.4
+---
+level: 1
+name: |-
+  SECTION 1023 
+   EXTERIOR EXIT RAMPS AND STAIRWAYS 
+number: 1023
+---
+level: 2
+name: '1023.1 Exterior exit ramps and stairways. '
+number: 1023.1
+---
+level: 2
+name: '1023.2 Use in a means of egress. '
+number: 1023.2
+---
+level: 2
+name: '1023.3 Open side. '
+number: 1023.3
+---
+level: 2
+name: '1023.4 Side yards. '
+number: 1023.4
+---
+level: 2
+name: '1023.5 Location. '
+number: 1023.5
+---
+level: 2
+name: '1023.6 Exterior ramps and stairway protection. '
+number: 1023.6
+---
+level: 1
+name: "SECTION 1024 \n EXIT DISCHARGE "
+number: 1024
+---
+level: 2
+name: '1024.1 General. '
+number: 1024.1
+---
+level: 2
+name: '1024.2 Exit discharge capacity. '
+number: 1024.2
+---
+level: 2
+name: '1024.3 Exit discharge location. '
+number: 1024.3
+---
+level: 2
+name: '1024.4 Exit discharge components. '
+number: 1024.4
+---
+level: 2
+name: '1024.5 Egress courts. '
+number: 1024.5
+---
+level: 2
+name: '1024.6 Access to a public way. '
+number: 1024.6
+---
+level: 1
+name: "SECTION 1025 \n ASSEMBLY "
+number: 1025
+---
+level: 2
+name: '1025.1 General. '
+number: 1025.1
+---
+level: 2
+name: '1025.2 Assembly main exit. '
+number: 1025.2
+---
+level: 2
+name: '1025.3 Assembly other exits. '
+number: 1025.3
+---
+level: 2
+name: '1025.4 Foyers and lobbies. '
+number: 1025.4
+---
+level: 2
+name: '1025.5 Interior balcony and gallery means of egress. '
+number: 1025.5
+---
+level: 2
+name: '1025.6 Width of means of egress for assembly. '
+number: 1025.6
+---
+level: 2
+name: '1025.7 Travel distance. '
+number: 1025.7
+---
+level: 2
+name: '1025.8 Common path of travel. '
+number: 1025.8
+---
+level: 2
+name: '1025.9 Assembly aisles are required. '
+number: 1025.9
+---
+level: 2
+name: '1025.10 Clear width of aisle accessways servin. '
+number: 1025.10
+---
+level: 2
+name: '1025.11 Assembly aisle walking surfaces. '
+number: 1025.11
+---
+level: 2
+name: '1025.12 Seat stability. '
+number: 1025.12
+---
+level: 2
+name: '1025.13 Handrails. '
+number: 1025.13
+---
+level: 2
+name: '1025.14 Assembly guards. '
+number: 1025.14
+---
+level: 2
+name: '1025.15 Bench seating. '
+number: 1025.15
+---
+level: 1
+name: |-
+  SECTION 1026 
+   EMERGENCY ESCAPE AND RESCUE 
+number: 1026
+---
+level: 2
+name: '1026.1 General. '
+number: 1026.1
+---
+level: 2
+name: '1026.2 Minimum size. '
+number: 1026.2
+---
+level: 2
+name: '1026.3 Maximum height from floor. '
+number: 1026.3
+---
+level: 2
+name: '1026.4 Operational constraints. '
+number: 1026.4
+---
+level: 2
+name: '1026.5 Window wells. '
+number: 1026.5
+---
+level: 0
+name: "CHAPTER 11 \n ACCESSIBILITY \n"
+number: 1
+---
+level: 1
+name: "SECTION 1101 \n GENERAL "
+number: 1101
+---
+level: 2
+name: '1101.1 Scope. '
+number: 1101.1
+---
+level: 2
+name: '1101.2 Design. '
+number: 1101.2
+---
+level: 1
+name: "SECTION 1102 \n DEFINITIONS "
+number: 1102
+---
+level: 2
+name: '1102.1 Definitions. '
+number: 1102.1
+---
+level: 1
+name: |-
+  SECTION 1103 
+   SCOPING REQUIREMENTS 
+number: 1103
+---
+level: 2
+name: '1103.1 Where required. '
+number: 1103.1
+---
+level: 2
+name: '1103.2 General exceptions. '
+number: 1103.2
+---
+level: 1
+name: |-
+  SECTION 1104 
+   ACCESSIBLE ROUTE 
+number: 1104
+---
+level: 2
+name: '1104.1 Site arrival points. '
+number: 1104.1
+---
+level: 2
+name: '1104.2 Within a site. '
+number: 1104.2
+---
+level: 2
+name: '1104.3 Connected spaces. '
+number: 1104.3
+---
+level: 2
+name: '1104.4 Multilevel buildings and facilities. '
+number: 1104.4
+---
+level: 2
+name: '1104.5 Location. '
+number: 1104.5
+---
+level: 2
+name: '1104.6 Security barriers. '
+number: 1104.6
+---
+level: 1
+name: |-
+  SECTION 1105 
+   ACCESSIBLE ENTRANCES 
+number: 1105
+---
+level: 2
+name: '1105.1 Public entrances. '
+number: 1105.1
+---
+level: 1
+name: |-
+  SECTION 1106 
+   PARKING AND PASSENGER LOADING FACILITIES 
+number: 1106
+---
+level: 2
+name: '1106.1 Required. '
+number: 1106.1
+---
+level: 2
+name: '1106.2 Groups R-2 and R-3. '
+number: 1106.2
+---
+level: 2
+name: '1106.3 Hospital outpatient facilities. '
+number: 1106.3
+---
+level: 2
+name: '1106.4 Rehabilitation facilities and outpatien. '
+number: 1106.4
+---
+level: 2
+name: '1106.5 Van spaces. '
+number: 1106.5
+---
+level: 2
+name: '1106.6 Location. '
+number: 1106.6
+---
+level: 2
+name: '1106.7 Passenger loading zones. '
+number: 1106.7
+---
+level: 1
+name: |-
+  SECTION 1107 
+   DWELLING UNITS AND SLEEPING UNITS 
+number: 1107
+---
+level: 2
+name: '1107.1 General. '
+number: 1107.1
+---
+level: 2
+name: '1107.2 Design. '
+number: 1107.2
+---
+level: 2
+name: '1107.3 Accessible spaces. '
+number: 1107.3
+---
+level: 2
+name: '1107.4 Accessible route. '
+number: 1107.4
+---
+level: 2
+name: '11107.5 Group I. '
+number: 11107.5
+---
+level: 2
+name: '1107.6 Group R. '
+number: 1107.6
+---
+level: 2
+name: '1107.7 General exceptions. '
+number: 1107.7
+---
+level: 1
+name: |-
+  SECTION 1108 
+   SPECIAL OCCUPANCIES 
+number: 1108
+---
+level: 2
+name: '1108.1 General. '
+number: 1108.1
+---
+level: 2
+name: '1108.2 Assembly area seating. '
+number: 1108.2
+---
+level: 2
+name: '1108.3 Self-service storage facilities. '
+number: 1108.3
+---
+level: 2
+name: '1108.4 Judicial facilities. '
+number: 1108.4
+---
+level: 1
+name: |-
+  SECTION 1109 
+   OTHER FEATURES AND FACILITIES 
+number: 1109
+---
+level: 2
+name: '1109.1 General. '
+number: 1109.1
+---
+level: 2
+name: '1109.2 Toilet and bathing facilities. '
+number: 1109.2
+---
+level: 2
+name: '1109.3 Sinks. '
+number: 1109.3
+---
+level: 2
+name: '1109.4 Kitchens and kitchenettes. '
+number: 1109.4
+---
+level: 2
+name: '1109.5 Drinking fountains. '
+number: 1109.5
+---
+level: 2
+name: '1109.6 Elevators. '
+number: 1109.6
+---
+level: 2
+name: '1109.7 Lifts. '
+number: 1109.7
+---
+level: 2
+name: '1109.8 Storage. '
+number: 1109.8
+---
+level: 2
+name: '1109.9 Detectable warnings. '
+number: 1109.9
+---
+level: 2
+name: '1109.10 Assembly area seating. '
+number: 1109.10
+---
+level: 2
+name: '1109.11 Seating at tables, counters and wor. '
+number: 1109.11
+---
+level: 2
+name: '1109.12 Service faciUties. '
+number: 1109.12
+---
+level: 2
+name: '1109.13 Controls, operating mechanisms an. '
+number: 1109.13
+---
+level: 2
+name: '1109.14 Recreational and sports facilities. '
+number: 1109.14
+---
+level: 1
+name: "SECTION 1110 \n SIGNAGE "
+number: 1110
+---
+level: 2
+name: '1110.1 Signs. '
+number: 1110.1
+---
+level: 2
+name: '1110.2 Directional signage. '
+number: 1110.2
+---
+level: 2
+name: '1110.3 Other signs. '
+number: 1110.3
+---
+level: 0
+name: |
+  CHAPTER 12 
+   INTERIOR ENVIRONMENT 
+number: 1
+---
+level: 1
+name: "SECTION 1201 \n GENERAL "
+number: 1201
+---
+level: 2
+name: '1201.1 Scope. '
+number: 1201.1
+---
+level: 1
+name: "SECTION 1202 \n DEFINITIONS "
+number: 1202
+---
+level: 2
+name: '1202.1 General. '
+number: 1202.1
+---
+level: 1
+name: "SECTION 1203 \n VENTILATION "
+number: 1203
+---
+level: 2
+name: '1203.1 General. '
+number: 1203.1
+---
+level: 2
+name: '1203.2 Attic spaces. '
+number: 1203.2
+---
+level: 2
+name: '1203.3 Under-floor ventilation. '
+number: 1203.3
+---
+level: 2
+name: '1203.4 Natural ventilation. '
+number: 1203.4
+---
+level: 2
+name: '1203.5 Other ventilation and exhaust systems. '
+number: 1203.5
+---
+level: 1
+name: |-
+  SECTION 1204 
+   TEMPERATURE CONTROL 
+number: 1204
+---
+level: 2
+name: '1204.1 Equipment and systems. '
+number: 1204.1
+---
+level: 1
+name: "SECTION 1205 \n LIGHTING "
+number: 1205
+---
+level: 2
+name: '1205.1 General. '
+number: 1205.1
+---
+level: 2
+name: '1205.2 Natural light. '
+number: 1205.2
+---
+level: 2
+name: '1205.3 Artificial light. '
+number: 1205.3
+---
+level: 2
+name: '1205.4 Stairway illumination. '
+number: 1205.4
+---
+level: 2
+name: '1205.5 Emergency egress lighting. '
+number: 1205.5
+---
+level: 2
+name: '1207.2 Air-borne sound. '
+number: 1207.2
+---
+level: 2
+name: '1207.3 Structure-borne sound. '
+number: 1207.3
+---
+level: 1
+name: |-
+  SECTION 1206 
+   YARDS OR COURTS 
+number: 1206
+---
+level: 2
+name: '1206.1 General. '
+number: 1206.1
+---
+level: 2
+name: '1206.2 Yards. '
+number: 1206.2
+---
+level: 2
+name: '1206.3 Courts. '
+number: 1206.3
+---
+level: 1
+name: |-
+  SECTION 1207 
+   SOUND TRANSMISSION 
+number: 1207
+---
+level: 2
+name: '1207.1 Scope. '
+number: 1207.1
+---
+level: 1
+name: |-
+  SECTION 1208 
+   INTERIOR SPACE DIMENSIONS 
+number: 1208
+---
+level: 2
+name: '1208.1 Minimum room widths. '
+number: 1208.1
+---
+level: 2
+name: '1208.2 Minimum ceiling heights. '
+number: 1208.2
+---
+level: 2
+name: '1208.3 Room area. '
+number: 1208.3
+---
+level: 2
+name: '1208.4 Efficiency dwelling units. '
+number: 1208.4
+---
+level: 2
+name: '1210.4 Waterproof joints. '
+number: 1210.4
+---
+level: 2
+name: '1210.5 Toilet rooms. '
+number: 1210.5
+---
+level: 1
+name: |-
+  SECTION 1209 
+   ACCESS TO UNOCCUPIED SPACES 
+number: 1209
+---
+level: 2
+name: '1209.1 Crawl spaces. '
+number: 1209.1
+---
+level: 2
+name: '1209.2 Attic spaces. '
+number: 1209.2
+---
+level: 2
+name: '1209.3 Mechanical appliances. '
+number: 1209.3
+---
+level: 1
+name: |-
+  SECTION 1210 
+   SURROUNDING MATERIALS 
+number: 1210
+---
+level: 2
+name: '1210.1 Floors. '
+number: 1210.1
+---
+level: 2
+name: '1210.2 Walls. '
+number: 1210.2
+---
+level: 2
+name: '1210.3 Showers. '
+number: 1210.3
+---
+level: 0
+name: |
+  CHAPTER 13 
+   ENERGY EFFICIENCY 
+number: 1
+---
+level: 1
+name: "SECTION 1301 \n GENERAL "
+number: 1301
+---
+level: 2
+name: '1301.1 Scope. '
+number: 1301.1
+---
+level: 0
+name: "CHAPTER 14 \n EXTERIOR WALLS \n"
+number: 1
+---
+level: 1
+name: "SECTION 1401 \n GENERAL "
+number: 1401
+---
+level: 2
+name: '1401.1 Scope. '
+number: 1401.1
+---
+level: 1
+name: "SECTION 1402 \n DEFINITIONS "
+number: 1402
+---
+level: 2
+name: '1402.1 General. '
+number: 1402.1
+---
+level: 1
+name: |-
+  SECTION 1403 
+   PERFORMANCE REQUIREMENTS 
+number: 1403
+---
+level: 2
+name: '1403.1 General. '
+number: 1403.1
+---
+level: 2
+name: '1403.2 Weather protection. '
+number: 1403.2
+---
+level: 2
+name: '6.24 pounds per square foot (psf. '
+number: 6.24
+---
+level: 2
+name: '1403.3 Structural. '
+number: 1403.3
+---
+level: 2
+name: '1403.4 Fire resistance. '
+number: 1403.4
+---
+level: 2
+name: '1403.5 Flood resistance. '
+number: 1403.5
+---
+level: 2
+name: '1403.6 Flood resistance for high- velocity wave actio. '
+number: 1403.6
+---
+level: 1
+name: "SECTION 1404 \n MATERIALS "
+number: 1404
+---
+level: 2
+name: '1404.1 General. '
+number: 1404.1
+---
+level: 2
+name: '1404.2 Water-resistive barrier. '
+number: 1404.2
+---
+level: 2
+name: '1404.3 Wood. '
+number: 1404.3
+---
+level: 2
+name: '1404.4 Masonry. '
+number: 1404.4
+---
+level: 2
+name: '1404.5 Metal. '
+number: 1404.5
+---
+level: 2
+name: '1404.6 Concrete. '
+number: 1404.6
+---
+level: 2
+name: '1404.7 Glass-unit masonry. '
+number: 1404.7
+---
+level: 2
+name: '1404.8 Plastics. '
+number: 1404.8
+---
+level: 2
+name: '1404.9 Vinyl siding. '
+number: 1404.9
+---
+level: 2
+name: '1404.10 Fiber cement siding. '
+number: 1404.10
+---
+level: 1
+name: |-
+  SECTION 1405 
+   INSTALLATION OF WALL COVERINGS 
+number: 1405
+---
+level: 2
+name: '1405.1 General. '
+number: 1405.1
+---
+level: 2
+name: '1405.2 Weather protection. '
+number: 1405.2
+---
+level: 2
+name: '1405.3 Flashing. '
+number: 1405.3
+---
+level: 2
+name: '1405.4 Wood veneers. '
+number: 1405.4
+---
+level: 2
+name: '1405.5 Anchored masonry veneer. '
+number: 1405.5
+---
+level: 2
+name: '1405.6 Stone veneer. '
+number: 1405.6
+---
+level: 2
+name: '1405.7 Slab-type veneer. '
+number: 1405.7
+---
+level: 2
+name: '1405.8 Terra cotta. '
+number: 1405.8
+---
+level: 2
+name: '1405.9 Adhered masonry veneer. '
+number: 1405.9
+---
+level: 2
+name: '1405.10 Metal veneers. '
+number: 1405.10
+---
+level: 2
+name: '1405.11 Glass veneer. '
+number: 1405.11
+---
+level: 2
+name: '1405.12 Exterior windows and doors. '
+number: 1405.12
+---
+level: 2
+name: '1405.13 Vinyl siding. '
+number: 1405.13
+---
+level: 2
+name: '1405.14 Cement plaster. '
+number: 1405.14
+---
+level: 2
+name: '1405.15 Fiber cement siding. '
+number: 1405.15
+---
+level: 2
+name: '1405.16 Fastening. '
+number: 1405.16
+---
+level: 2
+name: '1405.17 Fiber cemen. '
+number: 1405.17
+---
+level: 1
+name: "SECTION 1406 \n "
+number: 1406
+---
+level: 2
+name: '1406.1 General. '
+number: 1406.1
+---
+level: 2
+name: '1406.2 Combustible exterior wall coverings. '
+number: 1406.2
+---
+level: 2
+name: '1406.3 Balconies and similar projections. '
+number: 1406.3
+---
+level: 2
+name: '1406.4 Bay windows and oriel windows. '
+number: 1406.4
+---
+level: 1
+name: |-
+  SECTION 1407 
+   METAL COMPOSITE MATERIALS (MCM) 
+number: 1407
+---
+level: 2
+name: '1407.1 General. '
+number: 1407.1
+---
+level: 2
+name: '1407.2 Exterior wall finish. '
+number: 1407.2
+---
+level: 2
+name: '1407.3 Architectural trim and embellishments. '
+number: 1407.3
+---
+level: 2
+name: '1407.4 Structural design. '
+number: 1407.4
+---
+level: 2
+name: '1407.5 Approval. '
+number: 1407.5
+---
+level: 2
+name: '1407.6 Weather resistance. '
+number: 1407.6
+---
+level: 2
+name: '1407.7 Durability. '
+number: 1407.7
+---
+level: 2
+name: '1407.8 Fire-resistance rating. '
+number: 1407.8
+---
+level: 2
+name: '1407.9 Surface-burning characteristics. '
+number: 1407.9
+---
+level: 2
+name: '1407.10 Type I, II, III and IV construction. '
+number: 1407.10
+---
+level: 2
+name: '1407.11 Alternate conditions. '
+number: 1407.11
+---
+level: 2
+name: '1407.12 Type V construction. '
+number: 1407.12
+---
+level: 2
+name: '1407.13 Labeling. '
+number: 1407.13
+---
+level: 0
+name: |
+  CHAPTER 15 
+   ROOF ASSEMBLIES AND ROOFTOP STRUCTURES 
+number: 1
+---
+level: 1
+name: "SECTION 1501 \n GENERAL "
+number: 1501
+---
+level: 2
+name: '1501.1 Scope. '
+number: 1501.1
+---
+level: 1
+name: "SECTION 1502 \n DEFINITIONS "
+number: 1502
+---
+level: 2
+name: '1502.1 General. '
+number: 1502.1
+---
+level: 1
+name: |-
+  SECTION 1503 
+   WEATHER PROTECTION 
+number: 1503
+---
+level: 2
+name: '1503.1 General. '
+number: 1503.1
+---
+level: 2
+name: '1503.2 Flashing. '
+number: 1503.2
+---
+level: 2
+name: '1503.3 Coping. '
+number: 1503.3
+---
+level: 2
+name: '1503.5 Roof ventilation. '
+number: 1503.5
+---
+level: 1
+name: |-
+  SECTION 1504 
+   PERFORMANCE REQUIREMENTS 
+number: 1504
+---
+level: 2
+name: '1504.1 Wind resistance of roofs. '
+number: 1504.1
+---
+level: 2
+name: '1504.2 Wind resistance of clay and concrete tile. '
+number: 1504.2
+---
+level: 2
+name: '1504.3 Wind resistance of nonballasted roofs. '
+number: 1504.3
+---
+level: 2
+name: '1504.4 Ballasted low-slope roof systems. '
+number: 1504.4
+---
+level: 2
+name: '1504.5 Edge securement for low-slope roofs. '
+number: 1504.5
+---
+level: 2
+name: '1504.6 Physical properties. '
+number: 1504.6
+---
+level: 2
+name: '1504.7 Impact resistance. '
+number: 1504.7
+---
+level: 2
+name: '1504.8 Gravel and stone. '
+number: 1504.8
+---
+level: 1
+name: |-
+  SECTION 1505 
+   FIRE CLASSIFICATION 
+number: 1505
+---
+level: 2
+name: '1505.1 General. '
+number: 1505.1
+---
+level: 2
+name: '1505.2 Class A roof assemblies. '
+number: 1505.2
+---
+level: 2
+name: '1505.3 Class B roof assemblies. '
+number: 1505.3
+---
+level: 2
+name: '1505.4 Class C roof assemblies. '
+number: 1505.4
+---
+level: 2
+name: '1505.5 Nonclassified roofing. '
+number: 1505.5
+---
+level: 2
+name: '1505.7 iSpecial purpose roofs. '
+number: 1505.7
+---
+level: 1
+name: "SECTION 1506 \n MATERIALS "
+number: 1506
+---
+level: 2
+name: '1506.1 Scope. '
+number: 1506.1
+---
+level: 2
+name: '1506.2 Compatibility of materials. '
+number: 1506.2
+---
+level: 2
+name: '1506.3 Material specifications and physica. '
+number: 1506.3
+---
+level: 2
+name: '1506.4 Product identification. '
+number: 1506.4
+---
+level: 1
+name: |-
+  SECTION 1507 
+   REQUIREMENTS FOR ROOF COVERINGS 
+number: 1507
+---
+level: 2
+name: '1507.1 Scope. '
+number: 1507.1
+---
+level: 2
+name: '1507.2 Asphalt shingles. '
+number: 1507.2
+---
+level: 2
+name: '0.75 inch (19. '
+number: 0.75
+---
+level: 2
+name: '1507.3 Clay and concrete tile. '
+number: 1507.3
+---
+level: 2
+name: '1507.4 Metal roof panels. '
+number: 1507.4
+---
+level: 2
+name: '1507.5 Metal roof shingles. '
+number: 1507.5
+---
+level: 2
+name: '0.027 inch minimum thickness. '
+number: 0.027
+---
+level: 2
+name: '1507.6 Mineral-surfaced roll roofing. '
+number: 1507.6
+---
+level: 2
+name: '1507.7 Slate shingles. '
+number: 1507.7
+---
+level: 2
+name: '1507.8 Wood shingles. '
+number: 1507.8
+---
+level: 2
+name: '1507.9 Wood shakes. '
+number: 1507.9
+---
+level: 2
+name: '1507.10 Built-up roofs. '
+number: 1507.10
+---
+level: 2
+name: '1507.11 Modified bitumen roofing. '
+number: 1507.11
+---
+level: 2
+name: '1507.12 Thermoset single-ply roofing. '
+number: 1507.12
+---
+level: 2
+name: '1507.13 Thermoplastic single-ply roofing. '
+number: 1507.13
+---
+level: 2
+name: '1507.14 Sprayed polyurethane foam roofing. '
+number: 1507.14
+---
+level: 2
+name: '1507.15 Liquid-applied coatings. '
+number: 1507.15
+---
+level: 1
+name: |-
+  SECTION 1508 
+   ROOF INSULATION 
+number: 1508
+---
+level: 2
+name: '1508.1 General. '
+number: 1508.1
+---
+level: 2
+name: '1508.2 Material standards. '
+number: 1508.2
+---
+level: 1
+name: |-
+  SECTION 1509 
+   ROOFTOP STRUCTURES 
+number: 1509
+---
+level: 2
+name: '1509.1 General. '
+number: 1509.1
+---
+level: 2
+name: '1509.2 Penthouses. '
+number: 1509.2
+---
+level: 2
+name: '1509.3 Tanks. '
+number: 1509.3
+---
+level: 2
+name: '1509.4 Cooling towers. '
+number: 1509.4
+---
+level: 2
+name: '1509.5 Towers, spires, domes and cupolas. '
+number: 1509.5
+---
+level: 1
+name: "SECTION 1510 \n REROOFING "
+number: 1510
+---
+level: 2
+name: '1510.1 General. '
+number: 1510.1
+---
+level: 2
+name: '1510.2 Structural and construction loads. '
+number: 1510.2
+---
+level: 2
+name: '1510.3 Recovering versus replacement. '
+number: 1510.3
+---
+level: 2
+name: '1510.4 Roof recovering. '
+number: 1510.4
+---
+level: 2
+name: '1510.5 Reinstallation of materials. '
+number: 1510.5
+---
+level: 2
+name: '1510.6 Flashings. '
+number: 1510.6
+---
+level: 0
+name: |
+  CHAPTER 16 
+   STRUCTURAL DESIGN 
+number: 1
+---
+level: 1
+name: "SECTION 1601 \n GENERAL "
+number: 1601
+---
+level: 2
+name: '1601.1 Scope. '
+number: 1601.1
+---
+level: 1
+name: |-
+  SECTION 1602 
+   DEFINITIONS AND NOTATIONS 
+number: 1602
+---
+level: 2
+name: '1602.1 Definitions. '
+number: 1602.1
+---
+level: 1
+name: |-
+  SECTION 1603 
+   CONSTRUCTION DOCUMENTS 
+number: 1603
+---
+level: 2
+name: '1603.1 General. '
+number: 1603.1
+---
+level: 2
+name: '1603.2 Restrictions on loading. '
+number: 1603.2
+---
+level: 2
+name: '1603.3 Live loads posted. '
+number: 1603.3
+---
+level: 2
+name: '1603.4 Occupancy permits for changed loads. '
+number: 1603.4
+---
+level: 1
+name: |-
+  SECTION 1604 
+   GENERAL DESIGN REQUIREMENTS 
+number: 1604
+---
+level: 2
+name: '1604.1 General. '
+number: 1604.1
+---
+level: 2
+name: '1604.2 Strength. '
+number: 1604.2
+---
+level: 2
+name: '1604.3 Serviceability. '
+number: 1604.3
+---
+level: 2
+name: '1604.4 Analysis. '
+number: 1604.4
+---
+level: 2
+name: '1604.5 Occupancy category. '
+number: 1604.5
+---
+level: 2
+name: '1604.6 In-situ load tests. '
+number: 1604.6
+---
+level: 2
+name: '1604.7 Preconstruction load tests. '
+number: 1604.7
+---
+level: 2
+name: '1604.9 Counteracting structural actions. '
+number: 1604.9
+---
+level: 2
+name: '1604.10 Wind and seismic detailing. '
+number: 1604.10
+---
+level: 1
+name: |-
+  SECTION 1605 
+   LOAD COMBINATIONS 
+number: 1605
+---
+level: 2
+name: '1605.1 General. '
+number: 1605.1
+---
+level: 2
+name: '1605.2 Load combinations using strength design o. '
+number: 1605.2
+---
+level: 2
+name: '1605.3 Load combinations using allowable stres. '
+number: 1605.3
+---
+level: 2
+name: '1605.4 Special seismic load combinations. '
+number: 1605.4
+---
+level: 2
+name: '1605.5 Heliports and helistops. '
+number: 1605.5
+---
+level: 1
+name: "SECTION 1606 \n DEAD LOADS "
+number: 1606
+---
+level: 2
+name: '1606.1 General. '
+number: 1606.1
+---
+level: 2
+name: '1606.2 Design dead load. '
+number: 1606.2
+---
+level: 1
+name: "SECTION 1607 \n LIVE LOADS "
+number: 1607
+---
+level: 2
+name: '1607.1 GeneraL Live loads are those loads defined i. '
+number: 1607.1
+---
+level: 2
+name: '1607.2 Loads not specified. '
+number: 1607.2
+---
+level: 2
+name: '1607.3 Uniform live loads. '
+number: 1607.3
+---
+level: 2
+name: '1607.4 Concentrated loads. '
+number: 1607.4
+---
+level: 2
+name: '1607.5 Partition loads. '
+number: 1607.5
+---
+level: 2
+name: '1607.6 Truck and bus garages. '
+number: 1607.6
+---
+level: 2
+name: '1607.6 on the spans and two simultaneou. '
+number: 1607.6
+---
+level: 2
+name: '1607.7 Loads on handrails, guards, grab bars an. '
+number: 1607.7
+---
+level: 2
+name: '1607.1 or the following concentrated loads: (1) for garages restricte. '
+number: 1607.1
+---
+level: 2
+name: '1607.8 Impact loads. '
+number: 1607.8
+---
+level: 2
+name: '1607.3 include allowance for impact conditions. '
+number: 1607.3
+---
+level: 2
+name: '1607.9 Reduction in live loads. '
+number: 1607.9
+---
+level: 2
+name: '1607.10 Distribution of floor loads. '
+number: 1607.10
+---
+level: 2
+name: '1607.11 Roof loads. '
+number: 1607.11
+---
+level: 2
+name: '1607.12 Crane loads. '
+number: 1607.12
+---
+level: 2
+name: '1607.13 Interior walls and partitions. '
+number: 1607.13
+---
+level: 1
+name: "SECTION 1608 \n SNOW LOADS "
+number: 1608
+---
+level: 2
+name: '1608.1 General. '
+number: 1608.1
+---
+level: 2
+name: '1608.2 Ground snow loads. '
+number: 1608.2
+---
+level: 1
+name: "SECTION 1609 \n WIND LOADS "
+number: 1609
+---
+level: 2
+name: '1609.1 Applications. '
+number: 1609.1
+---
+level: 2
+name: '1609.2 Definitions. '
+number: 1609.2
+---
+level: 2
+name: '1609.3 Basic wind speed. '
+number: 1609.3
+---
+level: 2
+name: '1609.4 Exposure category. '
+number: 1609.4
+---
+level: 2
+name: '1609.5 Roo. '
+number: 1609.5
+---
+level: 1
+name: |-
+  SECTION 1610 
+   SOIL LATERAL LOADS 
+number: 1610
+---
+level: 2
+name: '1610.1 General. '
+number: 1610.1
+---
+level: 1
+name: "SECTION 1611 \n RAIN LOADS "
+number: 1611
+---
+level: 2
+name: '1611.1 Design rain loads. '
+number: 1611.1
+---
+level: 2
+name: '1611.2 Ponding instability. '
+number: 1611.2
+---
+level: 2
+name: '1611.3 Controlled drainage. '
+number: 1611.3
+---
+level: 1
+name: "SECTION 1612 \n FLOOD LOADS "
+number: 1612
+---
+level: 2
+name: '1612.1 General. '
+number: 1612.1
+---
+level: 2
+name: '1612.2 Definitions. '
+number: 1612.2
+---
+level: 2
+name: '1612.3 Establishment of flood hazard areas. '
+number: 1612.3
+---
+level: 2
+name: '1612.4 Design and construction. '
+number: 1612.4
+---
+level: 2
+name: '1612.5 Flood hazard documentation. '
+number: 1612.5
+---
+level: 1
+name: |-
+  SECTION 1613 
+   EARTHQUAKE LOADS 
+number: 1613
+---
+level: 2
+name: '1613.1 Scope. '
+number: 1613.1
+---
+level: 2
+name: '1613.2 Definitions. '
+number: 1613.2
+---
+level: 2
+name: '1613.3 Existing buildings. '
+number: 1613.3
+---
+level: 2
+name: '1613.4 Special inspections. '
+number: 1613.4
+---
+level: 2
+name: '1613.5 Seismic ground motion values. '
+number: 1613.5
+---
+level: 2
+name: '1613.6 Alternatives to ASCE 7. '
+number: 1613.6
+---
+level: 2
+name: '1613.6 shall be permitted as alternatives to the relevan. '
+number: 1613.6
+---
+level: 2
+name: '0.2 SEC SPECTRAL RESPONSE ACCELERATION (5% OF CRITICAL DAMPING), SITE CLAS. '
+number: 0.2
+---
+level: 2
+name: '0.2 SEC SPECTRAL RESPONSE ACCELERATION (5% OF CRITICAL DAMPING), SITE CLAS. '
+number: 0.2
+---
+level: 2
+name: '0.2 SEC SPECTRAL RESPONSE ACCELERATION (5% OF CRITICAL DAMPING), SITE CLAS. '
+number: 0.2
+---
+level: 2
+name: '0.2 SEC SPECTRAL RESPONSE ACCELERATION (5% OF CRITICAL DAMPING), SITE CLAS. '
+number: 0.2
+---
+level: 2
+name: '1.0 SEC SPECTRAL RESPONSE ACCELERATION (5% OF CRITICAL DAMPING), SITE CLAS. '
+number: 1.0
+---
+level: 2
+name: '1.0 SEC SPECTRAL RESPONSE ACCELERATION (5% OF CRITICAL DAMPING), SITE CLAS. '
+number: 1.0
+---
+level: 2
+name: '0.2 SEC SPECTRAL RESPONSE ACCELERATION (5% OF CRITICAL DAMPING), SITE CLAS. '
+number: 0.2
+---
+level: 2
+name: '1.0 SEC SPECTRAL RESPONSE ACCELERATION (5% OF CRITICAL DAMPING), SITE CLAS. '
+number: 1.0
+---
+level: 2
+name: '0.2 SEC SPECTRAL RESPONSE ACCELERATION (5% PERCENT OF CRITICAL DAMPING), SITE CLAS. '
+number: 0.2
+---
+level: 2
+name: '1.0 SEC SPECTRAL RESPONSE ACCELERATION (5% OF CRITICAL DAMPING), SITE CLAS. '
+number: 1.0
+---
+level: 2
+name: '1.0 SEC SPECTRAL RESPONSE ACCELERATION (5% OF CRITICA. '
+number: 1.0
+---
+level: 2
+name: '0.2 AN. '
+number: 0.2
+---
+level: 2
+name: '0.2 SEC SPECTRAL RESPONSE ACCELERATION (5% OF CRITICA. '
+number: 0.2
+---
+level: 2
+name: '1.0 SEC SPECTRAL RESPONSE ACCELERATION (5% OF CRITICA. '
+number: 1.0
+---
+level: 2
+name: '0.2 AN. '
+number: 0.2
+---
+level: 2
+name: '1.0 SEC SPECTRAL RESPONSE ACCELERATION (5% OF CRITICAL DAMPING), SITE CLAS. '
+number: 1.0
+---
+level: 2
+name: '0.2 SEC SPECTRAL RESPONSE ACCELERATION (5% OF CRITICA. '
+number: 0.2
+---
+level: 2
+name: '1.0 SEC SPECTRAL RESPONSE ACCELERATION (5% OF CRITICA. '
+number: 1.0
+---
+level: 2
+name: '1.0 SEC SPECTRAL RESPONSE ACCELERATION (5% OF CRITICA. '
+number: 1.0
+---
+level: 2
+name: '0.2 AN. '
+number: 0.2
+---
+level: 0
+name: |
+  CHAPTER 17 
+   STRUCTURAL TESTS AND SPECIAL INSPECTIONS 
+number: 1
+---
+level: 1
+name: "SECTION 1701 \n GENERAL "
+number: 1701
+---
+level: 2
+name: '1701.1 Scope. '
+number: 1701.1
+---
+level: 2
+name: '1701.2 New materials. '
+number: 1701.2
+---
+level: 2
+name: '1701.3 Used materials. '
+number: 1701.3
+---
+level: 1
+name: "SECTION 1702 \n DEFINITIONS "
+number: 1702
+---
+level: 2
+name: '1702.1 General. '
+number: 1702.1
+---
+level: 1
+name: "SECTION 1703 \n APPROVALS "
+number: 1703
+---
+level: 2
+name: '1703.1 Approved agency. '
+number: 1703.1
+---
+level: 2
+name: '1703.2 Written approval. '
+number: 1703.2
+---
+level: 2
+name: '1703.3 Approved record. '
+number: 1703.3
+---
+level: 2
+name: '1703.4 Performance. '
+number: 1703.4
+---
+level: 2
+name: '1703.5 Labeling. '
+number: 1703.5
+---
+level: 2
+name: '1703.6 Heretofore approved materials. '
+number: 1703.6
+---
+level: 2
+name: '1703.7 Evaluation and follow-up inspection services. '
+number: 1703.7
+---
+level: 1
+name: |-
+  SECTION 1704 
+   SPECIAL INSPECTIONS 
+number: 1704
+---
+level: 2
+name: '1704.1 General. '
+number: 1704.1
+---
+level: 2
+name: '1704.2 Inspection of fabricators. '
+number: 1704.2
+---
+level: 2
+name: '1704.2 shall not be required where the fabricato. '
+number: 1704.2
+---
+level: 2
+name: '1704.3 Steel construction. '
+number: 1704.3
+---
+level: 2
+name: '1704.4 Concrete construction. '
+number: 1704.4
+---
+level: 2
+name: '1704.5 Masonry construction. '
+number: 1704.5
+---
+level: 2
+name: '1704.6 Wood construction. '
+number: 1704.6
+---
+level: 2
+name: '1704.7 Soils. '
+number: 1704.7
+---
+level: 2
+name: '1704.8 Pile foundations. '
+number: 1704.8
+---
+level: 2
+name: '1704.9 Pier foundations. '
+number: 1704.9
+---
+level: 2
+name: '1704.10 Sprayed fire-resistant materials. '
+number: 1704.10
+---
+level: 2
+name: '1704.11 Mastic and intumescent fire-resistan. '
+number: 1704.11
+---
+level: 2
+name: '1704.12 Exterior insulation and finish systems (EIFS). '
+number: 1704.12
+---
+level: 2
+name: '1704.13 Special cases. '
+number: 1704.13
+---
+level: 2
+name: '1704.14 Special inspection for smoke control. '
+number: 1704.14
+---
+level: 1
+name: |-
+  SECTION 1705 
+   STATEMENT OF SPECIAL INSPECTIONS 
+number: 1705
+---
+level: 2
+name: '1705.1 General. '
+number: 1705.1
+---
+level: 2
+name: '1705.2 Content of statement of special inspections. '
+number: 1705.2
+---
+level: 2
+name: '1705.3 Seismic resistance. '
+number: 1705.3
+---
+level: 2
+name: '1705.4 Wind resistance. '
+number: 1705.4
+---
+level: 1
+name: |-
+  SECTION 1706 
+   CONTRACTOR RESPONSIBILITY 
+number: 1706
+---
+level: 2
+name: '1706.1 Contractor responsibility. '
+number: 1706.1
+---
+level: 1
+name: "SECTION 1707 \n "
+number: 1707
+---
+level: 2
+name: '1707.1 Special inspections for seismic resistance. '
+number: 1707.1
+---
+level: 2
+name: '1707.2 Structural steel. '
+number: 1707.2
+---
+level: 2
+name: '1707.3 Structural wood. '
+number: 1707.3
+---
+level: 2
+name: '1707.4 Cold-formed steel framing. '
+number: 1707.4
+---
+level: 2
+name: '1707.5 Pier foundations. '
+number: 1707.5
+---
+level: 2
+name: '1707.6 Storage racks and access floors. '
+number: 1707.6
+---
+level: 2
+name: '1707.7 Architectural components. '
+number: 1707.7
+---
+level: 2
+name: '1707.8 Mechanical and electrical components. '
+number: 1707.8
+---
+level: 2
+name: '1707.9 Designated seismic system verifications. '
+number: 1707.9
+---
+level: 2
+name: '1707.10 Seismic isolation system. '
+number: 1707.10
+---
+level: 1
+name: "SECTION 1708 \n "
+number: 1708
+---
+level: 2
+name: '1708.1 Masonry. '
+number: 1708.1
+---
+level: 2
+name: '1708.2 Testing for seismic resistance. '
+number: 1708.2
+---
+level: 2
+name: '1708.3 Reinforcing and prestressing steel. '
+number: 1708.3
+---
+level: 2
+name: '1708.4 Structural steel. '
+number: 1708.4
+---
+level: 2
+name: '1708.5 Seismic qualification of mechanical and electrica. '
+number: 1708.5
+---
+level: 2
+name: '1708.6 Seismically isolated structures. '
+number: 1708.6
+---
+level: 1
+name: |-
+  SECTION 1709 
+   STRUCTURAL OBSERVATIONS 
+number: 1709
+---
+level: 2
+name: '1709.1 General. '
+number: 1709.1
+---
+level: 2
+name: '1709.2 o. '
+number: 1709.2
+---
+level: 2
+name: '1709.2 Structural observations for seismi. '
+number: 1709.2
+---
+level: 2
+name: '1709.3 Structural observations for win. '
+number: 1709.3
+---
+level: 1
+name: |-
+  SECTION 1710 
+   DESIGN STRENGTHS OF MATERIALS 
+number: 1710
+---
+level: 2
+name: '1710.1 Conformance to standards. '
+number: 1710.1
+---
+level: 2
+name: '1710.2 New materials. '
+number: 1710.2
+---
+level: 1
+name: |-
+  SECTION 1711 
+   ALTERNATIVE TEST PROCEDURE 
+number: 1711
+---
+level: 2
+name: '1711.1 General. '
+number: 1711.1
+---
+level: 1
+name: "SECTION 1712 \n TEST SAFE LOAD "
+number: 1712
+---
+level: 2
+name: '1712.1 Where required. '
+number: 1712.1
+---
+level: 1
+name: |-
+  SECTION 1713 
+   IN-SITU LOAD TESTS 
+number: 1713
+---
+level: 2
+name: '1713.1 General. '
+number: 1713.1
+---
+level: 2
+name: '1713.2 Test standards. '
+number: 1713.2
+---
+level: 2
+name: '1713.3 In-situ load tests. '
+number: 1713.3
+---
+level: 1
+name: |-
+  SECTION 1714 
+   PRECONSTRUCTION LOAD TESTS 
+number: 1714
+---
+level: 2
+name: '1714.1 General. '
+number: 1714.1
+---
+level: 2
+name: '1714.2 Load test procedures specified. '
+number: 1714.2
+---
+level: 2
+name: '1714.3 Load test procedures not specified. '
+number: 1714.3
+---
+level: 2
+name: '1714.4 Wall and partition assemblies. '
+number: 1714.4
+---
+level: 2
+name: '1714.5 Exterior window and door assemblies. '
+number: 1714.5
+---
+level: 2
+name: '1714.6 Test specimens. '
+number: 1714.6
+---
+level: 1
+name: |-
+  SECTION 1715 
+   MATERIAL AND TEST STANDARDS 
+number: 1715
+---
+level: 2
+name: '1715.1 Test standards for joist hangers an. '
+number: 1715.1
+---
+level: 2
+name: '0.125 inc. '
+number: 0.125
+---
+level: 2
+name: '1715.2 Concrete and clay roo. '
+number: 1715.2
+---
+level: 0
+name: |
+  CHAPTER 18 
+   SOILS AND FOUNDATIONS 
+number: 1
+---
+level: 1
+name: "SECTION 1801 \n GENERAL "
+number: 1801
+---
+level: 2
+name: '1801.1 Scope. '
+number: 1801.1
+---
+level: 2
+name: '1801.2 Design. '
+number: 1801.2
+---
+level: 1
+name: |-
+  SECTION 1802 
+   FOUNDATION AND SOILS INVESTIGATIONS 
+number: 1802
+---
+level: 2
+name: '1802.1 General. '
+number: 1802.1
+---
+level: 2
+name: '1802.2 Where required. '
+number: 1802.2
+---
+level: 2
+name: '1802.4 throug. '
+number: 1802.4
+---
+level: 2
+name: '1802.3 Soil classification. '
+number: 1802.3
+---
+level: 2
+name: '1804.2 shall be in accordance with ASTM . '
+number: 1804.2
+---
+level: 2
+name: '1802.4 Investigation. '
+number: 1802.4
+---
+level: 2
+name: '1802.5 Soil boring and sampling. '
+number: 1802.5
+---
+level: 2
+name: '1802.6 Reports. '
+number: 1802.6
+---
+level: 1
+name: |-
+  SECTION 1803 
+   EXCAVATION, GRADING AND FILL 
+number: 1803
+---
+level: 2
+name: '1803.1 Excavations near footings or foundations. '
+number: 1803.1
+---
+level: 2
+name: '1803.2 Placement of backfill. '
+number: 1803.2
+---
+level: 2
+name: '1803.3 Site grading. '
+number: 1803.3
+---
+level: 2
+name: '1803.4 Grading and fill in flood hazard areas. '
+number: 1803.4
+---
+level: 2
+name: '1803.5 Compacted fill material. '
+number: 1803.5
+---
+level: 2
+name: '1803.6 Controlled low-strength material (CLSM). '
+number: 1803.6
+---
+level: 1
+name: |-
+  SECTION 1804 
+   ALLOWABLE LOAD-BEARING VALUES OF SOILS 
+number: 1804
+---
+level: 2
+name: '1804.1 Design. '
+number: 1804.1
+---
+level: 2
+name: '1804.2 Presumptive load-bearing values. '
+number: 1804.2
+---
+level: 2
+name: '1804.3 Lateral sliding resistance. '
+number: 1804.3
+---
+level: 1
+name: |-
+  SECTION 1805 
+   FOOTINGS AND FOUNDATIONS 
+number: 1805
+---
+level: 2
+name: '1805.1 General. '
+number: 1805.1
+---
+level: 2
+name: '1805.2 Depth of footings. '
+number: 1805.2
+---
+level: 2
+name: '1805.3 Footings on or adjacent to slopes. '
+number: 1805.3
+---
+level: 2
+name: '1805.4 Footings. '
+number: 1805.4
+---
+level: 2
+name: '2103.8 and the depth shall not be less than twice th. '
+number: 2103.8
+---
+level: 2
+name: '1805.5 Foundation walls. '
+number: 1805.5
+---
+level: 2
+name: '1805.6 Foundation plate or sill bolting. '
+number: 1805.6
+---
+level: 2
+name: '1805.7 Designs employing lateral bearing. '
+number: 1805.7
+---
+level: 2
+name: '1805.8 Design for expansive soils. '
+number: 1805.8
+---
+level: 2
+name: '1805.9 Seismic requirements. '
+number: 1805.9
+---
+level: 1
+name: |-
+  SECTION 1806 
+   RETAINING WALLS 
+number: 1806
+---
+level: 2
+name: '1806.1 GeneraL Retaining walls shall be designed t. '
+number: 1806.1
+---
+level: 1
+name: |-
+  SECTION 1807 
+   DAMPPROOFING AND WATERPROOFING 
+number: 1807
+---
+level: 2
+name: '1807.1 Where required. '
+number: 1807.1
+---
+level: 2
+name: '1807.2 Dampproofing required. '
+number: 1807.2
+---
+level: 2
+name: '1807.3 Waterproofing required. '
+number: 1807.3
+---
+level: 2
+name: '1807.4 Subsoil drainage system. '
+number: 1807.4
+---
+level: 1
+name: |-
+  SECTION 1808 
+   PIER AND PILE FOUNDATIONS 
+number: 1808
+---
+level: 2
+name: '1808.1 Definitions. '
+number: 1808.1
+---
+level: 2
+name: '1808.2 Piers and piles â genera. '
+number: 1808.2
+---
+level: 2
+name: '1605.4 or development of the full axial. '
+number: 1605.4
+---
+level: 1
+name: |-
+  SECTION 1809 
+   DRIVEN PILE FOUNDATIONS 
+number: 1809
+---
+level: 2
+name: '1809.1 Timber piles. '
+number: 1809.1
+---
+level: 2
+name: '1809.2 Precast concret. '
+number: 1809.2
+---
+level: 2
+name: '1809.3 Structural steel piles. '
+number: 1809.3
+---
+level: 1
+name: |-
+  SECTION 1810 
+   CAST-IN-PLACE CONCRETE PILE FOUNDATIONS 
+number: 1810
+---
+level: 2
+name: '1810.1 General. '
+number: 1810.1
+---
+level: 2
+name: '0.4 exceeds the required moment strength at tha. '
+number: 0.4
+---
+level: 2
+name: '1810.2 Enlarged base piles. '
+number: 1810.2
+---
+level: 2
+name: '1810.3 Drilled or angered uncased piles. '
+number: 1810.3
+---
+level: 2
+name: '1810.4 Driven uncased piles. '
+number: 1810.4
+---
+level: 2
+name: '1810.5 Steel-cased piles. '
+number: 1810.5
+---
+level: 2
+name: '1810.6 Concrete-filled steel pipe and tube piles. '
+number: 1810.6
+---
+level: 2
+name: '1810.7 Caisson piles. '
+number: 1810.7
+---
+level: 2
+name: '1810.8 Micropiles. '
+number: 1810.8
+---
+level: 1
+name: |-
+  SECTION 1811 
+   COMPOSITE PILES 
+number: 1811
+---
+level: 2
+name: '1811.1 General. '
+number: 1811.1
+---
+level: 2
+name: '1811.2 Design. '
+number: 1811.2
+---
+level: 2
+name: '1811.3 Limitation of load. '
+number: 1811.3
+---
+level: 2
+name: '1811.4 Splices. '
+number: 1811.4
+---
+level: 2
+name: '1811.5 Seismic reinforcement. '
+number: 1811.5
+---
+level: 1
+name: |-
+  SECTION 1812 
+   PIER FOUNDATIONS 
+number: 1812
+---
+level: 2
+name: '1812.1 General. '
+number: 1812.1
+---
+level: 2
+name: '1812.2 Lateral dimensions and height. '
+number: 1812.2
+---
+level: 2
+name: '1812.3 Materials. '
+number: 1812.3
+---
+level: 2
+name: '1812.4 Reinforcement. '
+number: 1812.4
+---
+level: 2
+name: '1812.5 Concrete placement. '
+number: 1812.5
+---
+level: 2
+name: '1812.6 Belled bottoms. '
+number: 1812.6
+---
+level: 2
+name: '1812.7 Masonry. '
+number: 1812.7
+---
+level: 2
+name: '1812.8 Concrete. '
+number: 1812.8
+---
+level: 2
+name: '1812.9 Steel shell. '
+number: 1812.9
+---
+level: 2
+name: '1812.10 Dewatering. '
+number: 1812.10
+---
+level: 0
+name: "CHAPTER 19 \n CONCRETE \n"
+number: 1
+---
+level: 1
+name: "SECTION 1901 \n GENERAL "
+number: 1901
+---
+level: 2
+name: '1901.1 Scope. '
+number: 1901.1
+---
+level: 2
+name: '1901.2 Plain and reinforced concrete. '
+number: 1901.2
+---
+level: 2
+name: '1901.3 Source and applicability. '
+number: 1901.3
+---
+level: 2
+name: '1901.4 Construction documents. '
+number: 1901.4
+---
+level: 2
+name: '1901.5 Special inspection. '
+number: 1901.5
+---
+level: 1
+name: "SECTION 1902 \n DEFINITIONS "
+number: 1902
+---
+level: 2
+name: '1902.1 General. '
+number: 1902.1
+---
+level: 1
+name: |-
+  SECTION 1903 
+   SPECIFICATIONS FOR TESTS AND MATERIALS 
+number: 1903
+---
+level: 2
+name: '1903.1 General. '
+number: 1903.1
+---
+level: 2
+name: '1903.2 Glass fiber reinforced concrete. '
+number: 1903.2
+---
+level: 1
+name: |-
+  SECTION 1904 
+   DURABILITY REQUIREMENTS 
+number: 1904
+---
+level: 2
+name: '1904.1 Water-cementitious materials ratio. '
+number: 1904.1
+---
+level: 2
+name: '1904.2 Freezing and thawing exposures. '
+number: 1904.2
+---
+level: 2
+name: '1904.3 Sulfate exposures. '
+number: 1904.3
+---
+level: 2
+name: '1904.4 Corrosion protection of reinforcement. '
+number: 1904.4
+---
+level: 1
+name: |-
+  SECTION 1905 
+   CONCRETE QUALITY, MIXING AND PLACING 
+number: 1905
+---
+level: 2
+name: '1905.1 General. '
+number: 1905.1
+---
+level: 2
+name: '1905.2 Selection of concrete proportions. '
+number: 1905.2
+---
+level: 2
+name: '1905.3 Proportioning on the basis of fiel. '
+number: 1905.3
+---
+level: 2
+name: '1905.4 Proportioning without field experience or tria. '
+number: 1905.4
+---
+level: 2
+name: '1905.5 Average strength reduction. '
+number: 1905.5
+---
+level: 2
+name: '1905.6 Evaluation and acceptance of concrete. '
+number: 1905.6
+---
+level: 2
+name: '1905.7 Preparation of equipment and place of deposit. '
+number: 1905.7
+---
+level: 2
+name: '1905.8 Mixing. '
+number: 1905.8
+---
+level: 2
+name: '1905.9 Conveying. '
+number: 1905.9
+---
+level: 2
+name: '1905.10 Depositing. '
+number: 1905.10
+---
+level: 2
+name: '1905.11 Curing. '
+number: 1905.11
+---
+level: 2
+name: '1905.12 Cold weather requirements. '
+number: 1905.12
+---
+level: 2
+name: '1905.13 Hot weather requirements. '
+number: 1905.13
+---
+level: 1
+name: "SECTION 1906 \n "
+number: 1906
+---
+level: 2
+name: '1906.1 Formwork. '
+number: 1906.1
+---
+level: 2
+name: '1906.2 Removal of forms, shores and reshores. '
+number: 1906.2
+---
+level: 2
+name: '1906.3 Conduits and pipes embedded in concrete. '
+number: 1906.3
+---
+level: 2
+name: '1906.4 Construction joints. '
+number: 1906.4
+---
+level: 1
+name: |-
+  SECTION 1907 
+   DETAILS OF REINFORCEMENT 
+number: 1907
+---
+level: 2
+name: '1907.1 Hooks. '
+number: 1907.1
+---
+level: 2
+name: '1907.2 Minimum bend diameters. '
+number: 1907.2
+---
+level: 2
+name: '1907.3 Bending. '
+number: 1907.3
+---
+level: 2
+name: '1907.4 Surface conditions of reinforcement. '
+number: 1907.4
+---
+level: 2
+name: '1907.5 Placing reinforcement. '
+number: 1907.5
+---
+level: 2
+name: '1907.6 Spacing limits for reinforcement. '
+number: 1907.6
+---
+level: 2
+name: '1907.7 Concrete protection for reinforcement. '
+number: 1907.7
+---
+level: 2
+name: '1907.8 Special reinforcement details for columns. '
+number: 1907.8
+---
+level: 2
+name: '1907.9 Connections. '
+number: 1907.9
+---
+level: 2
+name: '1907.10 Lateral reinforcement for compressio. '
+number: 1907.10
+---
+level: 2
+name: '1907.11 Lateral reinforcement for flexural members. '
+number: 1907.11
+---
+level: 2
+name: '1907.12 Shrinkage and temperature reinforcement. '
+number: 1907.12
+---
+level: 2
+name: '1907.13 Requirements for structural integrity. '
+number: 1907.13
+---
+level: 1
+name: |-
+  SECTION 1908 
+   MODIFICATIONS TO ACI 318 
+number: 1908
+---
+level: 2
+name: '1908.1 General. '
+number: 1908.1
+---
+level: 2
+name: '21.13 shall be used to resist forces induced b. '
+number: 21.13
+---
+level: 2
+name: '2.5 times the factored forces transmitted by th. '
+number: 2.5
+---
+level: 1
+name: |-
+  SECTION 1909 
+   STRUCTURAL PLAIN CONCRETE 
+number: 1909
+---
+level: 2
+name: '1909.1 Scope. '
+number: 1909.1
+---
+level: 2
+name: '1909.2 Limitations. '
+number: 1909.2
+---
+level: 2
+name: '1909.3 Joints. '
+number: 1909.3
+---
+level: 2
+name: '1909.4 Design. '
+number: 1909.4
+---
+level: 2
+name: '1909.5 Precast members. '
+number: 1909.5
+---
+level: 2
+name: '1909.6 Walls. '
+number: 1909.6
+---
+level: 1
+name: |-
+  SECTION 1910 
+   MINIMUM SLAB PROVISIONS 
+number: 1910
+---
+level: 2
+name: '1910.1 General. '
+number: 1910.1
+---
+level: 1
+name: |-
+  SECTION 1911 
+   ANCHORAGE TO CONCRETE- 
+number: 1911
+---
+level: 2
+name: '1911.1 Scope. '
+number: 1911.1
+---
+level: 2
+name: '1911.2 Allowable service load. '
+number: 1911.2
+---
+level: 2
+name: '1911.3 Required edge distance and spacing. '
+number: 1911.3
+---
+level: 2
+name: '1911.4 Increase in allowable load. '
+number: 1911.4
+---
+level: 2
+name: '1911.5 Increase for special inspection. '
+number: 1911.5
+---
+level: 1
+name: |-
+  SECTION 1912 
+   ANCHORAGE TO CONCRETE- 
+number: 1912
+---
+level: 2
+name: '1912.1 Scope. '
+number: 1912.1
+---
+level: 1
+name: "SECTION 1913 \n SHOTCRETE "
+number: 1913
+---
+level: 2
+name: '1913.1 General. '
+number: 1913.1
+---
+level: 2
+name: '1913.2 Proportions and materials. '
+number: 1913.2
+---
+level: 2
+name: '1913.3 Aggregate. '
+number: 1913.3
+---
+level: 2
+name: '1913.4 Reinforcement. '
+number: 1913.4
+---
+level: 2
+name: '1913.5 Preconstruction tests. '
+number: 1913.5
+---
+level: 2
+name: '1913.6 Rebound. '
+number: 1913.6
+---
+level: 2
+name: '1913.7 Joints. '
+number: 1913.7
+---
+level: 2
+name: '1913.8 Damage. '
+number: 1913.8
+---
+level: 2
+name: '1913.9 Curing. '
+number: 1913.9
+---
+level: 2
+name: '1913.10 Strength tests. '
+number: 1913.10
+---
+level: 1
+name: |-
+  SECTION 1914 
+   REINFORCED GYPSUM CONCRETE 
+number: 1914
+---
+level: 2
+name: '1914.1 General. '
+number: 1914.1
+---
+level: 2
+name: '1914.2 Minimum thickness. '
+number: 1914.2
+---
+level: 1
+name: |-
+  SECTION 1915 
+   CONCRETE-FILLED PIPE COLUMNS 
+number: 1915
+---
+level: 2
+name: '1915.1 General. '
+number: 1915.1
+---
+level: 2
+name: '1915.2 Design. '
+number: 1915.2
+---
+level: 2
+name: '1915.3 Connections. '
+number: 1915.3
+---
+level: 2
+name: '1915.4 Reinforcement. '
+number: 1915.4
+---
+level: 2
+name: '1915.5 Fire-resistance-rating protection. '
+number: 1915.5
+---
+level: 2
+name: '1915.6 Approvals. '
+number: 1915.6
+---
+level: 0
+name: "CHAPTER 20 \n ALUMINUM \n"
+number: 2
+---
+level: 1
+name: "SECTION 2001 \n GENERAL "
+number: 2001
+---
+level: 2
+name: '2001.1 Scope. '
+number: 2001.1
+---
+level: 1
+name: "SECTION 2002 \n MATERIALS "
+number: 2002
+---
+level: 2
+name: '2002.1 GeneraL Aluminum used for structural purpose. '
+number: 2002.1
+---
+level: 0
+name: "CHAPTER 21 \n MASONRY \n"
+number: 2
+---
+level: 1
+name: "SECTION 2101 \n GENERAL "
+number: 2101
+---
+level: 2
+name: '2101.1 Scope. '
+number: 2101.1
+---
+level: 2
+name: '2101.2 Design methods. '
+number: 2101.2
+---
+level: 2
+name: '2101.3 Construction documents. '
+number: 2101.3
+---
+level: 1
+name: |-
+  SECTION 2102 
+   DEFINITIONS AND NOTATIONS 
+number: 2102
+---
+level: 2
+name: '2102.1 General. '
+number: 2102.1
+---
+level: 1
+name: |-
+  SECTION 2103 
+   MASONRY CONSTRUCTION MATERIALS 
+number: 2103
+---
+level: 2
+name: '2103.1 Concrete masonry units. '
+number: 2103.1
+---
+level: 2
+name: '2103.2 Clay or shale masonry units. '
+number: 2103.2
+---
+level: 2
+name: '12103.3 AAC masonry. '
+number: 12103.3
+---
+level: 2
+name: '2103.4 Stone masonry units. '
+number: 2103.4
+---
+level: 2
+name: '2103.5 Ceramic tile. '
+number: 2103.5
+---
+level: 2
+name: '2103.6 Glass unit masonry. '
+number: 2103.6
+---
+level: 2
+name: '2103.7 Second-hand units. '
+number: 2103.7
+---
+level: 2
+name: '2103.8 Mortar. '
+number: 2103.8
+---
+level: 2
+name: '2103.9 Surface-bonding mortar. '
+number: 2103.9
+---
+level: 2
+name: '2103.10 Mortars for ceramic wall and floor tile. '
+number: 2103.10
+---
+level: 2
+name: '2103.11 Mortar for AAC masonry. '
+number: 2103.11
+---
+level: 2
+name: '2103.12 Grout. '
+number: 2103.12
+---
+level: 2
+name: '2103.13 Metal reinforcement and accessories. '
+number: 2103.13
+---
+level: 1
+name: "SECTION 2104 \n I CONSTRUCTION "
+number: 2104
+---
+level: 2
+name: '2104.1 Masonry construction. '
+number: 2104.1
+---
+level: 2
+name: '2104.5 and with ACI 530. '
+number: 2104.5
+---
+level: 2
+name: '2104.2 Corbeled masonry. '
+number: 2104.2
+---
+level: 2
+name: '2104.3 Cold weather construction. '
+number: 2104.3
+---
+level: 2
+name: '1.8 C, or the following procedures shall be implemente. '
+number: 1.8
+---
+level: 2
+name: '2104.4 Hot weather construction. '
+number: 2104.4
+---
+level: 2
+name: '2104.5 Wetting of brick. '
+number: 2104.5
+---
+level: 1
+name: |-
+  SECTION 2105 
+   QUALITY ASSURANCE 
+number: 2105
+---
+level: 2
+name: '2105.1 General. '
+number: 2105.1
+---
+level: 2
+name: '2105.2 Acceptance relative to strengt. '
+number: 2105.2
+---
+level: 2
+name: '2105.3 Testing prisms from constructed masonry. '
+number: 2105.3
+---
+level: 1
+name: "SECTION 2106 \n SEISMIC DESIGN "
+number: 2106
+---
+level: 2
+name: '2106.1 Seismic design requirements for masonry. '
+number: 2106.1
+---
+level: 2
+name: '2106.2 Anchorage of masonry walls. '
+number: 2106.2
+---
+level: 2
+name: '2106.3 Seismic Design Category B. '
+number: 2106.3
+---
+level: 2
+name: '2106.4 Additional requirements for structures i. '
+number: 2106.4
+---
+level: 2
+name: '2106.5 Additional requirements for structures i. '
+number: 2106.5
+---
+level: 2
+name: '2106.6 Additional requirements for structures i. '
+number: 2106.6
+---
+level: 1
+name: |-
+  SECTION 2107 
+   ALLOWABLE STRESS DESIGN 
+number: 2107
+---
+level: 2
+name: '2107.1 General. '
+number: 2107.1
+---
+level: 2
+name: '2107.2 ACI 530/ASCE 5/TMS 402, Sectio. '
+number: 2107.2
+---
+level: 2
+name: '2107.3 ACI 530/ASCE 5/TMS 402, Sectio. '
+number: 2107.3
+---
+level: 2
+name: '2107.4 ACI 530/ASCE 5/TMS 402, Sectio. '
+number: 2107.4
+---
+level: 2
+name: '2107.5 ACI 530/ASCE 5/TMS 402, Sectio. '
+number: 2107.5
+---
+level: 2
+name: '2107.6 ACI 530/ASCE 5/TMS 402, Sectio. '
+number: 2107.6
+---
+level: 2
+name: '2107.7 ACI 530/ASCE 5/TMS 402, Sectio. '
+number: 2107.7
+---
+level: 2
+name: '2107.8 ACI 530/ASCE 5/TMS 402, Sectio. '
+number: 2107.8
+---
+level: 1
+name: |-
+  SECTION 2108 
+   STRENGTH DESIGN OF MASONRY 
+number: 2108
+---
+level: 2
+name: '2108.1 General. '
+number: 2108.1
+---
+level: 2
+name: '2108.2 ACI 530/ASCE 5/TMS 402, Sectio. '
+number: 2108.2
+---
+level: 2
+name: '2108.3 ACI 530/ASCE 5/TMS 402, Sectio. '
+number: 2108.3
+---
+level: 2
+name: '2108.4 ACI 530/ASCE 5/TMS 402, Sectio. '
+number: 2108.4
+---
+level: 1
+name: |-
+  SECTION 2109 
+   EMPIRICAL DESIGN OF MASONRY 
+number: 2109
+---
+level: 2
+name: '2109.1 General. '
+number: 2109.1
+---
+level: 2
+name: '2109.2 Latera. '
+number: 2109.2
+---
+level: 2
+name: '2109.3 Compressive stres. '
+number: 2109.3
+---
+level: 2
+name: '2109.4 Latera. '
+number: 2109.4
+---
+level: 2
+name: '2109.5 Thickness of masonry. '
+number: 2109.5
+---
+level: 2
+name: '0.0003 times the vertical cross-sectional area of th. '
+number: 0.0003
+---
+level: 2
+name: '2109.8 Adobe construction. '
+number: 2109.8
+---
+level: 1
+name: |-
+  SECTION 2110 
+   GLASS UNIT MASONRY 
+number: 2110
+---
+level: 2
+name: '2110.1 Scope. '
+number: 2110.1
+---
+level: 2
+name: '2110.2 Units. '
+number: 2110.2
+---
+level: 2
+name: '2110.3 Pane. '
+number: 2110.3
+---
+level: 2
+name: '2110.5 Expansion joints. '
+number: 2110.5
+---
+level: 2
+name: '2110.6 Mortar. '
+number: 2110.6
+---
+level: 2
+name: '2110.7 Reinforcement. '
+number: 2110.7
+---
+level: 1
+name: |-
+  SECTION 2111 
+   MASONRY FIREPLACES 
+number: 2111
+---
+level: 2
+name: '2111.1 Definition. '
+number: 2111.1
+---
+level: 2
+name: '2111.2 Footings and foundations. '
+number: 2111.2
+---
+level: 2
+name: '2111.3 Seismic reinforcing. '
+number: 2111.3
+---
+level: 2
+name: '2111.4 Seismic anchorage. '
+number: 2111.4
+---
+level: 2
+name: '25.4 mm) straps shall be embedded a minimum of 1. '
+number: 25.4
+---
+level: 2
+name: '2111.5 Firebox walls. '
+number: 2111.5
+---
+level: 2
+name: '2111.6 Firebox dimensions. '
+number: 2111.6
+---
+level: 2
+name: '2111.7 Lintel and throat. '
+number: 2111.7
+---
+level: 2
+name: '2111.8 Smoke chamber walls. '
+number: 2111.8
+---
+level: 2
+name: '2111.9 Hearth and hearth extension. '
+number: 2111.9
+---
+level: 2
+name: '2111.10 Hearth extension dimensions. '
+number: 2111.10
+---
+level: 2
+name: '2111.11 Fireplace clearance. '
+number: 2111.11
+---
+level: 2
+name: '2111.12 Fireplace fireblocking. '
+number: 2111.12
+---
+level: 2
+name: '2111.13 Exterior air. '
+number: 2111.13
+---
+level: 1
+name: |-
+  SECTION 2112 
+   MASONRY HEATERS 
+number: 2112
+---
+level: 2
+name: '2112.1 Definition. '
+number: 2112.1
+---
+level: 2
+name: '2112.2 Installation. '
+number: 2112.2
+---
+level: 2
+name: '2112.3 Footings and foundation. '
+number: 2112.3
+---
+level: 2
+name: '2112.4 Seismic reinforcing. '
+number: 2112.4
+---
+level: 2
+name: '2112.5 Masonry heater clearance. '
+number: 2112.5
+---
+level: 1
+name: |-
+  SECTION 2113 
+   MASONRY CHIMNEYS 
+number: 2113
+---
+level: 2
+name: '2113.1 Definition. '
+number: 2113.1
+---
+level: 2
+name: '2113.2 Footings and foundations. '
+number: 2113.2
+---
+level: 2
+name: '2113.3 Seismic reinforcing. '
+number: 2113.3
+---
+level: 2
+name: '2113.4 Seismic anchorage. '
+number: 2113.4
+---
+level: 2
+name: '2113.5 Corbeling. '
+number: 2113.5
+---
+level: 2
+name: '2113.6 Changes in dimension. '
+number: 2113.6
+---
+level: 2
+name: '2113.7 Offsets. '
+number: 2113.7
+---
+level: 2
+name: '2113.8 Additional load. '
+number: 2113.8
+---
+level: 2
+name: '2113.9 Termination. '
+number: 2113.9
+---
+level: 2
+name: '2113.10 Wall thickness. '
+number: 2113.10
+---
+level: 2
+name: '2113.11 Flue lining (material). '
+number: 2113.11
+---
+level: 2
+name: '2113.1 through 2. '
+number: 2113.1
+---
+level: 2
+name: '2113.1 throug. '
+number: 2113.1
+---
+level: 2
+name: '2113.12 Clay flue lining (installation). '
+number: 2113.12
+---
+level: 2
+name: '2113.13 Additiona. '
+number: 2113.13
+---
+level: 2
+name: '2113.14 Multiple flues. '
+number: 2113.14
+---
+level: 2
+name: '2113.15 Flue area (appliance). '
+number: 2113.15
+---
+level: 2
+name: '2113.16 Flue area (masonry fireplace). '
+number: 2113.16
+---
+level: 2
+name: '2113.17 Inlet. '
+number: 2113.17
+---
+level: 2
+name: '2113.18 Masonry chimney cleanout openings. '
+number: 2113.18
+---
+level: 2
+name: '2113.19 Chimney clearances. '
+number: 2113.19
+---
+level: 2
+name: '2113.20 Chimney fireblocking. '
+number: 2113.20
+---
+level: 0
+name: "CHAPTER 22 \n STEEL \n"
+number: 2
+---
+level: 1
+name: "SECTION 2201 \n GENERAL "
+number: 2201
+---
+level: 2
+name: '2201.1 Scope. '
+number: 2201.1
+---
+level: 1
+name: "SECTION 2202 \n DEFINITIONS "
+number: 2202
+---
+level: 2
+name: '2202.1 Definitions. '
+number: 2202.1
+---
+level: 1
+name: "SECTION 2203 \n "
+number: 2203
+---
+level: 2
+name: '2203.1 Identification. '
+number: 2203.1
+---
+level: 2
+name: '2203.2 Protection. '
+number: 2203.2
+---
+level: 1
+name: "SECTION 2204 \n CONNECTIONS "
+number: 2204
+---
+level: 2
+name: '2204.1 Welding. '
+number: 2204.1
+---
+level: 2
+name: '2204.2 Bolting. '
+number: 2204.2
+---
+level: 1
+name: |-
+  SECTION 2205 
+   STRUCTURAL STEEL 
+number: 2205
+---
+level: 2
+name: '2205.1 General. '
+number: 2205.1
+---
+level: 2
+name: '2205.2 Seismic requirements for steel structures. '
+number: 2205.2
+---
+level: 2
+name: '2205.3 Seismic requirements for composit. '
+number: 2205.3
+---
+level: 1
+name: "SECTION 2206 \n STEEL JOISTS "
+number: 2206
+---
+level: 2
+name: '2206.1 General. '
+number: 2206.1
+---
+level: 2
+name: '2206.2 Design. '
+number: 2206.2
+---
+level: 2
+name: '2206.3 Calculations. '
+number: 2206.3
+---
+level: 2
+name: '2206.4 Steel joist drawings. '
+number: 2206.4
+---
+level: 2
+name: '2206.5 Certification. '
+number: 2206.5
+---
+level: 1
+name: |-
+  SECTION 2207 
+   STEEL CABLE STRUCTURES 
+number: 2207
+---
+level: 2
+name: '2207.1 General. '
+number: 2207.1
+---
+level: 2
+name: '2207.2 Seismic requirements for steel cable. '
+number: 2207.2
+---
+level: 2
+name: '2210.6 Prescriptive framing. '
+number: 2210.6
+---
+level: 1
+name: |-
+  SECTION 2208 
+   STEEL STORAGE RACKS 
+number: 2208
+---
+level: 2
+name: '2208.1 Storage racks. '
+number: 2208.1
+---
+level: 1
+name: |-
+  SECTION 2209 
+   COLD-FORMED STEEL 
+number: 2209
+---
+level: 2
+name: '2209.1 General. '
+number: 2209.1
+---
+level: 2
+name: '2209.2 Composite slabs on steel decks. '
+number: 2209.2
+---
+level: 1
+name: "SECTION 2210 \n "
+number: 2210
+---
+level: 2
+name: '2210.1 General. '
+number: 2210.1
+---
+level: 2
+name: '2210.2 Headers. '
+number: 2210.2
+---
+level: 2
+name: '2210.3 Trusses. '
+number: 2210.3
+---
+level: 2
+name: '2210.4 Wall stud design. '
+number: 2210.4
+---
+level: 2
+name: '2210.5 Lateral design. '
+number: 2210.5
+---
+level: 0
+name: "CHAPTER 23 \n WOOD \n"
+number: 2
+---
+level: 1
+name: "SECTION 2301 \n GENERAL "
+number: 2301
+---
+level: 2
+name: '2301.1 Scope. '
+number: 2301.1
+---
+level: 2
+name: '2301.2 General design requirements. '
+number: 2301.2
+---
+level: 2
+name: '2301.3 Nominal sizes. '
+number: 2301.3
+---
+level: 1
+name: "SECTION 2302 \n DEFINITIONS "
+number: 2302
+---
+level: 2
+name: '2302.1 Definitions. '
+number: 2302.1
+---
+level: 1
+name: |-
+  SECTION 2303 
+   MINIMUM STANDARDS AND QUALITY 
+number: 2303
+---
+level: 2
+name: '2303.1 General. '
+number: 2303.1
+---
+level: 2
+name: '2303.2 Fire-retardant-treated wood. '
+number: 2303.2
+---
+level: 2
+name: '2303.3 Hardwood and plywood. '
+number: 2303.3
+---
+level: 2
+name: '2303.5 Test standard for joist hangers and connectors. '
+number: 2303.5
+---
+level: 2
+name: '2303.6 Nails and staples. '
+number: 2303.6
+---
+level: 2
+name: '2303.7 Shrinkage. '
+number: 2303.7
+---
+level: 1
+name: |-
+  SECTION 2304 
+   GENERAL CONSTRUCTION REQUIREMENTS 
+number: 2304
+---
+level: 2
+name: '2304.1 General. '
+number: 2304.1
+---
+level: 2
+name: '2304.2 Size of structural members. '
+number: 2304.2
+---
+level: 2
+name: '2304.3 Wall framing. '
+number: 2304.3
+---
+level: 2
+name: '2304.4 Floor and roof framing. '
+number: 2304.4
+---
+level: 2
+name: '2304.5 Framing around flues and chimneys. '
+number: 2304.5
+---
+level: 2
+name: '2304.6 Wall sheathing. '
+number: 2304.6
+---
+level: 2
+name: '2304.7 Floor and roo. '
+number: 2304.7
+---
+level: 2
+name: '2304.8 Lumbe. '
+number: 2304.8
+---
+level: 2
+name: '2304.9 Connections an. '
+number: 2304.9
+---
+level: 2
+name: '2304.10 Heavy timbe. '
+number: 2304.10
+---
+level: 2
+name: '2304.11 Protection against decay an. '
+number: 2304.11
+---
+level: 2
+name: '2304.12 Long-term loading. '
+number: 2304.12
+---
+level: 1
+name: "SECTION 2305 \n "
+number: 2305
+---
+level: 2
+name: '2305.1 General. '
+number: 2305.1
+---
+level: 2
+name: '2305.2 Design of woo. '
+number: 2305.2
+---
+level: 2
+name: '0.67 for structures over one story i. '
+number: 0.67
+---
+level: 2
+name: '2305.3 Design of wood shea. '
+number: 2305.3
+---
+level: 1
+name: |-
+  SECTION 2306 
+   ALLOWABLE STRESS DESIGN 
+number: 2306
+---
+level: 2
+name: '2306.1 Allowable stress design. '
+number: 2306.1
+---
+level: 2
+name: '2306.2 Wind provisions fo. '
+number: 2306.2
+---
+level: 2
+name: '2306.3 Woo. '
+number: 2306.3
+---
+level: 2
+name: '0.49 an. '
+number: 0.49
+---
+level: 2
+name: '2306.4 Shear walls. '
+number: 2306.4
+---
+level: 1
+name: |-
+  SECTION 2307 
+   LOAD AND RESISTANCE FACTOR DESIGN 
+number: 2307
+---
+level: 2
+name: '2307.1 Load and resistance factor design. '
+number: 2307.1
+---
+level: 1
+name: |-
+  SECTION 2308 
+   CONVENTIONAL LIGHT-FRAME CONSTRUCTION 
+number: 2308
+---
+level: 2
+name: '2308.1 General. '
+number: 2308.1
+---
+level: 2
+name: '2308.2 Limitations. '
+number: 2308.2
+---
+level: 2
+name: '2308.3 Braced wall lines. '
+number: 2308.3
+---
+level: 2
+name: '2308.4 Design of elements. '
+number: 2308.4
+---
+level: 2
+name: '2308.5 Connections and fasteners. '
+number: 2308.5
+---
+level: 2
+name: '2308.6 Foundation plates or sills. '
+number: 2308.6
+---
+level: 2
+name: '2308.7 Girders. '
+number: 2308.7
+---
+level: 2
+name: '2308.8 Floor joists. '
+number: 2308.8
+---
+level: 2
+name: '2308.9 Wal. '
+number: 2308.9
+---
+level: 2
+name: '2308.10 Roof and ceiling framing. '
+number: 2308.10
+---
+level: 2
+name: '2308.11 Additional requirements for conventiona. '
+number: 2308.11
+---
+level: 2
+name: '2308.12 Additional requirements for conventiona. '
+number: 2308.12
+---
+level: 2
+name: '0.50 &lt;Sos&lt. '
+number: 0.50
+---
+level: 2
+name: '0.75 &lt;Sds&lt. '
+number: 0.75
+---
+level: 0
+name: |
+  CHAPTER 24 
+   GLASS AND GLAZING 
+number: 2
+---
+level: 1
+name: "SECTION 2401 \n GENERAL "
+number: 2401
+---
+level: 2
+name: '2401.1 Scope. '
+number: 2401.1
+---
+level: 2
+name: '2401.2 Glazing replacement. '
+number: 2401.2
+---
+level: 1
+name: "SECTION 2402 \n DEFINITIONS "
+number: 2402
+---
+level: 2
+name: '2402.1 Definitions. '
+number: 2402.1
+---
+level: 1
+name: |-
+  SECTION 2403 
+   GENERAL REQUIREMENTS FOR GLASS 
+number: 2403
+---
+level: 2
+name: '2403.1 Identification. '
+number: 2403.1
+---
+level: 2
+name: '2403.2 Glass supports. '
+number: 2403.2
+---
+level: 2
+name: '2403.3 Framing. '
+number: 2403.3
+---
+level: 2
+name: '2403.4 Interior glazed areas. '
+number: 2403.4
+---
+level: 2
+name: '2403.5 Louvered windows or jalousies. '
+number: 2403.5
+---
+level: 1
+name: "SECTION 2404 \n "
+number: 2404
+---
+level: 2
+name: '2404.1 Vertical glass. '
+number: 2404.1
+---
+level: 2
+name: '2404.2 Sloped glass. '
+number: 2404.2
+---
+level: 2
+name: '2404.3 Wired, patterned and sandblaste. '
+number: 2404.3
+---
+level: 2
+name: '2404.4 Other designs. '
+number: 2404.4
+---
+level: 1
+name: |-
+  SECTION 2405 
+   SLOPED GLAZING AND SKYLIGHTS 
+number: 2405
+---
+level: 2
+name: '2405.1 Scope. '
+number: 2405.1
+---
+level: 2
+name: '2405.2 Allowable glazing materials and limitations. '
+number: 2405.2
+---
+level: 2
+name: '2405.3 Screening. '
+number: 2405.3
+---
+level: 2
+name: '2405.4 Framing. '
+number: 2405.4
+---
+level: 2
+name: '2405.5 Unit skylights. '
+number: 2405.5
+---
+level: 1
+name: "SECTION 2406 \n SAFETY GLAZING "
+number: 2406
+---
+level: 2
+name: '2406.1 Human impact loads. '
+number: 2406.1
+---
+level: 2
+name: '2406.3 shall comply with Sections 2406. '
+number: 2406.3
+---
+level: 2
+name: '2406.2 Identification of safety glazing. '
+number: 2406.2
+---
+level: 1
+name: |-
+  SECTION 2406.3 
+   (Category class) 
+number: 2406
+---
+level: 1
+name: |-
+  SECTION 2406.3 
+   (Category class) 
+number: 2406
+---
+level: 2
+name: '2406.3 Hazardous locations. '
+number: 2406.3
+---
+level: 2
+name: '2406.4 Fire department access panels. '
+number: 2406.4
+---
+level: 1
+name: |-
+  SECTION 2407 
+   GLASS IN HANDRAILS AND GUARDS 
+number: 2407
+---
+level: 2
+name: '2407.1 Materials. '
+number: 2407.1
+---
+level: 1
+name: |-
+  SECTION 2408 
+   GLAZING IN ATHLETIC FACILITIES 
+number: 2408
+---
+level: 2
+name: '2408.1 General. '
+number: 2408.1
+---
+level: 2
+name: '2408.2 Racquetball and squas. '
+number: 2408.2
+---
+level: 2
+name: '2408.3 Gymnasiums and basketball courts. '
+number: 2408.3
+---
+level: 1
+name: |-
+  SECTION 2409 
+   GLASS IN ELEVATOR HOISTWAY 
+number: 2409
+---
+level: 2
+name: '2409.1 Glass in elevator enclosures. '
+number: 2409.1
+---
+level: 0
+name: |
+  CHAPTER 25 
+   GYPSUM BOARD AND PLASTER 
+number: 2
+---
+level: 1
+name: "SECTION 2501 \n GENERAL "
+number: 2501
+---
+level: 1
+name: "SECTION 2502 \n DEFINITIONS "
+number: 2502
+---
+level: 2
+name: '2502.1 Definitions. '
+number: 2502.1
+---
+level: 1
+name: "SECTION 2503 \n INSPECTION "
+number: 2503
+---
+level: 2
+name: '2503.1 Inspection. '
+number: 2503.1
+---
+level: 1
+name: |-
+  SECTION 2504 
+   VERTICAL AND HORIZONTAL ASSEMBLIES 
+number: 2504
+---
+level: 2
+name: '2504.1 Scope. '
+number: 2504.1
+---
+level: 1
+name: |-
+  SECTION 2505 
+   SHEAR WALL CONSTRUCTION 
+number: 2505
+---
+level: 2
+name: '2505.1 Resistance to shear (wood framing). '
+number: 2505.1
+---
+level: 2
+name: '2306.4 and are permitted to resist wind and seismi. '
+number: 2306.4
+---
+level: 2
+name: '2505.2 Resistance to shear (steel framing). '
+number: 2505.2
+---
+level: 1
+name: |-
+  SECTION 2506 
+   GYPSUM BOARD MATERIALS 
+number: 2506
+---
+level: 2
+name: '2506.1 General. '
+number: 2506.1
+---
+level: 2
+name: '2506.2 Standards. '
+number: 2506.2
+---
+level: 1
+name: |-
+  SECTION 2507 
+   LATHING AND PLASTERING 
+number: 2507
+---
+level: 2
+name: '2507.1 GeneraL Lathing and plastering materials an. '
+number: 2507.1
+---
+level: 2
+name: '2507.2 Standards. '
+number: 2507.2
+---
+level: 1
+name: |-
+  SECTION 2508 
+   GYPSUM CONSTRUCTION 
+number: 2508
+---
+level: 2
+name: '2508.1 General. '
+number: 2508.1
+---
+level: 2
+name: '2508.2 Limitations. '
+number: 2508.2
+---
+level: 2
+name: '2508.3 Single-ply application. '
+number: 2508.3
+---
+level: 2
+name: '2508.4 Joint treatment. '
+number: 2508.4
+---
+level: 2
+name: '2508.5 Horizontal gypsum board diaphragm ceilings. '
+number: 2508.5
+---
+level: 1
+name: "SECTION 2509 \n "
+number: 2509
+---
+level: 2
+name: '2509.1 Wet areas. '
+number: 2509.1
+---
+level: 2
+name: '2509.2 Base for tile. '
+number: 2509.2
+---
+level: 2
+name: '2509.3 Limitations. '
+number: 2509.3
+---
+level: 1
+name: |-
+  SECTION 2510 
+   LATHING AND FURRING FOR 
+number: 2510
+---
+level: 2
+name: '2510.1 General. '
+number: 2510.1
+---
+level: 2
+name: '2507.2 and Chapte. '
+number: 2507.2
+---
+level: 2
+name: '2510.2 Weather protection. '
+number: 2510.2
+---
+level: 2
+name: '2510.3 Installation. '
+number: 2510.3
+---
+level: 2
+name: '2510.4 Corrosion resistance. '
+number: 2510.4
+---
+level: 2
+name: '2510.5 Backing. '
+number: 2510.5
+---
+level: 2
+name: '2510.6 Water-resistive barriers. '
+number: 2510.6
+---
+level: 2
+name: '2510.7 Preparation of masonry and concrete. '
+number: 2510.7
+---
+level: 1
+name: |-
+  SECTION 2511 
+   INTERIOR PLASTER 
+number: 2511
+---
+level: 2
+name: '2511.1 General. '
+number: 2511.1
+---
+level: 2
+name: '2511.2 Limitations. '
+number: 2511.2
+---
+level: 2
+name: '2511.3 Grounds. '
+number: 2511.3
+---
+level: 2
+name: '2511.4 Interior masonry or concrete. '
+number: 2511.4
+---
+level: 2
+name: '2511.5 Wet areas. '
+number: 2511.5
+---
+level: 1
+name: |-
+  SECTION 2512 
+   EXTERIOR PLASTER 
+number: 2512
+---
+level: 2
+name: '2512.1 General. '
+number: 2512.1
+---
+level: 2
+name: '2512.2 Plasticity agents. '
+number: 2512.2
+---
+level: 2
+name: '2512.3 Limitations. '
+number: 2512.3
+---
+level: 2
+name: '2512.4 Cement plaster. '
+number: 2512.4
+---
+level: 2
+name: '2512.5 Second-coat application. '
+number: 2512.5
+---
+level: 2
+name: '2512.6 Curing and interval. '
+number: 2512.6
+---
+level: 2
+name: '2512.7 Application to solid backings. '
+number: 2512.7
+---
+level: 2
+name: '2512.8 Alternate method of application. '
+number: 2512.8
+---
+level: 2
+name: '2512.9 Finish coats. '
+number: 2512.9
+---
+level: 1
+name: |-
+  SECTION 2513 
+   EXPOSED AGGREGATE PLASTER 
+number: 2513
+---
+level: 2
+name: '2513.1 General. '
+number: 2513.1
+---
+level: 2
+name: '2513.2 Aggregate. '
+number: 2513.2
+---
+level: 2
+name: '2513.3 Bedding coat proportions. '
+number: 2513.3
+---
+level: 2
+name: '2513.4 Application. '
+number: 2513.4
+---
+level: 2
+name: '2513.5 Bases. '
+number: 2513.5
+---
+level: 2
+name: '2513.6 Preparation of masonry and concrete. '
+number: 2513.6
+---
+level: 2
+name: '2513.7 Curing of base coats. '
+number: 2513.7
+---
+level: 0
+name: "CHAPTER 26 \n PLASTIC \n"
+number: 2
+---
+level: 1
+name: "SECTION 2601 \n GENERAL "
+number: 2601
+---
+level: 2
+name: '2601.1 Scope. '
+number: 2601.1
+---
+level: 1
+name: "SECTION 2602 \n DEFINITIONS "
+number: 2602
+---
+level: 2
+name: '2602.1 General. '
+number: 2602.1
+---
+level: 1
+name: |-
+  SECTION 2603 
+   FOAM PLASTIC INSULATION 
+number: 2603
+---
+level: 2
+name: '2603.1 General. '
+number: 2603.1
+---
+level: 2
+name: '2603.2 Labeling and identification. '
+number: 2603.2
+---
+level: 2
+name: '2603.3 Surface-burning characteristics. '
+number: 2603.3
+---
+level: 2
+name: '2603.4 Thermal barrier. '
+number: 2603.4
+---
+level: 2
+name: '2603.5 Exterior walls of buildings of any height. '
+number: 2603.5
+---
+level: 2
+name: '2603.6 Roofing. '
+number: 2603.6
+---
+level: 2
+name: '2603.7 Plenums. '
+number: 2603.7
+---
+level: 2
+name: '2603.8 Protection against termites. '
+number: 2603.8
+---
+level: 2
+name: '2603.9 Special approval. '
+number: 2603.9
+---
+level: 2
+name: '2603.7 where specifically approved based on large-scal. '
+number: 2603.7
+---
+level: 1
+name: |-
+  SECTION 2604 
+   INTERIOR FINISH AND TRIM 
+number: 2604
+---
+level: 2
+name: '2604.1 General. '
+number: 2604.1
+---
+level: 2
+name: '2604.2 Interior trim. '
+number: 2604.2
+---
+level: 1
+name: "SECTION 2605 \n PLASTIC VENEER "
+number: 2605
+---
+level: 2
+name: '2605.1 Interior use. '
+number: 2605.1
+---
+level: 2
+name: '2605.2 Exterior use. '
+number: 2605.2
+---
+level: 1
+name: |-
+  SECTION 2606 
+   LIGHT-TRANSMITTING PLASTICS 
+number: 2606
+---
+level: 2
+name: '2606.1 GeneraL The provisions of this section an. '
+number: 2606.1
+---
+level: 2
+name: '2606.2 Approval for use. '
+number: 2606.2
+---
+level: 2
+name: '2606.3 Identification. '
+number: 2606.3
+---
+level: 2
+name: '2606.4 Specifications. '
+number: 2606.4
+---
+level: 2
+name: '0.060 inch (. '
+number: 0.060
+---
+level: 2
+name: '2606.5 Structural requirements. '
+number: 2606.5
+---
+level: 2
+name: '2606.6 Fastening. '
+number: 2606.6
+---
+level: 2
+name: '2606.7 Light-diffusing systems. '
+number: 2606.7
+---
+level: 2
+name: '2606.8 Partitions. '
+number: 2606.8
+---
+level: 2
+name: '2606.9 Bathroom accessories. '
+number: 2606.9
+---
+level: 2
+name: '2606.10 Awnings, patio covers and similar structures. '
+number: 2606.10
+---
+level: 2
+name: '2606.11 Greenhouses. '
+number: 2606.11
+---
+level: 2
+name: '2606.12 Solar collectors. '
+number: 2606.12
+---
+level: 1
+name: |-
+  SECTION 2607 
+   LIGHT-TRANSMITTING PLASTIC WALL PANELS 
+number: 2607
+---
+level: 2
+name: '2607.1 General. '
+number: 2607.1
+---
+level: 2
+name: '2607.2 Installation. '
+number: 2607.2
+---
+level: 2
+name: '2607.3 Height limitation. '
+number: 2607.3
+---
+level: 2
+name: '2607.4 Area limitation and separation. '
+number: 2607.4
+---
+level: 2
+name: '2607.5 Automatic sprinkler system. '
+number: 2607.5
+---
+level: 2
+name: '2607.6 Combinations of glazing and wall panels. '
+number: 2607.6
+---
+level: 1
+name: |-
+  SECTION 2608 
+   LIGHT-TRANSMITTING PLASTIC GLAZING 
+number: 2608
+---
+level: 2
+name: '2608.1 Buildings of Type VB construction. '
+number: 2608.1
+---
+level: 2
+name: '2608.2 Buildings of other types of construction. '
+number: 2608.2
+---
+level: 1
+name: |-
+  SECTION 2609 
+   LIGHT-TRANSMITTING PLASTIC ROOF PANELS 
+number: 2609
+---
+level: 2
+name: '2609.1 General. '
+number: 2609.1
+---
+level: 2
+name: '2609.2 Separation. '
+number: 2609.2
+---
+level: 2
+name: '2609.3 Location. '
+number: 2609.3
+---
+level: 2
+name: '2609.4 Area limitations. '
+number: 2609.4
+---
+level: 2
+name: '2609.4 provided they have a minimum fir. '
+number: 2609.4
+---
+level: 1
+name: "SECTION 2610 \n "
+number: 2610
+---
+level: 2
+name: '2610.1 Light-transmitting plastic glazing o. '
+number: 2610.1
+---
+level: 2
+name: '2610.2 Mounting. '
+number: 2610.2
+---
+level: 2
+name: '2610.3 Slope. '
+number: 2610.3
+---
+level: 2
+name: '2610.4 Maximum area of skylights. '
+number: 2610.4
+---
+level: 2
+name: '2610.5 Aggregate area of skylights. '
+number: 2610.5
+---
+level: 2
+name: '2610.6 Separation. '
+number: 2610.6
+---
+level: 2
+name: '2610.7 Location. '
+number: 2610.7
+---
+level: 2
+name: '2610.8 Combinations of roof panels and skylights. '
+number: 2610.8
+---
+level: 1
+name: |-
+  SECTION 2611 
+   LIGHT-TRANSMITTING PLASTIC INTERIOR SIGNS 
+number: 2611
+---
+level: 2
+name: '2611.1 General. '
+number: 2611.1
+---
+level: 2
+name: '2611.2 Aggregate area. '
+number: 2611.2
+---
+level: 2
+name: '2611.3 Maximum area. '
+number: 2611.3
+---
+level: 2
+name: '2611.4 Encasement. '
+number: 2611.4
+---
+level: 0
+name: "CHAPTER 27 \n ELECTRICAL \n"
+number: 2
+---
+level: 1
+name: "SECTION 2701 \n GENERAL "
+number: 2701
+---
+level: 2
+name: '2701.1 Scope. '
+number: 2701.1
+---
+level: 1
+name: |-
+  SECTION 2702 
+   EMERGENCY AND STANDBY POWER SYSTEMS 
+number: 2702
+---
+level: 2
+name: '2702.1 Installation. '
+number: 2702.1
+---
+level: 2
+name: '2702.2 Where required. '
+number: 2702.2
+---
+level: 2
+name: '2702.3 Maintenance. '
+number: 2702.3
+---
+level: 0
+name: |
+  CHAPTER 28 
+   MECHANICAL SYSTEMS 
+number: 2
+---
+level: 1
+name: "SECTION 2801 \n GENERAL "
+number: 2801
+---
+level: 2
+name: '2801.1 Scope. '
+number: 2801.1
+---
+level: 0
+name: |
+  CHAPTER 29 
+   PLUMBING SYSTEMS 
+number: 2
+---
+level: 1
+name: "SECTION 2901 \n GENERAL "
+number: 2901
+---
+level: 1
+name: |-
+  SECTION 2902 
+   MINIMUM PLUMBING FACILITIES 
+number: 2902
+---
+level: 2
+name: '410.1 O. '
+number: 410.1
+---
+level: 2
+name: '410.1 O. '
+number: 410.1
+---
+level: 2
+name: '410.1 O. '
+number: 410.1
+---
+level: 0
+name: |
+  CHAPTER 30 
+   ELEVATORS AND CONVEYING SYSTEMS 
+number: 3
+---
+level: 1
+name: "SECTION 3001 \n GENERAL "
+number: 3001
+---
+level: 2
+name: '3001.1 Scope. '
+number: 3001.1
+---
+level: 2
+name: '3001.2 Referenced standards. '
+number: 3001.2
+---
+level: 2
+name: '3001.3 Accessibility. '
+number: 3001.3
+---
+level: 2
+name: '3001.4 Change in use. '
+number: 3001.4
+---
+level: 1
+name: |-
+  SECTION 3002 
+   HOISTWAY ENCLOSURES 
+number: 3002
+---
+level: 2
+name: '3002.1 Hoistway enclosure protection. '
+number: 3002.1
+---
+level: 2
+name: '3002.2 Number of elevator cars in a hoistway. '
+number: 3002.2
+---
+level: 2
+name: '3002.3 Emergency signs. '
+number: 3002.3
+---
+level: 2
+name: '3002.4 Elevator car to accommodate ambulanc. '
+number: 3002.4
+---
+level: 2
+name: '3002.5 Emergency doors. '
+number: 3002.5
+---
+level: 2
+name: '3002.6 Prohibited doors, oors, other than hoistway door. '
+number: 3002.6
+---
+level: 2
+name: '3002.7 Common enclosure with stairway. '
+number: 3002.7
+---
+level: 2
+name: '3002.8 Glass in elevator enclosures. '
+number: 3002.8
+---
+level: 1
+name: |-
+  SECTION 3003 
+   EMERGENCY OPERATIONS 
+number: 3003
+---
+level: 2
+name: '3003.1 Standby power. '
+number: 3003.1
+---
+level: 2
+name: "3003.2 Fire-fighters' emergency operation. "
+number: 3003.2
+---
+level: 1
+name: |-
+  SECTION 3004 
+   HOISTWAY VENTING 
+number: 3004
+---
+level: 2
+name: '3004.1 Vents required. '
+number: 3004.1
+---
+level: 2
+name: '3004.2 Location of vents. '
+number: 3004.2
+---
+level: 2
+name: '3004.3 Area of vents. '
+number: 3004.3
+---
+level: 2
+name: '0.5 square fee. '
+number: 0.5
+---
+level: 2
+name: '3004.4 Plumbing and mechanical systems. '
+number: 3004.4
+---
+level: 1
+name: |-
+  SECTION 3005 
+   CONVEYING SYSTEMS 
+number: 3005
+---
+level: 2
+name: '3005.1 General. '
+number: 3005.1
+---
+level: 2
+name: '3005.2 Escalators and moving walks. '
+number: 3005.2
+---
+level: 2
+name: '3005.3 Conveyors. '
+number: 3005.3
+---
+level: 2
+name: '3005.4 Personnel and material hoists. '
+number: 3005.4
+---
+level: 1
+name: "SECTION 3006 \n MACHINE ROOMS "
+number: 3006
+---
+level: 2
+name: '3006.1 Access. '
+number: 3006.1
+---
+level: 2
+name: '3006.2 Venting. '
+number: 3006.2
+---
+level: 2
+name: '3006.3 Pressurization. '
+number: 3006.3
+---
+level: 2
+name: '3006.4 Machine rooms and machinery spaces. '
+number: 3006.4
+---
+level: 2
+name: '3006.5 Shunt trip. '
+number: 3006.5
+---
+level: 2
+name: '3006.6 Plumbing systems. '
+number: 3006.6
+---
+level: 0
+name: |
+  CHAPTER 31 
+   SPECIAL CONSTRUCTION 
+number: 3
+---
+level: 1
+name: "SECTION 3101 \n GENERAL "
+number: 3101
+---
+level: 2
+name: '3101.1 Scope. '
+number: 3101.1
+---
+level: 1
+name: |-
+  SECTION 3102 
+   MEMBRANE STRUCTURES 
+number: 3102
+---
+level: 2
+name: '3102.1 General. '
+number: 3102.1
+---
+level: 2
+name: '3102.2 Definitions. '
+number: 3102.2
+---
+level: 2
+name: '3102.3 Type of construction. '
+number: 3102.3
+---
+level: 2
+name: '3102.4 Allowable floor areas. '
+number: 3102.4
+---
+level: 2
+name: '3102.5 Maximum height. '
+number: 3102.5
+---
+level: 2
+name: '3102.6 Mixed construction. '
+number: 3102.6
+---
+level: 2
+name: '3102.7 Engineering design. '
+number: 3102.7
+---
+level: 2
+name: '3102.8 Inflation systems. '
+number: 3102.8
+---
+level: 1
+name: |-
+  SECTION 3103 
+   TEMPORARY STRUCTURES 
+number: 3103
+---
+level: 2
+name: '3103.1 General. '
+number: 3103.1
+---
+level: 2
+name: '3103.2 Construction documents. '
+number: 3103.2
+---
+level: 2
+name: '3103.3 Location. '
+number: 3103.3
+---
+level: 2
+name: '3103.4 Means of egress. '
+number: 3103.4
+---
+level: 1
+name: |-
+  SECTION 3104 
+   PEDESTRIAN WALKWAYS AND TUNNELS 
+number: 3104
+---
+level: 2
+name: '3104.1 General. '
+number: 3104.1
+---
+level: 2
+name: '3104.2 Separate structures. '
+number: 3104.2
+---
+level: 2
+name: '3104.3 Construction. '
+number: 3104.3
+---
+level: 2
+name: '3104.4 Contents. '
+number: 3104.4
+---
+level: 2
+name: '3104.5 Fire barriers between pedestrian walkway. '
+number: 3104.5
+---
+level: 2
+name: '3104.6 Public way. '
+number: 3104.6
+---
+level: 2
+name: '3104.7 Egress. '
+number: 3104.7
+---
+level: 2
+name: '3104.8 Width. '
+number: 3104.8
+---
+level: 2
+name: '3104.9 Exit access travel. '
+number: 3104.9
+---
+level: 2
+name: '3104.10 T\inneled walkway. '
+number: 3104.10
+---
+level: 1
+name: |-
+  SECTION 3105 
+   AWNINGS AND CANOPIES 
+number: 3105
+---
+level: 2
+name: '3105.1 General. '
+number: 3105.1
+---
+level: 2
+name: '3105.2 Definition. '
+number: 3105.2
+---
+level: 2
+name: '3105.3 Design and construction. '
+number: 3105.3
+---
+level: 2
+name: '3105.4 Canopy materials. '
+number: 3105.4
+---
+level: 1
+name: "SECTION 3106 \n MARQUEES "
+number: 3106
+---
+level: 2
+name: '3106.1 General. '
+number: 3106.1
+---
+level: 2
+name: '3106.2 Thickness. '
+number: 3106.2
+---
+level: 2
+name: '3106.3 Roof construction. '
+number: 3106.3
+---
+level: 2
+name: '3106.4 Location prohibited. '
+number: 3106.4
+---
+level: 2
+name: '3106.5 Construction. '
+number: 3106.5
+---
+level: 1
+name: "SECTION 3107 \n SIGNS "
+number: 3107
+---
+level: 2
+name: '3107.1 General. '
+number: 3107.1
+---
+level: 1
+name: |-
+  SECTION 3108 
+   RADIO AND TELEVISION TOWERS 
+number: 3108
+---
+level: 2
+name: '3108.1 General. '
+number: 3108.1
+---
+level: 2
+name: '3108.2 Location and access. '
+number: 3108.2
+---
+level: 2
+name: '3108.3 Construction. '
+number: 3108.3
+---
+level: 2
+name: '3108.4 Loads. '
+number: 3108.4
+---
+level: 2
+name: '3108.5 Grounding. '
+number: 3108.5
+---
+level: 1
+name: "SECTION 31 09 \n "
+number: 31
+---
+level: 2
+name: '3109.1 General. '
+number: 3109.1
+---
+level: 2
+name: '3109.2 Definition. '
+number: 3109.2
+---
+level: 2
+name: '3109.3 Public swimming pools. '
+number: 3109.3
+---
+level: 2
+name: '3109.4 Residential swimming pools. '
+number: 3109.4
+---
+level: 2
+name: '1.75 inches (44 mm) i. '
+number: 1.75
+---
+level: 2
+name: '1.75 inches (4. '
+number: 1.75
+---
+level: 2
+name: '3109.5 Entrapment avoidance. '
+number: 3109.5
+---
+level: 0
+name: |
+  CHAPTER 32 
+   ENCROACHMENTS INTO THE PUBLIC RIGHT-OF-WAY 
+number: 3
+---
+level: 1
+name: "SECTION 3201 \n GENERAL "
+number: 3201
+---
+level: 2
+name: '3201.1 Scope. '
+number: 3201.1
+---
+level: 2
+name: '3201.2 Measurement. '
+number: 3201.2
+---
+level: 2
+name: '3201.3 Other laws. '
+number: 3201.3
+---
+level: 2
+name: '3201.4 Drainage. '
+number: 3201.4
+---
+level: 1
+name: "SECTION 3202 \n ENCROACHMENTS "
+number: 3202
+---
+level: 2
+name: '3202.1 Encroachments below grade. '
+number: 3202.1
+---
+level: 2
+name: '3202.2 Encroachments above grade and below 8 fee. '
+number: 3202.2
+---
+level: 2
+name: '3202.3 Encroachments 8 feet or more abov. '
+number: 3202.3
+---
+level: 2
+name: '3202.4 Temporary encroachments. '
+number: 3202.4
+---
+level: 0
+name: |
+  CHAPTER 33 
+   SAFEGUARDS DURING CONSTRUCTION 
+number: 3
+---
+level: 1
+name: "SECTION 3301 \n GENERAL "
+number: 3301
+---
+level: 2
+name: '3301.1 Scope. '
+number: 3301.1
+---
+level: 2
+name: '3301.2 Storage and placement. '
+number: 3301.2
+---
+level: 1
+name: |-
+  SECTION 3302 
+   CONSTRUCTION SAFEGUARDS 
+number: 3302
+---
+level: 2
+name: '3302.1 Remodeling and additions. '
+number: 3302.1
+---
+level: 2
+name: '3302.2 Manner of removal. '
+number: 3302.2
+---
+level: 1
+name: "SECTION 3303 \n DEMOLITION "
+number: 3303
+---
+level: 2
+name: '3303.1 Construction documents. '
+number: 3303.1
+---
+level: 2
+name: '3303.2 Pedestrian protection. '
+number: 3303.2
+---
+level: 2
+name: '3303.3 Means of egress. '
+number: 3303.3
+---
+level: 2
+name: '3303.4 Vacant lot. '
+number: 3303.4
+---
+level: 2
+name: '3303.5 Water accumulation. '
+number: 3303.5
+---
+level: 2
+name: '3303.5 Utility connections. '
+number: 3303.5
+---
+level: 1
+name: "SECTION 3304 \n SITE WORK "
+number: 3304
+---
+level: 2
+name: '3304.1 Excavation and fill. '
+number: 3304.1
+---
+level: 1
+name: "SECTION 3305 \n SANITARY "
+number: 3305
+---
+level: 2
+name: '3305.1 Facilities required. '
+number: 3305.1
+---
+level: 1
+name: |-
+  SECTION 3306 
+   PROTECTION OF PEDESTRIANS 
+number: 3306
+---
+level: 2
+name: '3306.1 Protection required. '
+number: 3306.1
+---
+level: 2
+name: '3306.2 Walkways. '
+number: 3306.2
+---
+level: 2
+name: '3306.3 Directional barricades. '
+number: 3306.3
+---
+level: 2
+name: '3306.4 Construction railings. '
+number: 3306.4
+---
+level: 2
+name: '3306.5 Barriers. '
+number: 3306.5
+---
+level: 2
+name: '3306.6 Barrier design. '
+number: 3306.6
+---
+level: 2
+name: '3306.7 Covered walkways. '
+number: 3306.7
+---
+level: 2
+name: '3306.8 Repair, maintenance and removal. '
+number: 3306.8
+---
+level: 2
+name: '3306.9 Adjacent to excavations. '
+number: 3306.9
+---
+level: 1
+name: |-
+  SECTION 3307 
+   PROTECTION OF ADJOINING PROPERTY 
+number: 3307
+---
+level: 2
+name: '3307.1 Protection required. '
+number: 3307.1
+---
+level: 1
+name: "SECTION 3308 \n "
+number: 3308
+---
+level: 2
+name: '3308.1 Storage and handling of materials. '
+number: 3308.1
+---
+level: 2
+name: '3308.2 Utility fixtures. '
+number: 3308.2
+---
+level: 1
+name: |-
+  SECTION 3309 
+   FIRE EXTINGUISHERS 
+number: 3309
+---
+level: 2
+name: '3309.1 Where required. '
+number: 3309.1
+---
+level: 2
+name: '3309.2 Fire hazards. '
+number: 3309.2
+---
+level: 1
+name: "SECTION 3310 \n EXITS "
+number: 3310
+---
+level: 2
+name: '3310.1 Stairways required. '
+number: 3310.1
+---
+level: 2
+name: '3310.2 Maintenance of exits. '
+number: 3310.2
+---
+level: 2
+name: '3310.3 Stairway floor number signs. '
+number: 3310.3
+---
+level: 1
+name: "SECTION 3311 \n STANDPIPES "
+number: 3311
+---
+level: 2
+name: '3311.1 Where required. '
+number: 3311.1
+---
+level: 2
+name: '3311.2 Buildings being demolished. '
+number: 3311.2
+---
+level: 2
+name: '3311.3 Detailed requirements. '
+number: 3311.3
+---
+level: 2
+name: '3311.4 Water supply. '
+number: 3311.4
+---
+level: 1
+name: |-
+  SECTION 3312 
+   AUTOMATIC SPRINKLER SYSTEM 
+number: 3312
+---
+level: 2
+name: '3312.1 Completion before occupancy. '
+number: 3312.1
+---
+level: 2
+name: '3312.2 Operation of valves. '
+number: 3312.2
+---
+level: 0
+name: |
+  CHAPTER 34 
+   EXISTING STRUCTURES 
+number: 3
+---
+level: 1
+name: "SECTION 3401 \n GENERAL "
+number: 3401
+---
+level: 2
+name: '3401.1 Scope. '
+number: 3401.1
+---
+level: 2
+name: '3401.2 Maintenance. '
+number: 3401.2
+---
+level: 2
+name: '3401.3 Compliance with other codes. '
+number: 3401.3
+---
+level: 1
+name: "SECTION 3402 \n DEFINITIONS "
+number: 3402
+---
+level: 2
+name: '3402.1 Definitions. '
+number: 3402.1
+---
+level: 1
+name: |-
+  SECTION 3403 
+   ADDITIONS, ALTERATIONS OR REPAIRS 
+number: 3403
+---
+level: 2
+name: '3403.1 Existing buildings or structures. '
+number: 3403.1
+---
+level: 2
+name: '3403.2 Structural. '
+number: 3403.2
+---
+level: 2
+name: '3403.3 Nonstructural. '
+number: 3403.3
+---
+level: 2
+name: '3403.4 Stairways. '
+number: 3403.4
+---
+level: 1
+name: "SECTION 3404 \n FIRE ESCAPES "
+number: 3404
+---
+level: 2
+name: '3404.1 Where permitted. '
+number: 3404.1
+---
+level: 2
+name: '3404.2 Location. '
+number: 3404.2
+---
+level: 2
+name: '3404.3 Construction. '
+number: 3404.3
+---
+level: 2
+name: '3404.4 Dimensions. '
+number: 3404.4
+---
+level: 2
+name: '3404.5 Opening protectives. '
+number: 3404.5
+---
+level: 1
+name: |-
+  SECTION 3405 
+   GLASS REPLACEMENT 
+number: 3405
+---
+level: 2
+name: '3405.1 Conformance. '
+number: 3405.1
+---
+level: 1
+name: |-
+  SECTION 3406 
+   CHANGE OF OCCUPANCY 
+number: 3406
+---
+level: 2
+name: '3406.1 Conformance. '
+number: 3406.1
+---
+level: 2
+name: '3406.2 Certificate of occupancy. '
+number: 3406.2
+---
+level: 2
+name: '3406.3 Stairways. '
+number: 3406.3
+---
+level: 2
+name: '3406.4 Change of occupancy. '
+number: 3406.4
+---
+level: 1
+name: |-
+  SECTION 3407 
+   HISTORIC BUILDINGS 
+number: 3407
+---
+level: 2
+name: '3407.1 Historic buildings. '
+number: 3407.1
+---
+level: 2
+name: '3407.2 Flood hazard areas. '
+number: 3407.2
+---
+level: 1
+name: |-
+  SECTION 3408 
+   MOVED STRUCTURES 
+number: 3408
+---
+level: 2
+name: '3408.1 Conformance. '
+number: 3408.1
+---
+level: 1
+name: |-
+  SECTION 3409 
+   ACCESSIBILITY FOR EXISTING BUILDINGS 
+number: 3409
+---
+level: 2
+name: '3409.1 Scope. '
+number: 3409.1
+---
+level: 2
+name: '3409.9 apply to maintenance, change of occupancy. '
+number: 3409.9
+---
+level: 2
+name: '3409.2 Maintenance of facilities. '
+number: 3409.2
+---
+level: 2
+name: '3409.3 Extent of application. '
+number: 3409.3
+---
+level: 2
+name: '3409.4 Change of occupancy. '
+number: 3409.4
+---
+level: 2
+name: '3409.5 Additions. '
+number: 3409.5
+---
+level: 2
+name: '3409.6 Alterations. '
+number: 3409.6
+---
+level: 2
+name: '3409.7 Alterations affecting an area containing . '
+number: 3409.7
+---
+level: 2
+name: '3409.8 Scoping for alterations. '
+number: 3409.8
+---
+level: 2
+name: '3409.9 Historic buildings. '
+number: 3409.9
+---
+level: 2
+name: '3410.1 Compliance, The provisions of this sectio. '
+number: 3410.1
+---
+level: 2
+name: '3410.2 Applicability. '
+number: 3410.2
+---
+level: 2
+name: '3410.3 Acceptance. '
+number: 3410.3
+---
+level: 2
+name: '3410.4 Investigation and evaluation. '
+number: 3410.4
+---
+level: 2
+name: '3410.5 Evaluation. '
+number: 3410.5
+---
+level: 2
+name: '3410.6 Evaluation process. '
+number: 3410.6
+---
+level: 2
+name: '3410.7 under Safety Paramete. '
+number: 3410.7
+---
+level: 2
+name: '403.8 and contains the emergenc. '
+number: 403.8
+---
+level: 1
+name: "SECTION 1010 \n "
+number: 1010
+---
+level: 2
+name: '3410.7 Building score. '
+number: 3410.7
+---
+level: 2
+name: '3410.8 Safety scores. '
+number: 3410.8
+---
+level: 2
+name: '3410.9 Evaluation of building safety. '
+number: 3410.9
+---
+level: 2
+name: '3410.8 shall be utilized (see Sectio. '
+number: 3410.8
+---
+level: 2
+name: '0.112 inc. '
+number: 0.112
+---
+level: 2
+name: '1509.3 an. '
+number: 1509.3
+---
+level: 2
+name: '1.3 Validity of permit. '
+number: 1.3
+---
+level: 2
+name: '55.6 Attaclimemt. '
+number: 55.6
+---
+level: 1
+name: "SECTION 1101 \n (QENERAL "
+number: 1101
+---
+level: 2
+name: '1103.1 Light, vemtilatlon aed emergency egress. '
+number: 1103.1
+---
+level: 2
+name: '11.3 Soils report. '
+number: 11.3
+---
+level: 2
+name: '18.1 General. '
+number: 18.1
+---
+level: 2
+name: '1.6 Information on the permit. '
+number: 1.6
+---
+level: 2
+name: '12.6 Secretary. '
+number: 12.6
+---
+level: 0
+name: |
+  CHAPTER 4 
+   SPECIAL DETAILED REQUIREMENTS BASED ON USE AND OCCUPANCY 
+number: 4
+---
+level: 0
+name: |
+  CHAPTER 7 
+   FIRE-RESISTANCE-RATED CONSTRUCTION 
+number: 7
+---
+level: 0
+name: "CHAPTER 10 \n \n"
+number: 1
+---
+level: 2
+name: '1022.1 Horizontal exits. '
+number: 1022.1
+---
+level: 0
+name: "CHAPTER 16 \n \n"
+number: 1
+---
+level: 2
+name: '3.1 (n. '
+number: 3.1
+---
+level: 2
+name: '3.2 revise Nch to N (no change to text not shown, poste. '
+number: 3.2
+---
+level: 2
+name: '3.3 revise N to NchrA70 change to text not shown, poste. '
+number: 3.3
+---
+level: 0
+name: "CHAPTER 19 \n \n"
+number: 1
+---
+level: 0
+name: "CHAPTER 23 \n \n"
+number: 2
+---
+level: 0
+name: |
+  CHAPTER 30 
+   ELEVATORS AND CONVEYING SYSTEMS 
+number: 3
+---
+level: 2
+name: '3006.5 Shunt trip. '
+number: 3006.5
+---
+level: 0
+name: "CHAPTER 35 \n \n"
+number: 3
+---
+level: 2
+name: '716.5 Where required. '
+number: 716.5
+---
+level: 0
+name: "CHAPTER 10 \n \n"
+number: 1
+---
+level: 2
+name: '1012.4 Continuity. '
+number: 1012.4
+---
+level: 2
+name: '0.125 inch (. '
+number: 0.125
+---
+level: 2
+name: '1012.5 Handrail extensions. '
+number: 1012.5
+---
+level: 0
+name: "CHAPTER 11 \n \n"
+number: 1
+---
+level: 0
+name: |
+  CHAPTER 15 
+   ROOF ASSEMBLIES AND ROOFTOP STRUCTURES 
+number: 1
+---
+level: 0
+name: "CHAPTER 21 \n \n"
+number: 2
+---
+level: 2
+name: '2107.8 ACI 530/ASCE 5/TMS 402, Sectio. '
+number: 2107.8
+---
+level: 0
+name: "CHAPTER 26 \n \n"
+number: 2
+---
+level: 0
+name: |
+  CHAPTER 31 
+   SPECIAL CONSTUCTION 
+number: 3
+---
+level: 2
+name: '3104.3 Construction. '
+number: 3104.3
+---
+level: 0
+name: "CHAPTER 35 \n \n"
+number: 3
+---
+level: 0
+name: "CHAPTER 1 \n \n"
+number: 1
+---
+level: 2
+name: '303.1 Assembly Group A. '
+number: 303.1
+---
+level: 2
+name: '307.1 High-hazard Group H. '
+number: 307.1
+---
+level: 2
+name: '309.2 Quantity of hazardous materials. '
+number: 309.2
+---
+level: 0
+name: |
+  CHAPTER 4 
+   SPECIAL DETAILED REQUIREMENTS BASED ON USE AND OCCUPANCY 
+number: 4
+---
+level: 2
+name: '702.1 Definitions. '
+number: 702.1
+---
+level: 2
+name: '706.4 Exterior walls. '
+number: 706.4
+---
+level: 2
+name: '706.6 Ext e r i or wa ll s. '
+number: 706.6
+---
+level: 2
+name: '707.7 Openings. '
+number: 707.7
+---
+level: 2
+name: '711.3 Fire-resistance rating. '
+number: 711.3
+---
+level: 0
+name: "CHAPTER 10 \n \n"
+number: 1
+---
+level: 2
+name: '1007.2 Continuity and components. '
+number: 1007.2
+---
+level: 2
+name: '1008.1 Doors. '
+number: 1008.1
+---
+level: 2
+name: '1023.1 Exterior exit ramps and stairways. '
+number: 1023.1
+---
+level: 2
+name: '1023.5 Location. '
+number: 1023.5
+---
+level: 0
+name: "CHAPTER 11 \n \n"
+number: 1
+---
+level: 2
+name: '1109.7 Lifts. '
+number: 1109.7
+---
+level: 0
+name: "CHAPTER 23 \n \n"
+number: 2
+---
+level: 0
+name: "CHAPTER 27 \n \n"
+number: 2
+---
+level: 2
+name: '2702.2 Where required. '
+number: 2702.2
+---
+level: 0
+name: |
+  CHAPTER 30 
+   ELEVATORS AND CONVEYING SYSTEMS 
+number: 3
+---
+level: 2
+name: '3006.4 Machine rooms and machinery spaces. '
+number: 3006.4
+---
+level: 0
+name: |
+  CHAPTER 31 
+   SPECIAL CONSTRUCTION 
+number: 3
+---
+level: 2
+name: '3104.5 Fire barriers between pedestrian walkways and buildings. '
+number: 3104.5
+---
+level: 0
+name: |
+  CHAPTER 33 
+   SAFEGUARDS DURING CONSTRUCTION 
+number: 3
+---
+level: 2
+name: '3310.3 Sta i rway f l oor numb e r s i gns. '
+number: 3310.3
+---
+level: 0
+name: "CHAPTER 34 \n \n"
+number: 3
+---
+level: 0
+name: "CHAPTER 35 \n \n"
+number: 3

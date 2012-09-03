@@ -1,0 +1,233 @@
+SPECIAL DETAILED REQUIREMENTS BASED ON USE AND OCCUPANCY
+SECTION 407
+GROUP 1-2
+407.1 General. Occupancies in Group 1-2 shall comply with
+the provisions ofthis section and other applicable provisions of
+this code.
+407.2 Corridors. Corridors in occupancies in Group 1-2 shall
+be continuous to the exits and separated from other areas in
+accordance with Section 407.3 except spaces conforming to
+Sections 407.2.1 through 407.2.4.
+407.2.1 Spaces ofunlimited area. Waiting areas and simi-
+lar spaces constructed as required for corridors shall be per-
+mitted to be open to a corridor, only where all of the
+following criteria are met:
+1. The spaces are not occupied for patient sleeping units,
+treatment rooms, hazardous or incidental use areas as
+defined in Section 508.2.
+2. The open space is protected by an automatic fire
+detection system installed in accordance with Section
+907.
+3. The corridors onto which the spaces open, in the same
+smoke compartment, are protected by an automatic
+fire detection system installed in accordance with
+Section 907, or the smoke compartment in which the
+spaces are located is equipped throughout with
+quick-response sprinklers in accordance with Section
+903.3.2.
+4. The space is arranged so as not to obstruct access to
+the required exits.
+407.2.2 Nurses' stations. Spaces for doctors' and nurses'
+charting, communications and related clerical areas shall be
+permitted to be open to the corridor, when such spaces are
+constructed as required for corridors.
+407.2.3 Mental health treatment areas. Areas wherein
+mental health patients who are not capable of self-preserva-
+tion are housed, or group meeting or multipurpose therapeu-
+tic spaces other than incidental use areas as defined in
+Section 508.2, under continuous supervision by facility
+staff, shall be permitted to be open to the corridor, where the
+following criteria are met:
+1. Each area does not exceed 1,500 square feet (140 m2
+).
+2. The area is located to permit supervision by the facil-
+ity staff.
+3. The area is arranged so as not to obstruct any access to
+the required exits.
+4. The area is equipped with an automatic fire detection
+system installed in accordance with Section 907.2.
+5. Not more than one such space is permitted in anyone
+smoke compartment.
+6. The walls and ceilings of the space are constructed as
+required for corridors.
+407.2.4 Gift shops. Gift shops· less than 500 square feet
+(46.5 m2
+) in area shall be permittedto be open to the corridor
+provided the gift shop and storage areas are fully
+2006 INTERNATIONAL BUILDING CODE®
+sprinklered and storage areas are protected in accordance
+with Section 508.2.
+407.3 Corridor walls. Corridor walls shall be constructed as
+smoke partitions in accordance with Section 710. I
+407.3.1 Corridor doors. Corridor doors, other than those in
+a wall required to be rated by Section 508.2 or for the enclo-
+sure ofa vertical opening or an exit, shall not have a required
+fire protection rating and shall not be required to be
+equipped with self-closing or automatic-closiI).g devices,
+but shall provide an effective barrier to limit the transfer of
+smoke and shall be equipped with positive latching. Roller
+latches are not permitted. Other doors shall conform to Sec-
+tion 715.4.
+407.3.2 Locking devices. Locking devices that restrict
+access to the patient room from the corridor, and that are
+operable only by staff from the corridor side, shall not
+restrict the means ofegress from the patient room except for
+patient rooms in mental health facilities.
+407.4 Smoke barriers. Smoke barriers shall be provided to
+subdivide every story used by patients for sleeping or treatment
+and to divide other stories with an occupant load of 50 or more
+persons, into at least two smoke compartments. Such stories
+shall be divided into smoke compartments with an area of not
+more than 22,500 square feet (2092 m2
+) and the travel distance
+from any point in a smoke compartment to a smoke barrierdoor
+shall not exceed 200 feet (60 960 mm). The smoke barrier shall
+be in accordance with Section 709.
+407.4.1 Refuge area. At least 30 net squ(\re feet (2.8 m2) per
+patient shall be provided within the aggregate area of corri-
+dors, patient rooms, treatment rooms, lounge ordining areas
+and other low-hazard areas on each side of each smoke bar-
+rier. On floors not housing patients confined to a bed or lit-
+ter, at least 6 net square feet (0.56 m2
+) per occupant shall be
+provided on each side of each smoke barrier for the total
+number of occupants in adjoining smoke compartments.
+407.4.2 Independent egress. A means of egress shall be
+provided from each smoke compartment created by smoke
+barriers without having to return through the smoke com-
+partment from which means of egress originated.
+[F] 407.5 Automatic sprinkler system. Smoke compartments
+containing patient sleeping units shall be equipped throughout
+with an automatic fire sprinkler systemin accordance with Sec-
+tion 903.3.1.1. The smoke compartments shall be equipped
+with approved quick-response or residential sprinklers in
+accordance with Section 903.3.2.
+[F] 407.6 Automatic fire detection. Corridors in nursing
+homes (both intermediate care and skilled nursing facilities),
+detoxification facilities and spaces permitted to be open to the
+corridors by Section 407.2 shall be equipped with an automatic
+fire detection system. Hospitals shall be equipped with smoke Idetection as required in Section 407.2. .
+Exceptions:
+1. Corridor smoke detection is not required where
+patient sleeping units are provided with smoke detec-
+tors that comply with UL 268. Such detectors shall
+provide a visual display on the corridor side of each
+47
+
+SPECIAL DETAILED REQUIREMENTS BASED ON USE AND OCCUPANCY
+patient sleeping unit and an audible and visual alarm
+at the nursing station attending each unit.
+2. Corridor smoke detection is not required where
+patient sleeping unit doors are equipped with auto-
+matic door-closing devices with integral smoke
+detectors on the unit sides installed in accordance
+with their listing, provided that the integral detectors
+perform the required alerting function.
+407.7 Secured yards. Grounds are permitted to be fenced and
+gates therein are pemiitted to be equipped with locks, provided
+that safe dispersal areas having 30 net square feet (2.8 m2
+) for
+bed and litter patients and 6 net square feet (0.56 m2
+) for ambu-
+latory patients and other occupants are located between the
+building and the fence. Such provided safe dispersal areas shall
+not be located less than 50 feet (15240 mm) from the building
+they serve.
+.~~
+SECTION 408
+GROUP 1-3
+408.1 General. Occupancies in Group 1-3 shall comply with
+the provisions ofthis section and other applicable provisions of
+this code (see Section 308.4).
+408.2 Mixed occupancies. Portions ofbuildings with an occu-
+pancy in Group 1-3 that are classified as a different occupancy
+shall meet the applicable requirements of this code for such
+occupancies. Where security operations necessitate the lock-
+ing of required means of egress, provisions shall be made for
+the release of occupants at all times.
+Means of egress from detention and correctional occupan-
+cies that traverse other use areas shall, as a minimum, conform
+to requirements for detention and correctional occupancies.
+Exception: It is permissible to exit through a horizontal exit
+into other contiguous occupancies that do not conform to
+detention and correctional occupancy egress provisions but
+that do comply with requirements set forth in the appropriate
+occupancy, as long as the occupancy is not ahigh-hazard use.
+408.3 Means of egress. Except as modified or as provided for
+in this section, the provisions of Chapter 10 shall apply.
+408.3.1 Door width. Doors to resident sleeping units shall
+have a clear width of not less than 28 inches (711 mm).
+408.3.2 Sliding doors. Where doors in a means ofegress are
+ofthe horizontal-sliding type, the force to slide the door to its
+fully open position shall not exceed 50 pounds (220 N) with a
+perpendicular force against the door of 50 pounds (220 N).
+408.3.3 Spiral stairs. Spiral stairs that conform to the
+requirements of Section 1009.8 are permitted for access to
+and between staff locations.
+408.3.4 Exit discharge. Exits are permitted to discharge
+into a fenced or walled courtyard. Enclosed yards or courts
+shall be ofa size to accommodate all occupants, a minimum
+of 50 feet (15240 mm) from the building with a net area of
+15 square feet (1.4 m2) per person.
+408.3.5 Sallyports. A sallyport shall be permitted in a
+means of egress where there are provisions for continuous
+48
+and unobstructed passage through the sallyport during an
+emergency egress condition.
+408.3.6 Exit enclosures. One of the required exit enclo- ·
+sures in each building shall be permitted -to have glazing
+installed in doors and interior walls at each landing level
+providing access to the enclosure, provided that the follow-
+ing conditions are met:
+1. The exit enclosure shall not serve more than four floor
+levels.
+2. Exit doors shall not be less than 3/4-hour fire door
+assemblies complying with Section 715.4
+3. The total area of glazing at each floor level shall not
+exceed 5,000 square inches (3 m2) and individual pan-
+els of -glazing shall not exceed 1,296 square inches
+(0.84 m2
+).
+4. The glazing shall be protected on both sides by an
+automatic fire sprinkler system. The sprinkler system
+shall be designed to wet completely the entire surface
+of any glazing affected by fire when actuated.
+5. The glazing shall be in a gasketed frame and installed
+in such a manner that the framing system will deflect
+without breaking (loading) the glass before the sprin-
+kler system operates.
+6. Obstructions, such as curtain rods, drapery traverse
+rods, curtains, drapes or similar materials shall not be
+installed between the automatic sprinklers and the
+glazing.
+408.4 Locks. Egress doors are permitted to be locked in accor-
+dance with the applicable use condition. Doors from an area of
+refuge to the exterior are permitted to be locked with a key in
+lieu oflocking methods described in Section 408.4.1. The keys
+to unlock the exterior doors shall be available at all times and
+the locks shall be operable from both sides of the door.
+408.4.1 Remote release. Remote release of locks on doors
+in a means ofegress shall be provided with reliable means of
+operation, remote from the resident living areas, to release
+locks on all required doors. In Occupancy Conditions 3 or 4,
+the arrangement, accessibility and security of the release
+mechanism(s) required for egress shall be such that with the
+minimum available staff at any time, the lock mechanisms
+are capable of being released within 2 minutes.
+Exception: Provisions for remote locking and unlocking
+of occupied rooms in Occupancy Condition 4 are not
+required provided that not more than 10 locks are neces-
+sary to be unlocked in order to move occupants from one
+smoke compartment to a refuge area within 3 minutes.
+The opening of necessary locks shall be accomplished
+with not more than two separate keys.
+408.4.2 Power-operated doors and locks. Power-operated
+sliding doors or power-operated locks for swinging doors
+shall be operable by a manual release mechanism at the
+door, and either emergency power or a remote mechanical
+operating release shall be provided.
+Exception: Emergency poweris not required in facilities
+with 10 locks or less complying with the exception to
+Section 408.4.1.
+2006 INTERNATIONAL BUILDING CODE®
+

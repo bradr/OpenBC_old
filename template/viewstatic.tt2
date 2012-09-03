@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>OpenBuildingCodes</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/buildingcode.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="span4" style="height:100%; overflow:auto;">
+[% INCLUDE 'toc.html' %]
+                </div>
+                <div class="span8" data-spy="scroll" style="height:100%; overflow:auto;">
+[% INCLUDE 'chapter.html' %]
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
