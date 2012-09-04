@@ -3,7 +3,8 @@ logger: 'file'
 startup_info: 1
 show_errors:  1
 port: 2080
-template: "template_toolkit"
+template: template_toolkit
+session: YAML
 engines:
   template_toolkit:
     encoding:  'utf8'

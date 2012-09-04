@@ -1,21 +1,17 @@
-use lib 'lib';
-use Plack::Builder;
-use Dancer ':syntax';
+use Dancer;
 use OpenBC;
+use Plack::Builder;
 
-my $root = './';
-setting apphandler => 'PSGI';
-
-my $app1 = sub {
-    my $env = shift;
-    setting appdir => $root;
-    load_app "OpenBC";
-    Dancer::App->set_running_app('OpenBC');
-    Dancer::Config->load;
-    my $request = Dancer::Request->new( env => $env );
-    Dancer->dance($request);
+my $app = sub {
+        my $env = shift;
+        my $request = Dancer::Request->new(env => $env);
+        Dancer->dance($request);
 };
-
+ 
 builder {
-    mount "/" => builder {$app1};
+    enable "Session::Cookie";
+    enable "DoormanTwitter", root_url => 'http://openbuildingcodes.com:2080', scope => 'admin',
+        consumer_key => "uo79K3wkTKIYC0HIHRfyAA",
+        consumer_secret => "xRRqz4rddnfDYe63v7pCT2Gpan2cBDFvpu4ZwHJrxnM";
+    $app;
 };
