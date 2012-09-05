@@ -5,6 +5,7 @@ show_errors:  1
 port: 2080
 template: template_toolkit
 session: YAML
+layout: main
 engines:
   template_toolkit:
     encoding:  'utf8'

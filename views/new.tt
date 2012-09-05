@@ -1,0 +1,25 @@
+[% WRAPPER 'admin.tt' %]
+<div class="span6">
+<div class="well well-large">
+[% IF !file %]
+<form method="post">
+    <legend>New Code</legend>
+    <label>Code Name</label>
+    <input type="text" name="codename" placeholder="Name">
+    <label>Text File URL</label>
+    <input type="text" class="span5" name="txturl" placeholder="http://">
+    <label>PDF File URL</label>
+    <input type="text" class="span5" name="pdfurl" placeholder="http://">
+    <label>Code Type</label>
+    <input type="text" name="codetype"placeholder="Building Code, Plumbing Code, etc">
+    <label>Location</label>
+    <input type="text" name="location" placeholder="State, Country">
+    <label>Date</label>
+    <input type="text" class="input-small" name="date" placeholder="2012">
+    <br><br>
+    <button type="submit" class="btn btn-primary">Submit</button><a href="../../admin" class="btn">Cancel</a>
+</form>
+[% END %]
+</div>
+</div>
+[% END %]

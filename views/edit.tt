@@ -1,0 +1,29 @@
+[% WRAPPER 'admin.tt' %]
+<form class="form-horizontal" method="post">
+<ul class="breadcrumb">
+    <li><a href="../admin">Admin</a> <span class="divider">></span></li>
+    <li><a href="../view/[% title %]">[% title %]</a></li>
+</ul>
+</div><div class="span8">
+<textarea name="content" rows="10" style="width:600px">[% file %]</textarea>
+<p><p>
+<button type="submit" class="btn btn-primary">Save</button> 
+<a href="delete/[% title %]" class="btn btn-small btn-danger">Delete</a>
+<a href="../admin" class="btn btn-small">Cancel</a>
+</form>
+</div>
+<div class="span4">
+<div class="well">
+<strong>[% title %]</strong><br>
+<span class="label label-info">txt url</span> [% txturl %]<br>
+<span class="label label-info">pdf url</span> [% pdfurl %]<br>
+<span class="label label-info">code type</span> [% codetype %]<br>
+<span class="label label-info">location</span> [% location %]<br>
+<span class="label label-info">date</span> [% date %]<br>
+<br><strong>Revision History</strong>
+[% revisions %]
+
+</div>
+</div>
+
+[% END %]
