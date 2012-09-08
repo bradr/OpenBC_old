@@ -1,6 +1,7 @@
 package OpenBC;
 use Dancer;
 use OpenBC::wiki;
+use OpenBC::code;
 
 hook 'before' => sub {
     if (!session('user') && request->path_info =~ m{^/edit} && request->path_info =~ m{^/admin} && request->path_info ne '/admin/sign_out' && request->path_info ne 'admin/login') {
@@ -26,9 +27,9 @@ get '/view/:file' => sub {
     my $self = shift;
     my $wiki = OpenBC::wiki->new;
     my $file = params->{file};
-    my $toc = $wiki->read($file.":toc");
+    my $toc = $wiki->read($file,"toc");
 
-    template 'view.tt', { file => $file, toc => $toc, content => $wiki->read($file) };
+    template 'view.tt', { file => $file, toc => $toc, content => $wiki->read($file,"content") };
 };
 
 get '/admin/sign_out' => sub {
@@ -84,14 +85,17 @@ get '/edit/new/:file' => sub {
 post '/edit/new/' => sub {
     my $wiki = OpenBC::wiki->new;
     my $file = param "codename";
+    my $title = $file;
+    $file =~ s/ /_/g;
+    $wiki->write($file, 'title', $title);
     $wiki->add($file);
-    $wiki->write($file.':txturl', param "txturl");
-    $wiki->write($file.':pdfurl', param "pdfurl");
-    $wiki->write($file.':codetype', param "codetype");
-    $wiki->write($file.':location', param "location");
-    $wiki->write($file.':date', param "date");
-#    $wiki->write($file.':codeid', param "codeid");
-#    $wiki->write($file.':tocid', param "tocid");
+    $wiki->write($file, 'txturl', param "txturl");
+    $wiki->write($file, 'pdfurl', param "pdfurl");
+    $wiki->write($file, 'codetype', param "codetype");
+    $wiki->write($file, 'location', param "location");
+    $wiki->write($file, 'date', param "date");
+#    $wiki->write($file, 'codeid', param "codeid");
+#    $wiki->write($file, 'tocid', param "tocid");
     redirect '/edit/'. $file;
 };
 
@@ -104,25 +108,37 @@ get '/edit/delete/:file' => sub {
 get '/edit/:file' => sub {
     if ( session('user') ne "bradroger") { warn session('user'); redirect 'admin'; }
     my $wiki = OpenBC::wiki->new;
-    my $file = $wiki->read(params->{file});
-    my $title = params->{file};
-    my $txturl = $wiki->read(params->{file}.':txturl');
-    my $pdfurl = $wiki->read(params->{file}.':pdfurl');
-    my $codetype = $wiki->read(params->{file}.':codetype');
-    my $location = $wiki->read(params->{file}.':location');
-    my $date = $wiki->read(params->{file}.':date');
-    my $tocid = $wiki->read(params->{file}.':tocid');
-    my $codeid = $wiki->read(params->{file}.':codeid');
+    my $file = params->{file};
+    my $content = $wiki->read($file,"content");
+    my $toc = $wiki->read($file, "toc");
+    my $title = $wiki->read($file,'title');
+    my $txturl = $wiki->read($file,'txturl');
+    my $pdfurl = $wiki->read($file,'pdfurl');
+    my $codetype = $wiki->read($file, 'codetype');
+    my $location = $wiki->read($file, 'location');
+    my $date = $wiki->read($file,'date');
+    my $tocid = $wiki->read($file,'tocid');
+    my $codeid = $wiki->read($file, 'codeid');
 
-    my $revisions = $wiki->listrevisions( params->{file} );
+    my $revisions = $wiki->listrevisions( params->{file},5 );
     
-    template 'edit.tt', { file => $file, title => $title, txturl => $txturl, pdfurl => $pdfurl, codetype => $codetype, location => $location, date => $date, tocid => $tocid, codeid => $codeid, revisions => $revisions };
+    template 'edit.tt', { content => $content, filename => $file, title => $title, txturl => $txturl, pdfurl => $pdfurl, codetype => $codetype, location => $location, date => $date, toc => $toc, codeid => $codeid, revisions => $revisions };
 };
 
 post '/edit/:file' => sub {
     if ( session('user') ne "bradroger") { warn session('user'); redirect 'admin'; }
     my $wiki = OpenBC::wiki->new;
-    $wiki->write(params->{file}, param "content");
+    $wiki->write(params->{file}, "content", param "content");
+    $wiki->write(params->{file}, "toc", param "toc");
+    redirect '/edit/'.params->{file};
+};
+
+get '/edit/import/:file' => sub {
+    my $wiki = OpenBC::wiki->new;
+    my $file = params->{file};
+    my $txturl = $file . ":txturl";
+    my $url = $wiki->read($file, "txturl");
+    OpenBC::code->importCode($file,$url);
     redirect '/edit/'.params->{file};
 };
 

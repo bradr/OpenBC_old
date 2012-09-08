@@ -1,31 +1,35 @@
 package OpenBC::code;
-use Moose;
-use Redis;
-use YAML;
-use LWP::Simple qw($ua getprint);
+#use Moose;
+#use Redis;
+#use YAML;
+use Dancer::Logger;
+use OpenBC::wiki;
+use LWP::Simple qw($ua get);
+use Template;
 
-has 'db' => (is => 'ro', lazy_build => 1);
+#has 'db' => (is => 'ro', lazy_build => 1);
 
-sub import {
+sub importCode {
     my $self = shift;
     my $title = shift;
     my $url = shift;
-    my $tt = Template->new();
+    my $tt = Template->new || die "Error creating tt";
     my $linenum=0;
     my @doc;
-    my $toc;
+    my $toc ="test";
     my @chapter;
 
-    my $content="1\n2\n3\n4\n5\n6";
+#    $url="https://ia700301.us.archive.org/35/items/gov.ga.building/ga_building_djvu.txt";
+    $url = "http://openbuildingcodes.com/code.txt";
 
-    $content = getprint $url;
+    my $htmlcontent = get $url;
 
-    my @content = split /\n/, $content;
+    my @content = split /\n/, $htmlcontent;
 
     foreach my $line (@content) {
         my $chapterNum = 0;
         $linenum++;
-        my $currentChapter;
+        my $currentChapter="";
 
         # Codes with deviations will often begin a line with [F]. For now,
         # remove this
@@ -33,8 +37,7 @@ sub import {
 
         #If the line starts with "Chapter __" - it's probably a chapter
         if ($line =~ /^CHAPTER ([0-9])/) {
-            <$content>;
-            $currentChapter=<$content>;
+            $currentChapter=$content[$linenum+1];
             my $currentChapterNum=$1;
             push @doc, { level => "0", name => $line." ".$currentChapter, codeid=>$1 };
         }
@@ -58,6 +61,7 @@ sub import {
         }
     }
 
+#    push @doc, {level=>"level",name=>"name",codeid=>2,contents=>"cofjdksjf"};
     foreach my $section (@doc) {
         my $chapterNum=0;
         my $vars = {
@@ -66,26 +70,25 @@ sub import {
             codeid => $section->{codeid},
             contents => $section->{contents}
         };
-        my $codeid = $section->{codeid};
 
-        if ($codeid =~ m/^\d*$/) {
-            $chapterNum = $codeid;
+        if ($vars->{codeid} =~ m/^\d*$/) {
+            $chapterNum = $vars->{codeid};
         }
 
-        template('importTOC.tt', $vars, \$toc);
-        template('importCode.tt', $vars, \$chapter[$chapterNum]);
+        $tt->process('views/importTOC.tt', $vars, \$toc) || die $tt->error;
+        $tt->process('views/importCode.tt', $vars, \$chapter[$chapterNum]);
+        Dancer::Logger::debug($chapterNum."woop->".$chapter[$chapterNum]);
     }
 
-#    $toc="tocmothaeffa";
-
     my $wiki = OpenBC::wiki->new;
-    my $toctitle = $title.":toc";
-    $wiki->write($toctitle, $toc);
+    $wiki->write($title.":toc", $toc);
     for (my $i = 0; $i<$#chapter; $i++) {
         my $ch = $i+1;
-        $wiki->write($title.":ch".$ch, $chapter[$ch]);
+        $wiki->write($title.":ch".$ch, $chapter[$i]);
         $wiki->addChapter($title, $ch);
     }
 }
+
+#sub _build_db { }
 
 1;
