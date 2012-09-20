@@ -1,0 +1,1 @@
+cat ../tmp/$1 | redis-cli -x set $1

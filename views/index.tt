@@ -1,0 +1,9 @@
+<div class="row">
+    <div class="span5 offset3">
+    <form action="/" method="get">
+    <input type="text" placeholder="Search" name="q">
+    <button type="submit" class="btn btn-primary">Search</button>
+    </form>
+    <br>
+    </div>
+</div>

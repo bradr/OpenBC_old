@@ -1,7 +1,8 @@
 package OpenBC::wiki;
 use Moose;
 use Redis;
-use Time::Stamp -stamps => { dt_sep => ' ', date_sep => '.', us => 1 };
+use WebService::Solr;
+use Time::Stamp -stamps => { dt_sep => '_', date_sep => '.', us => 1 };
 
 has 'db' => (is => 'ro', lazy_build => 1);
 
@@ -32,73 +33,6 @@ sub read {
     return $out;
 }
 
-sub readTOC {
-    my $self = shift;
-    my $file = shift;
-    my $out = "";
-    
-   if ($self->db->type($file) eq "hash") {
-       #if ($self->db->hexists($file,"toc")) {
-            $out = $self->db->hget($file,"toc");
-            #} else {
-            #$out = $self->db->hget($file,"basecode");
-            #}
-    }
-    return $out;
-}
-
-sub readContent {
-    my $self = shift;
-    my $file = shift;
-    my $out = "";
-    
-   if ($self->db->type($file) eq "hash") {
-        if ($self->db->hexists($file,"contents")) {
-            $out = $self->db->hget($file,"contents");
-        } else {
-            $out = $self->db->hget($file,"basecode");
-        }
-    }
-    return $out;
-}
-
-sub writeTOC {
-    my $self = shift;
-    my $key = shift;
-    my $value = shift;
-
-    if (!$key) {die "Key undef trying to write ".$value;}
-    if (!$value) {die "Value undef. Trying to save to ".$key;}
-    if ($self->db->type($key) ne "hash") { return; }
-
-    if ($self->db->hget($key,"toc")) {
-        my $backup = $self->db->hget($key,"toc");
-        my $backupkey = $key.":toc_".localstamp();
-        $self->db->set( $backupkey => $backup );
-        $self->db->lpush($key.":toc:backup",$backupkey );
-    }
-    $self->db->hset( $key, "toc", $value );
-    return;
-}
-
-sub writeContent {
-    my $self = shift;
-    my $key = shift;
-    my $value = shift;
-
-    if (!$key) {die "Key undef trying to write ".$value;}
-    if (!$value) {die "Value undef. Trying to save to ".$key;}
-    if ($self->db->type($key) ne "hash") { return; }
-
-    if ($self->db->hget($key,"content")) {
-        my $backup = $self->db->hget($key,"content");
-        my $backupkey = $key.":content_".localstamp();
-        $self->db->set( $backupkey => $backup );
-        $self->db->lpush($key.":content:backup",$backupkey );
-    }
-    $self->db->hset( $key, "content", $value );
-    return;
-}
 sub write {
     my $self = shift;
     my $key = shift;
@@ -139,8 +73,26 @@ sub listrevisions {
     my $out = "<ul>";
     for (my $i=0; $i<$len; $i++) {
         my $code = $self->db->lpop($key.":backup");
-        if ($i < $num) { $out = $out."<li><a href=\"../view/".$code."\">".$code."</a></li>"; }
+        $code =~ m/:[^_]*(.*)/;
+        my $date = substr($1,1);
+        if ($i < $num) {
+            $out = $out."<li>$date<ul><li><a href=\"../view/".$code."\">View</a></li><li><a href=\"../edit/".$code."\">Edit</a></li></ul></li>"; 
+        }
         $self->db->rpush($key.':backup',$code);
+    }
+    $out = $out."</ul>";
+    return $out;
+}
+
+sub listchapters {
+    my $self = shift;
+    my $code = shift;
+    my $len = $self->db->llen($code.":ch");
+    my $out = "<ul>";
+    for (my $i=0; $i<$len; $i++) {
+        my $chapter = $self->db->lpop($code.":ch");
+        $out = $out."<li><a href=\"edit/".$chapter."\">".$chapter."</a></li>";
+        $self->db->rpush($code.":ch",$chapter);
     }
     $out = $out."</ul>";
     return $out;
@@ -152,7 +104,7 @@ sub list {
     my $out = "<ul>";
     for (my $i=0; $i<$len; $i++) {
         my $code = $self->db->lpop('codelist');
-        $out = $out."<li><a href=\"view/".$code."\">".$code."</a> <a class=\"btn btn-primary btn-mini\" href=\"edit/".$code."\">Edit</a></span></li>";
+        $out = $out."<li><a href=\"view/".$code."\">".$code."</a> <a class=\"btn btn-primary btn-mini\" href=\"edit/".$code.":content\">Edit</a><a href=\"edit/delete/" . $code . "\" class=\"btn btn-mini btn-danger\">Delete</a></li>";
         $self->db->rpush('codelist',$code);
     }
     $out = $out."</ul>";
@@ -170,11 +122,14 @@ sub add {
 sub addChapter {
     my $self = shift;
     my $file = shift;
-    my $num = shift;
 
     if (!$file) { die "Undefined File Variable"; }
-    if (!$num) { die "Undefined chapter numner"; }
-    $self->db->rpush($file.":ch", $file.":ch".$num);
+    if ($file =~ m/(.+):ch/) {
+        my $chapnum = $self->db->llen($1.":ch") + 1;
+        $self->db->rpush($file, $file.":ch".$chapnum);
+        return $file.":ch".$chapnum;
+    }
+    die "Can't add Chapter";
 }
 
 sub delete {
@@ -189,6 +144,48 @@ sub delete {
     $self->db->del($file . ":location");
     $self->db->del($file . ":date");
 }
+
+sub addToSolr {
+    my $self = shift;
+    my $file = shift;
+
+    if ($file =~ m/:content$/) {
+        $file = substr($file,0,-8);
+    }
+    
+    my @fields = ( WebService::Solr::Field->new(contents => $self->db->get($file.":content")) );
+    push(@fields,WebService::Solr::Field->new(id => "1") );
+    push(@fields,WebService::Solr::Field->new(name => $self->db->get($file.":title")) );
+    push(@fields,WebService::Solr::Field->new(codetype => $self->db->get($file.":codetype")) );
+
+    my $doc = WebService::Solr::Document->new(@fields);
+
+    my $solr = WebService::Solr->new("http://localhost:8888/solr");
+
+    $solr->add($doc);
+
+    $solr->commit;
+}
+
+sub search {
+    my $self = shift;
+    my $query = shift;
+
+    my $solr = WebService::Solr->new("http://localhost:8888/solr");
+    my $response = $solr->search( $query, {rows => 1000} );
+
+    my @results;
+    my $i = 0;
+    for my $doc ($response->docs) {
+        $results[$i]{'name'} = $doc->value_for( 'name' );
+        $results[$i]{'content'} = $doc->value_for( 'contents' );
+        $i++;
+    }
+
+    return \@results;
+}
+
+
 sub _build_db { Redis->new }
 
 1;

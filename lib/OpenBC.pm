@@ -15,7 +15,14 @@ hook 'before_template_render' => sub {
 };
 
 get '/' => sub {
-    return 'Hello World!!';
+    if (param "q" ) {
+        my $query = param "q";
+        my $wiki = OpenBC::wiki->new;
+        my $results = $wiki->search($query);
+        template 'search.tt', { query => $query, results => $results };
+    } else {
+        template 'index.tt', {};
+    }
 };
 
 get '/view' => sub {
@@ -28,8 +35,19 @@ get '/view/:file' => sub {
     my $wiki = OpenBC::wiki->new;
     my $file = params->{file};
     my $toc = $wiki->read($file,"toc");
+    my $content = "";
 
-    template 'view.tt', { file => $file, toc => $toc, content => $wiki->read($file,"content") };
+    if ($file =~ m/([^:]*):/) {
+        my $view = $1;
+        if ($file =~ m/:content$/ || $file =~ m/:toc$/) {
+            redirect '/view/' . $view;
+        } else {
+            $content = $wiki->read($file);
+        }
+    } else {
+        $content = $wiki->read($file, "content");
+    }
+    template 'view.tt', { file => $file, toc => $toc, content => $content };
 };
 
 get '/admin/sign_out' => sub {
@@ -79,6 +97,12 @@ get '/edit/new/' => sub {
 
 get '/edit/new/:file' => sub {
     if ( session('user') ne "bradroger") { warn session('user'); redirect 'admin'; }
+    my $file = params->{file};
+    if ($file =~ m/:ch/) {
+        my $wiki = OpenBC::wiki->new;
+        my $newchap = $wiki->addChapter($file);
+        redirect '/edit/'.$newchap;
+    }
     template 'new.tt', { file => params->{file} };
 };
 
@@ -94,8 +118,6 @@ post '/edit/new/' => sub {
     $wiki->write($file, 'codetype', param "codetype");
     $wiki->write($file, 'location', param "location");
     $wiki->write($file, 'date', param "date");
-#    $wiki->write($file, 'codeid', param "codeid");
-#    $wiki->write($file, 'tocid', param "tocid");
     redirect '/edit/'. $file;
 };
 
@@ -109,27 +131,43 @@ get '/edit/:file' => sub {
     if ( session('user') ne "bradroger") { warn session('user'); redirect 'admin'; }
     my $wiki = OpenBC::wiki->new;
     my $file = params->{file};
-    my $content = $wiki->read($file,"content");
-    my $toc = $wiki->read($file, "toc");
-    my $title = $wiki->read($file,'title');
-    my $txturl = $wiki->read($file,'txturl');
-    my $pdfurl = $wiki->read($file,'pdfurl');
-    my $codetype = $wiki->read($file, 'codetype');
-    my $location = $wiki->read($file, 'location');
-    my $date = $wiki->read($file,'date');
-    my $tocid = $wiki->read($file,'tocid');
-    my $codeid = $wiki->read($file, 'codeid');
+    my $basecode = $file;
+    my $chapterNum = "";
 
-    my $revisions = $wiki->listrevisions( params->{file},5 );
-    
-    template 'edit.tt', { content => $content, filename => $file, title => $title, txturl => $txturl, pdfurl => $pdfurl, codetype => $codetype, location => $location, date => $date, toc => $toc, codeid => $codeid, revisions => $revisions };
+    my $content="";
+    if ($file =~ m/([^:]+):(ch\d+:)?(content|toc)/) {
+        $basecode = $1;
+        $chapterNum = $2;
+        $content = $wiki->read($file);
+    } else {
+        redirect '/edit/'.$file.":content";
+    }
+
+    my $toc = "";
+    my $title = $wiki->read($basecode,'title');
+    my $txturl = $wiki->read($basecode,'txturl');
+    my $pdfurl = $wiki->read($basecode,'pdfurl');
+    my $codetype = $wiki->read($basecode, 'codetype');
+    my $location = $wiki->read($basecode, 'location');
+    my $date = $wiki->read($basecode,'date');
+    my $tocid = $wiki->read($basecode,'tocid');
+    my $codeid = $wiki->read($basecode, 'codeid');
+
+    my $revisions = $wiki->listrevisions($file, 5);
+    my $chapters = $wiki->listchapters($file);
+
+    template 'edit.tt', { content => $content, basecode => $basecode, filename => $file, chapterNum => $chapterNum, title => $title, txturl => $txturl, pdfurl => $pdfurl, codetype => $codetype, location => $location, date => $date, toc => $toc, codeid => $codeid, revisions => $revisions, chapters => $chapters};
 };
 
 post '/edit/:file' => sub {
     if ( session('user') ne "bradroger") { warn session('user'); redirect 'admin'; }
     my $wiki = OpenBC::wiki->new;
-    $wiki->write(params->{file}, "content", param "content");
-    $wiki->write(params->{file}, "toc", param "toc");
+    my $file = params->{file};
+    $wiki->write($file, param "content");
+
+    #Add to Solr:
+    $wiki->addToSolr($file);
+
     redirect '/edit/'.params->{file};
 };
 

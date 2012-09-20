@@ -2,23 +2,36 @@
 <form class="form-horizontal" method="post">
 <ul class="breadcrumb">
     <li><a href="../admin">Admin</a> <span class="divider">></span></li>
+[% IF chapterNum %]
+    <li><a href="../view/[% basecode %]">[% title %]</a><span class="divider">></span></li>
+    <li><a href="../view/[% filename %]">Chapter [% chapterNum %]</a></li>
+[% ELSE %]
     <li><a href="../view/[% filename %]">[% title %]</a></li>
+[% END %]
 </ul>
 </div><div class="span8">
-<h1>Table of Contents:</h1>
-<textarea name="toc" rows="10" style="width:600px">[% toc %]</textarea>
+<h1>[% title %]</h1>
+[% IF chapterNum %]<h2>Chapter [% chapterNum %]</h2>[% END %]
+
+<textarea name="content" id="content" rows="10" style="width:600px">[% content %]</textarea>
 <p><p>
-<h1>Contents:</h1>
-<textarea name="content" rows="10" style="width:600px">[% content %]</textarea>
-<p><p>
-<button type="submit" class="btn btn-primary">Save</button> 
-<a href="delete/[% title %]" class="btn btn-small btn-danger">Delete</a>
+<button type="submit" class="btn btn-primary">Save</button>
 <a href="../admin" class="btn btn-small">Cancel</a>
+<a href="delete/[% filename %]" class="btn btn-small btn-danger">Delete</a>
 </form>
+<p><p>
+<h2>Preview</h2>
+<div class="span6 well" style="height:300px;overflow:scroll;">[% content %]</div>
 </div>
 <div class="span4">
 <div class="well">
-<strong>[% title %]</strong><br>
+<strong>[% title %][% IF chapterNum %]: Chapter [% chapterNum %][% END %]</strong><br>
+[% IF filename.search(':toc') %]
+<a href="[% filename.replace(':toc',':content') %]" class="btn btn-mini">Edit Content</a>
+[% ELSE %]
+<a href="[% filename.replace(':content',':toc') %]" class="btn btn-mini">Edit TOC</a>
+[% END %]
+<br>
 <span class="label label-info">txt url</span> [% txturl %] <a href="import/[% title %]">Import</a><br>
 <span class="label label-info">pdf url</span> [% pdfurl %]<br>
 <span class="label label-info">code type</span> [% codetype %]<br>
@@ -26,8 +39,11 @@
 <span class="label label-info">date</span> [% date %]<br>
 <br><strong>Revision History</strong>
 [% revisions %]
+<br><strong>Chapters</strong>
+[% chapters %]
+<a href="new/[% basecode %]:ch">Add a chapter</a>
+</div>
+</div>
 
-</div>
-</div>
 
 [% END %]
