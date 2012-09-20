@@ -23,7 +23,7 @@ print "main file exists, making snippets\n";
 open(my $fh,"<",$file); 
 while (my $line = <$fh>) {
     if ($line =~ m/<div class="chapter" id="([^"]+)/ && $1 != 1) {
-        open FILE, ">$FindBin::Bin/../static/snippets/us_wa_ibc_ch".($1-1);
+        open FILE, ">ch".($1-1);
         print FILE $output;
         close FILE;
         $output = $line; 

@@ -10,8 +10,6 @@ my $file = "../static/toc.html";
 my $template = "toc.tt2";
 my $output;
 
-#my $data = YAML::LoadFile("data.yaml");
-
 my $tt = Template->new({
         INCLUDE_PATH => "$FindBin::Bin/../template",
 });

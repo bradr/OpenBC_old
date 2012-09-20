@@ -3,7 +3,6 @@ use strict;
 use warnings;
 use YAML qw/DumpFile/;
 
-
 my $input_file = shift @ARGV || die "USAGE: $0 <input_file>";
 
 open(my $fh, $input_file);
@@ -22,7 +21,7 @@ my $modelcodecode="IBC";
 my $modelcode="International Building Code";
 my $codetype="Building Code";
 my $year="2010";
-my $page1=8045;
+my $page1=1674;
 my $linenum=0;
 my $id=1;
 
@@ -55,8 +54,6 @@ while (my $line = <$fh>){
     }
     else {
         if($#doc>0 && $line !~ /$docTitle/ && $line !~ /^[0-9]+ *\n/ && $line !~ /^$currentChapter/) {
-#            $line =~ s/: *\n/:<br>/;
-#            if ($doc[-1][contents] =~ /$line =~ s/^\n/<br>/;
             if ($line !~ /^\n/ || $line !~ /^ *\n/) {
                 $doc[-1]{contents} = $doc[-1]{contents} . $line;
             }
@@ -64,14 +61,4 @@ while (my $line = <$fh>){
     }
 }
 
-#for my $i ( 0 .. $#doc ) {
-#    print "$i is { ";
-#    for my $role ( keys %{ $doc[$i] } ) {
-#        print "$role=$doc[$i]{$role} ";
-#    }
-#    print "}\n";
-#}
-
 DumpFile("data.yaml", @doc);
-
-
