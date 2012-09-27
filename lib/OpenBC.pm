@@ -37,13 +37,9 @@ get '/view/:file' => sub {
     my $toc = $wiki->read($file,"toc");
     my $content = "";
 
-    if ($file =~ m/([^:]*):/) {
-        my $view = $1;
-        if ($file =~ m/:content$/ || $file =~ m/:toc$/) {
-            redirect '/view/' . $view;
-        } else {
-            $content = $wiki->read($file);
-        }
+    if ($file =~ m/([^:]*)(:ch\d+)?:(content$|toc$)/) {
+        my $view = $1.$2;
+        redirect '/view/' . $view;
     } else {
         $content = $wiki->read($file, "content");
     }
@@ -79,7 +75,7 @@ get '/admin' => sub {
         redirect '/admin/login';
     }
     if ( session('user') eq "bradroger") {
-        $out = $out."<br><br><br><div class='span4'><div class='well'><h1>Codes</h1>";
+        $out = $out."<br><br><br><div class='span6'><div class='well'><h1>Codes</h1>";
         $out = $out.$wiki->list;
         $out = $out."<br><a href='edit/new/' class='btn'>Add a new code</a></div></div>";
     }
@@ -135,13 +131,13 @@ get '/edit/:file' => sub {
     my $chapterNum = "";
 
     my $content="";
-    if ($file =~ m/([^:]+):(ch\d+:)?(content|toc)/) {
+    if ($file =~ m/([^:]+):ch([\d]+):(content|toc)/) {
         $basecode = $1;
         $chapterNum = $2;
         $content = $wiki->read($file);
-    } else {
+    } elsif ($file =~ m/([^:]+):ch([\d]+)/) {
         redirect '/edit/'.$file.":content";
-    }
+    } elsif ($file =~ m/([^:]+)/) { redirect '/edit/' . $1 . ":ch1:content"; }
 
     my $toc = "";
     my $title = $wiki->read($basecode,'title');

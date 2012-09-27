@@ -2,6 +2,9 @@ package OpenBC::wiki;
 use Moose;
 use Redis;
 use WebService::Solr;
+use JSON;
+use JSON::Parse;
+use HTML::Scrubber;
 use Time::Stamp -stamps => { dt_sep => '_', date_sep => '.', us => 1 };
 
 has 'db' => (is => 'ro', lazy_build => 1);
@@ -87,11 +90,14 @@ sub listrevisions {
 sub listchapters {
     my $self = shift;
     my $code = shift;
+    if ($code =~ m/([^:]*)/) {
+        $code = $1;
+    }
     my $len = $self->db->llen($code.":ch");
     my $out = "<ul>";
     for (my $i=0; $i<$len; $i++) {
         my $chapter = $self->db->lpop($code.":ch");
-        $out = $out."<li><a href=\"edit/".$chapter."\">".$chapter."</a></li>";
+        $out = $out."<li><a href=\"../edit/".$chapter."\">".$chapter."</a></li>";
         $self->db->rpush($code.":ch",$chapter);
     }
     $out = $out."</ul>";
@@ -105,6 +111,7 @@ sub list {
     for (my $i=0; $i<$len; $i++) {
         my $code = $self->db->lpop('codelist');
         $out = $out."<li><a href=\"view/".$code."\">".$code."</a> <a class=\"btn btn-primary btn-mini\" href=\"edit/".$code.":content\">Edit</a><a href=\"edit/delete/" . $code . "\" class=\"btn btn-mini btn-danger\">Delete</a></li>";
+        $out = $out . $self->listchapters($code);
         $self->db->rpush('codelist',$code);
     }
     $out = $out."</ul>";
@@ -126,8 +133,8 @@ sub addChapter {
     if (!$file) { die "Undefined File Variable"; }
     if ($file =~ m/(.+):ch/) {
         my $chapnum = $self->db->llen($1.":ch") + 1;
-        $self->db->rpush($file, $file.":ch".$chapnum);
-        return $file.":ch".$chapnum;
+        $self->db->rpush($file, $file.$chapnum);
+        return $file.$chapnum;
     }
     die "Can't add Chapter";
 }
@@ -148,23 +155,38 @@ sub delete {
 sub addToSolr {
     my $self = shift;
     my $file = shift;
-
-    if ($file =~ m/:content$/) {
-        $file = substr($file,0,-8);
-    }
-    
-    my @fields = ( WebService::Solr::Field->new(contents => $self->db->get($file.":content")) );
-    push(@fields,WebService::Solr::Field->new(id => "1") );
-    push(@fields,WebService::Solr::Field->new(name => $self->db->get($file.":title")) );
-    push(@fields,WebService::Solr::Field->new(codetype => $self->db->get($file.":codetype")) );
-
-    my $doc = WebService::Solr::Document->new(@fields);
-
     my $solr = WebService::Solr->new("http://localhost:8888/solr");
+    my $html = HTML::Scrubber->new();
 
-    $solr->add($doc);
+    if ($file =~ m/([^:]*)(:ch[\d]+)?:content$/) {
+        $file = $1 . $2;
+        my $base = $1;
 
-    $solr->commit;
+        my $id = "101.1";
+        my $name = "";
+        
+        my $content = "";
+        my @lines = split(/^/, $self->db->get($file.":content"));
+
+        while (my $line = shift(@lines)) {
+            if ($line =~ /<div class="subsection" id="([\d\.]+)"><span class="title">([^<]*)/) {
+                my @fields = ( WebService::Solr::Field->new(contents => $html->scrub($content)) );
+                push(@fields,WebService::Solr::Field->new(id => $id ));
+                push(@fields,WebService::Solr::Field->new(name => $name ));
+                push(@fields,WebService::Solr::Field->new(codename => $self->db->get($base.":title")) );
+                push(@fields,WebService::Solr::Field->new(codeurl => $file) );
+                my $doc = WebService::Solr::Document->new(@fields);
+
+                $solr->add($doc);
+                $content = "";#$line;
+                $id = $1;
+                $name = $2;
+            } else {
+                $content = $content . $line;
+            }
+        }
+        $solr->commit;
+    }
 }
 
 sub search {
@@ -172,13 +194,24 @@ sub search {
     my $query = shift;
 
     my $solr = WebService::Solr->new("http://localhost:8888/solr");
-    my $response = $solr->search( $query, {rows => 1000} );
+    my $response = $solr->search( $query, {rows => 1000, hl => 'on', 'hl.fl' => 'contents'} );
 
     my @results;
     my $i = 0;
-    for my $doc ($response->docs) {
-        $results[$i]{'name'} = $doc->value_for( 'name' );
-        $results[$i]{'content'} = $doc->value_for( 'contents' );
+    my $doc = $response->content;
+    my $jsontext = JSON->new->encode($doc);
+    my $perltext = JSON::Parse::json_to_perl($jsontext);
+    my $num = $perltext->{response}->{numFound};
+    while ($i<$num) {
+        my $id = $perltext->{response}->{docs}[$i]->{id};
+        my $html = HTML::Scrubber->new( allow => [ "em" ]);
+        $results[$i]{hl} = $html->scrub($perltext->{highlighting}->{$id}->{contents}[0]); 
+        $results[$i]{name} = $perltext->{response}->{docs}[$i]->{name}; 
+        $results[$i]{id} = $perltext->{response}->{docs}[$i]->{id};
+        $results[$i]{content} = $html->scrub($perltext->{response}->{docs}[$i]->{contents}[0]);
+        $results[$i]{codename} = $perltext->{response}->{docs}[$i]->{codename};
+        $results[$i]{codeurl} = $perltext->{response}->{docs}[$i]->{codeurl};
+
         $i++;
     }
 
@@ -186,6 +219,4 @@ sub search {
 }
 
 
-sub _build_db { Redis->new }
-
-1;
+sub _build_db { Redis->new } 1;

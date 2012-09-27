@@ -1,8 +1,8 @@
 <div class="row">
     <div class="span5 offset3">
-    <form>
+    <form action='/' method='get'>
     <input type="text" value="[% query %]" name="q">
-    <a href="#" onClick="parent.location=document.forms[0].q.value" class="btn btn-primary">Search</a>
+    <button type="submit" class="btn btn-primary">Search</button>
     </form>
     <br>
     </div>
@@ -14,8 +14,8 @@
     <div class="span6">
     <br>
 [% FOREACH res IN results %]
-    <b>[% res.name %]</b> <br>
-    [% res.content %]<br><br>
+    <a href="view/[% res.codeurl %]#[% res.id %]"><b>[% res.name %]</b></a> <br>
+    [% res.hl %]<br><br>
 [% END %]
     </div>
 </div>
