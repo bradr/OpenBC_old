@@ -40,5 +40,11 @@
     </footer>
         <script src="http://openbuildingcodes.com/js/jquery.js"></script>
         <script src="http://openbuildingcodes.com/js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+                if (document.location.href.indexOf('loc=')>0) {
+                        var n = document.location.href.match(/loc=\w+/);
+                        $('.'+n[0].substr(4).toLowerCase()).hide();
+                }
+        </script>
     </body>
 </html>
