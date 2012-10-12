@@ -11,15 +11,16 @@
     <link href="http://openbuildingcodes.com/css/bootstrap.css" rel="stylesheet">
     <link href="http://openbuildingcodes.com/css/buildingcode.css" rel="stylesheet">
     <style type="text/css">
-      body {
-        padding-top: 60px;
-        padding-bottom: 40px;
-      }
-      .sidebar-nav {
-        padding: 9px 0;
-      }
+        body {
+/*            padding-top: 80px;
+            padding-bottom: 40px;
+*/
+        }
+        .sidebar-nav {
+            padding: 9px 0;
+        }
     </style>
-    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="http://openbuildingcodes.com/css/bootstrap-responsive.css" rel="stylesheet">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -34,17 +35,26 @@
     <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
   </head>
 
-    <body>
+    <body  data-spy="scroll" data-target=".sidebar" data-offset="100">
 [% content %]
     <footer>
     </footer>
         <script src="http://openbuildingcodes.com/js/jquery.js"></script>
         <script src="http://openbuildingcodes.com/js/bootstrap.min.js"></script>
+        <script src="http://openbuildingcodes.com/js/jquery.htmlClean.min.js"></script>
         <script type="text/javascript">
                 if (document.location.href.indexOf('loc=')>0) {
                         var n = document.location.href.match(/loc=\w+/);
-                        $('.'+n[0].substr(4).toLowerCase()).hide();
+                        $('.'+n[0].substr(4).toLowerCase()).show();
+                        if ($('.'+n[0].substr(4).toLowerCase()).length) {
+                            $('.base').hide();
+                        }
                 }
+        </script>
+        <script tye="text/javascript">
+            function clean() {
+                $('#content').val=$('#content').htmlClean({allowedAttributes:[["id"],["class"]],format:true});
+            }
         </script>
     </body>
 </html>

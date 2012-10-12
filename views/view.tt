@@ -1,8 +1,17 @@
-<div class="row">
-    <div class="span4" style="height:100%;">
+[% PROCESS searchbar.tt
+    fixed=1
+    padding=20
+%]
+
+<div class="row-fluid">
+    <div class="span3 toc hidden-phone">
+    <div class="sidebar-nav-fixed" style="padding-top:40px;">
+    <div class="well">
 [% toc %]
     </div>
-    <div class="span8" data-spy="scroll" style="height:450px; overflow:scroll;">
+    </div>
+    </div>
+    <div class="span9 content span-fixed-sidebar" style="padding-top:100px;">
 [% content %]
     </div>
 </div>

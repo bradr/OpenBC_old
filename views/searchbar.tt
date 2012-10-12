@@ -1,0 +1,13 @@
+[% DEFAULT
+    padding=40
+%]
+<div class="navbar hidden-phone [% IF fixed %]navbar-fixed-top[% END %]">
+
+<div class="navbar-inner" style="padding:[% padding %]px;padding-left:40px;">
+<a class="brand" href="../"><p class="searchtitle">Open Building Codes</p></a>
+<form class="navbar-form pull-left" action='/' method='get'>
+<input type="text" value="[% query %]" name="q" class="span4">
+<button type="submit" class="btn btn-primary" style="width:80px;"><i class="icon-search icon-white"></i></button>
+</form>
+</div>
+</div>
