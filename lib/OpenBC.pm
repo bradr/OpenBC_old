@@ -77,7 +77,8 @@ get '/admin' => sub {
     if ( session('user') eq "bradroger") {
         $out = $out."<br><br><br><div class='span6'><div class='well'><h1>Codes</h1>";
         $out = $out.$wiki->list;
-        $out = $out."<br><a href='edit/new/' class='btn'>Add a new code</a></div></div>";
+        $out = $out."<br><a href='edit/new/' class='btn'>Add a new code</a>  ";
+        $out = $out."<a href=\"http://openbuildingcodes.com:8888/solr/update?stream.body=%3Cdelete%3E%3Cquery%3E*%3A*%3C%2Fquery%3E%3C%2Fdelete%3E&commit=true\" class='btn btn-danger'>Reset Search DB</a></div></div>";
     }
     template 'admin.tt', { content => $out, username => session('user') }; 
 };
@@ -137,7 +138,13 @@ get '/edit/:file' => sub {
         $content = $wiki->read($file);
     } elsif ($file =~ m/([^:]+):ch([\d]+)/) {
         redirect '/edit/'.$file.":content";
-    } elsif ($file =~ m/([^:]+)/) { redirect '/edit/' . $1 . ":ch1:content"; }
+    } elsif ($file =~ m/([^:]+)/) { 
+#        redirect '/edit/' . $1 . ":ch1:content"; 
+        $basecode = $1;
+        $chapterNum = "0";
+        $content = $wiki->read($1.":content");
+    }
+
 
     my $toc = "";
     my $title = $wiki->read($basecode,'title');

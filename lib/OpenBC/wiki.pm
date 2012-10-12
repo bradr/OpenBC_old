@@ -1,4 +1,5 @@
 package OpenBC::wiki;
+use Encode;
 use Moose;
 use Redis;
 use WebService::Solr;
@@ -41,6 +42,8 @@ sub write {
     my $key = shift;
     my $value = shift;
     my $field = shift;
+
+    $value = Encode::encode("utf8", $value);
 
     if ($field) { my $fieldtemp = $value; $value = $field; $field = $fieldtemp; }
 
@@ -169,7 +172,8 @@ sub addToSolr {
         my @lines = split(/^/, $self->db->get($file.":content"));
 
         while (my $line = shift(@lines)) {
-            if ($line =~ /<div class="subsection" id="([\d\.]+)"><span class="title">([^<]*)/) {
+#            if ($line =~ /<div class="subsection" id="([\d\.]+)"><span class="title">([^<]*)/) {
+            if ($line =~ /<p id="([\d\.]+)"><b>[\d\.]+ ([^\.]+)[^<]*<\/b>([^<]+)/) {
                 my @fields = ( WebService::Solr::Field->new(contents => $html->scrub($content)) );
                 push(@fields,WebService::Solr::Field->new(id => $id ));
                 push(@fields,WebService::Solr::Field->new(name => $name ));
@@ -178,14 +182,14 @@ sub addToSolr {
                 my $doc = WebService::Solr::Document->new(@fields);
 
                 $solr->add($doc);
-                $content = "";#$line;
+                $content = $3;#$line;
                 $id = $1;
                 $name = $2;
             } else {
                 $content = $content . $line;
             }
         }
-        $solr->commit;
+#        $solr->commit;
     }
 }
 
