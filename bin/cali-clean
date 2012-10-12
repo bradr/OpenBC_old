@@ -1,0 +1,52 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+
+my $input_file = shift @ARGV || die "USAGE: $0 <input_file>";
+my %output;
+my $toc;
+my $i = 0;
+
+open(my $fh, $input_file);
+
+$toc = "<ul class=\"nav nav-list sidebar\">";
+
+while (my $line = <$fh>){
+
+    $line =~ s/<a name="[^"]+" \/>//;
+    if ($line =~ s/<h3>SECTION ([\d\.]+)[^A-Z]+([A-Z\s])+/<h3 class="section" id="$1">SECTION $1 <br \/>$2/) {
+        $toc = $toc . "\n<li><a href=\"#" . $1 . "\">SECTION " . $2 . "</a></li>";
+    }
+
+    if ($line =~ s/<p><b>([\d\.]+)([\.]+)/<p id="$1"><b>$1$2/) {
+        if ($1 =~ /[\d]+\.[\d]+ /) {
+            $toc = $toc . "\n<li><a href=\"#" . $1 . "\">" . $1 . $2 . "</a></li>";
+        }
+    }
+
+    if ($line =~ s/<h1>CHAPTER (\d+)([^A-Z]+)([^A-Z\s]+)/<h1 class="chapter" id="$1">CHAPTER $2$3/) {
+        $i=$1;
+
+        $toc = $toc . "\n<li><a href=\"#" . $1 . "\">CHAPTER " . $1 . " " . $3 . "</a><li>";
+    }
+
+    $output{$i} = $output{$i} . $line;
+}
+close($fh);
+
+my $output_file = "";
+
+foreach my $j (keys %output) {
+    $output_file = $input_file;
+    if ($j == 0) { $output_file = $output_file . ':content'; }
+    else { $output_file = $output_file . ':ch' . $j . ':content'; }
+
+    open($fh, '>'.$output_file);
+    print $fh $output{$j};
+    close($fh);
+
+    open($fh, '>'.$input_file . ':ch' . $j . ":toc");
+    close($fh);
+}
+
+
